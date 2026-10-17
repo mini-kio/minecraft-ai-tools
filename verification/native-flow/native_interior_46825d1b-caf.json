@@ -1,0 +1,119 @@
+{
+  "profile": {
+    "width": 0.6,
+    "height": 1.8,
+    "maxStepUp": 0.6,
+    "maxStepDown": 0.6,
+    "gridSpacing": 0.5,
+    "doors": "current-state",
+    "jumping": false,
+    "breakOrPlaceBlocks": false,
+    "specialMovement": "unknown",
+    "constraint": "paths must stay within inspection bounds; this is static geometric analysis"
+  },
+  "limitations": [
+    "Half-block horizontal sampling may miss narrow passages offset from the search grid. Unreachable describes this bounded walking profile; unusual geometry should be confirmed in game."
+  ],
+  "dimension": "minecraft:overworld",
+  "bounds": {
+    "min": {
+      "x": 160,
+      "y": 89,
+      "z": 316
+    },
+    "max": {
+      "x": 180,
+      "y": 94,
+      "z": 336
+    }
+  },
+  "entry": {
+    "position": {
+      "x": 166.6027751665008,
+      "y": 91,
+      "z": 326.5
+    },
+    "status": "clear"
+  },
+  "floors": [],
+  "targets": [
+    {
+      "id": "destination",
+      "position": {
+        "x": 169.5,
+        "y": 91,
+        "z": 326.5
+      },
+      "status": "reachable",
+      "statusLabel": "도달 가능",
+      "path": [
+        {
+          "x": 166.6027751665008,
+          "y": 91,
+          "z": 326.5
+        },
+        {
+          "x": 167.1027751665008,
+          "y": 91,
+          "z": 326.5
+        },
+        {
+          "x": 167.6027751665008,
+          "y": 91,
+          "z": 326.5
+        },
+        {
+          "x": 168.1027751665008,
+          "y": 91,
+          "z": 326.5
+        },
+        {
+          "x": 168.6027751665008,
+          "y": 91,
+          "z": 326.5
+        },
+        {
+          "x": 169.1027751665008,
+          "y": 91,
+          "z": 326.5
+        },
+        {
+          "x": 169.6027751665008,
+          "y": 91,
+          "z": 326.5
+        },
+        {
+          "x": 169.5,
+          "y": 91,
+          "z": 326.5
+        }
+      ],
+      "actualVisit": {
+        "status": "not_attempted",
+        "reason": "Static map analysis does not verify an in-game visit."
+      }
+    }
+  ],
+  "unvisited": [],
+  "search": {
+    "visitedNodes": 1663,
+    "examinedBlocks": 2205,
+    "exhausted": false,
+    "unknownFrontiers": []
+  },
+  "actualVisitVerified": false,
+  "version": "26.3",
+  "source": "minecraft-client-block-collisions",
+  "snapshot": {
+    "client": "client_dbb644d6-d23",
+    "version": "26.3",
+    "firstTick": 1059,
+    "lastTick": 1062,
+    "source": "minecraft-client-block-collisions"
+  },
+  "warnings": [
+    "Block collision snapshot spans multiple client ticks; entities, moving mechanisms and later world changes require live verification."
+  ],
+  "reportPath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\native-flow\\artifacts\\native_interior_46825d1b-caf.json",
+  "observedAt": "2026-10-17T17:25:31.850Z"
+}

@@ -1,0 +1,135 @@
+{
+  "version": "1.21.4",
+  "observedAt": "2026-10-17T14:22:37.789Z",
+  "checks": {
+    "startup": true,
+    "connect": true,
+    "walkToTarget": true,
+    "look": true,
+    "playerCommandReply": true,
+    "inventory": true,
+    "chestGuiSlots": true,
+    "capture": true,
+    "cancelReleasesInputs": true
+  },
+  "server": {
+    "sessionId": "server_a85f434a-684",
+    "kind": "test-server",
+    "source": "managed-server",
+    "version": "1.21.4",
+    "software": "vanilla",
+    "state": "created",
+    "directory": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\player-live\\servers\\server_a85f434a-684",
+    "host": "127.0.0.1",
+    "port": 25574,
+    "javaMajor": 21,
+    "observedAt": "2026-10-17T14:22:38.983Z",
+    "eula": "accepted explicitly",
+    "isolation": "loopback-only offline test server",
+    "sourceWorldModified": false,
+    "checksum": "4707d00eb834b446575d89a61a11b5d548d8c001",
+    "validation": "download integrity verified; gameplay compatibility unverified"
+  },
+  "capture": {
+    "sessionId": "player_ceeb52e7-c48",
+    "kind": "player",
+    "backend": "mineflayer",
+    "source": "prismarine-viewer",
+    "version": "1.21.4",
+    "observedAt": "2026-10-17T14:22:54.051Z",
+    "state": "connected",
+    "host": "127.0.0.1",
+    "port": 25574,
+    "auth": "offline",
+    "imageSource": "approximate-protocol-renderer",
+    "assetsVersion": "1.21.4",
+    "nativeHud": false,
+    "resourcePacks": false,
+    "rendererUrl": "http://127.0.0.1:56877",
+    "limitations": [
+      "Vanilla viewer assets may differ from the exact game version.",
+      "HUD, custom models and resource packs require the actual Fabric game client."
+    ],
+    "imagePath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\player-live\\artifacts\\player_ceeb52e7-c48-1792246973925.png",
+    "width": 640,
+    "height": 360,
+    "position": {
+      "x": 3.5,
+      "y": 100,
+      "z": 0.49999999999959743
+    },
+    "yaw": -1.5707963267946035,
+    "pitch": -0.8429940287132087
+  },
+  "player": {
+    "sessionId": "player_ceeb52e7-c48",
+    "kind": "player",
+    "backend": "mineflayer",
+    "source": "server-protocol",
+    "version": "1.21.4",
+    "observedAt": "2026-10-17T14:22:54.386Z",
+    "state": "connected",
+    "host": "127.0.0.1",
+    "port": 25574,
+    "auth": "offline",
+    "position": {
+      "x": 3.5980000385325828,
+      "y": 100,
+      "z": 0.4999999999995687
+    },
+    "yaw": -1.5707963267946035,
+    "pitch": -0.8429940287132087,
+    "health": 20,
+    "food": 20,
+    "game": {
+      "serverBrand": "vanilla",
+      "levelType": "flat",
+      "hardcore": false,
+      "gameMode": "survival",
+      "dimension": "overworld",
+      "minY": -64,
+      "height": 384,
+      "maxPlayers": 8,
+      "enableRespawnScreen": true,
+      "serverViewDistance": 6
+    },
+    "username": "MCTObserver",
+    "heldItem": null,
+    "messages": [
+      {
+        "text": "[Server: Made MCTObserver a server operator]",
+        "at": "2026-10-17T14:22:47.493Z"
+      },
+      {
+        "text": "[Server: Successfully filled 289 block(s)]",
+        "at": "2026-10-17T14:22:47.495Z"
+      },
+      {
+        "text": "[Server: Teleported MCTObserver to 0.500000, 100.000000, 0.500000]",
+        "at": "2026-10-17T14:22:47.512Z"
+      },
+      {
+        "text": "[MCTObserver] mct-smoke-confirmed",
+        "at": "2026-10-17T14:22:49.594Z"
+      },
+      {
+        "text": "[Server: Changed the block at 4, 100, 0]",
+        "at": "2026-10-17T14:22:49.933Z"
+      }
+    ],
+    "window": null,
+    "capabilities": {
+      "move": true,
+      "look": true,
+      "inventory": true,
+      "interact": true,
+      "chat": true,
+      "capture": "prismarine-viewer",
+      "nativeHud": false,
+      "resourcePacks": false,
+      "liveVersionValidated": false
+    },
+    "limitation": "Protocol observation and approximate viewer; native HUD, resource packs and exact game rendering require the Fabric client bridge."
+  },
+  "finishedAt": "2026-10-17T14:22:56.663Z"
+}

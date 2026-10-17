@@ -1,0 +1,316 @@
+{
+  "version": "26.3",
+  "source": "three-resource-preview",
+  "exactGamePixels": false,
+  "sourceClientSha256": "4508d006323f24fa02876310c192d739af56516eb259000ac50f0909a68c9a2d",
+  "startedAt": "2026-10-17T18:24:55.671Z",
+  "frames": [
+    {
+      "timeMs": 0,
+      "pixel": [
+        240,
+        0,
+        0,
+        255
+      ],
+      "sha256": "89f3e3fd7f291458dd6ff9b725bd33828a55c7f9526314f0c2eb0dd64b2446b3",
+      "metadata": {
+        "session": "fixture",
+        "blockCount": 1,
+        "source": "java-resource-model-preview",
+        "version": "26.3",
+        "resourcePacks": [
+          "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\rendering-26.3\\pack",
+          "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\fabric-tools\\minecraft-26.3.jar"
+        ],
+        "warnings": [],
+        "limitations": [
+          "Preview shaders, lighting, transparency and biome blending differ from Minecraft.",
+          "Weighted alternatives use coordinate-seeded preview RNG; exact engine choices require Fabric capture.",
+          "Fluid heights use state levels and neighboring fluid culling; flow slopes/refraction differ from Minecraft.",
+          "Entity and block-entity previews are labelled proxies; actual game capture remains authoritative."
+        ],
+        "textureErrors": [],
+        "texturedStates": 1,
+        "entityCount": 1,
+        "blockEntityCount": 1,
+        "fidelity": {
+          "renderer": "three-resource-preview",
+          "exactGamePixels": false,
+          "textureAnimations": "java-mcmeta-20hz",
+          "weightedModels": "deterministic-position-seed",
+          "weightedParts": 1,
+          "fluids": "level-height-mesh-neighbor-culling",
+          "entityRendering": "labelled-proxies",
+          "blockEntityRendering": "labelled-proxies",
+          "lightInputs": {
+            "known": 1,
+            "total": 1,
+            "shader": "approximate-lambert"
+          },
+          "biomeInputs": {
+            "known": 1,
+            "total": 1,
+            "color": "provided-rgb-or-approximate-biome-palette"
+          }
+        },
+        "animatedTextures": 1,
+        "animationTimeMs": 0,
+        "animationFrames": [
+          {
+            "texture": "fixture:block/animation",
+            "index": 0,
+            "nextIndex": 1,
+            "progress": 0
+          }
+        ]
+      }
+    },
+    {
+      "timeMs": 100,
+      "pixel": [
+        120,
+        0,
+        113,
+        255
+      ],
+      "sha256": "20f266d7dff06aeb6aaa617895bc4c9d7e719e2b1ca6246839d03a09ab613fac",
+      "metadata": {
+        "session": "fixture",
+        "blockCount": 1,
+        "source": "java-resource-model-preview",
+        "version": "26.3",
+        "resourcePacks": [
+          "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\rendering-26.3\\pack",
+          "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\fabric-tools\\minecraft-26.3.jar"
+        ],
+        "warnings": [],
+        "limitations": [
+          "Preview shaders, lighting, transparency and biome blending differ from Minecraft.",
+          "Weighted alternatives use coordinate-seeded preview RNG; exact engine choices require Fabric capture.",
+          "Fluid heights use state levels and neighboring fluid culling; flow slopes/refraction differ from Minecraft.",
+          "Entity and block-entity previews are labelled proxies; actual game capture remains authoritative."
+        ],
+        "textureErrors": [],
+        "texturedStates": 1,
+        "entityCount": 1,
+        "blockEntityCount": 1,
+        "fidelity": {
+          "renderer": "three-resource-preview",
+          "exactGamePixels": false,
+          "textureAnimations": "java-mcmeta-20hz",
+          "weightedModels": "deterministic-position-seed",
+          "weightedParts": 1,
+          "fluids": "level-height-mesh-neighbor-culling",
+          "entityRendering": "labelled-proxies",
+          "blockEntityRendering": "labelled-proxies",
+          "lightInputs": {
+            "known": 1,
+            "total": 1,
+            "shader": "approximate-lambert"
+          },
+          "biomeInputs": {
+            "known": 1,
+            "total": 1,
+            "color": "provided-rgb-or-approximate-biome-palette"
+          }
+        },
+        "animatedTextures": 1,
+        "animationTimeMs": 100,
+        "animationFrames": [
+          {
+            "texture": "fixture:block/animation",
+            "index": 0,
+            "nextIndex": 1,
+            "progress": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "timeMs": 200,
+      "pixel": [
+        0,
+        0,
+        227,
+        255
+      ],
+      "sha256": "acfc2f6f8a15cdedb8f4c7a21b52ab0ad176a5d07ee11aaf4a4e284fcec439ad",
+      "metadata": {
+        "session": "fixture",
+        "blockCount": 1,
+        "source": "java-resource-model-preview",
+        "version": "26.3",
+        "resourcePacks": [
+          "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\rendering-26.3\\pack",
+          "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\fabric-tools\\minecraft-26.3.jar"
+        ],
+        "warnings": [],
+        "limitations": [
+          "Preview shaders, lighting, transparency and biome blending differ from Minecraft.",
+          "Weighted alternatives use coordinate-seeded preview RNG; exact engine choices require Fabric capture.",
+          "Fluid heights use state levels and neighboring fluid culling; flow slopes/refraction differ from Minecraft.",
+          "Entity and block-entity previews are labelled proxies; actual game capture remains authoritative."
+        ],
+        "textureErrors": [],
+        "texturedStates": 1,
+        "entityCount": 1,
+        "blockEntityCount": 1,
+        "fidelity": {
+          "renderer": "three-resource-preview",
+          "exactGamePixels": false,
+          "textureAnimations": "java-mcmeta-20hz",
+          "weightedModels": "deterministic-position-seed",
+          "weightedParts": 1,
+          "fluids": "level-height-mesh-neighbor-culling",
+          "entityRendering": "labelled-proxies",
+          "blockEntityRendering": "labelled-proxies",
+          "lightInputs": {
+            "known": 1,
+            "total": 1,
+            "shader": "approximate-lambert"
+          },
+          "biomeInputs": {
+            "known": 1,
+            "total": 1,
+            "color": "provided-rgb-or-approximate-biome-palette"
+          }
+        },
+        "animatedTextures": 1,
+        "animationTimeMs": 200,
+        "animationFrames": [
+          {
+            "texture": "fixture:block/animation",
+            "index": 1,
+            "nextIndex": 0,
+            "progress": 0
+          }
+        ]
+      }
+    },
+    {
+      "timeMs": 550,
+      "pixel": [
+        209,
+        0,
+        27,
+        255
+      ],
+      "sha256": "9880e9b6e2c9a737a6a18de15b73a481a78d432ae7109960f37b17ed3ab73dde",
+      "metadata": {
+        "session": "fixture",
+        "blockCount": 1,
+        "source": "java-resource-model-preview",
+        "version": "26.3",
+        "resourcePacks": [
+          "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\rendering-26.3\\pack",
+          "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\fabric-tools\\minecraft-26.3.jar"
+        ],
+        "warnings": [],
+        "limitations": [
+          "Preview shaders, lighting, transparency and biome blending differ from Minecraft.",
+          "Weighted alternatives use coordinate-seeded preview RNG; exact engine choices require Fabric capture.",
+          "Fluid heights use state levels and neighboring fluid culling; flow slopes/refraction differ from Minecraft.",
+          "Entity and block-entity previews are labelled proxies; actual game capture remains authoritative."
+        ],
+        "textureErrors": [],
+        "texturedStates": 1,
+        "entityCount": 1,
+        "blockEntityCount": 1,
+        "fidelity": {
+          "renderer": "three-resource-preview",
+          "exactGamePixels": false,
+          "textureAnimations": "java-mcmeta-20hz",
+          "weightedModels": "deterministic-position-seed",
+          "weightedParts": 1,
+          "fluids": "level-height-mesh-neighbor-culling",
+          "entityRendering": "labelled-proxies",
+          "blockEntityRendering": "labelled-proxies",
+          "lightInputs": {
+            "known": 1,
+            "total": 1,
+            "shader": "approximate-lambert"
+          },
+          "biomeInputs": {
+            "known": 1,
+            "total": 1,
+            "color": "provided-rgb-or-approximate-biome-palette"
+          }
+        },
+        "animatedTextures": 1,
+        "animationTimeMs": 550,
+        "animationFrames": [
+          {
+            "texture": "fixture:block/animation",
+            "index": 1,
+            "nextIndex": 0,
+            "progress": 0.875
+          }
+        ]
+      }
+    },
+    {
+      "timeMs": 600,
+      "pixel": [
+        240,
+        0,
+        0,
+        255
+      ],
+      "sha256": "89f3e3fd7f291458dd6ff9b725bd33828a55c7f9526314f0c2eb0dd64b2446b3",
+      "metadata": {
+        "session": "fixture",
+        "blockCount": 1,
+        "source": "java-resource-model-preview",
+        "version": "26.3",
+        "resourcePacks": [
+          "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\rendering-26.3\\pack",
+          "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\fabric-tools\\minecraft-26.3.jar"
+        ],
+        "warnings": [],
+        "limitations": [
+          "Preview shaders, lighting, transparency and biome blending differ from Minecraft.",
+          "Weighted alternatives use coordinate-seeded preview RNG; exact engine choices require Fabric capture.",
+          "Fluid heights use state levels and neighboring fluid culling; flow slopes/refraction differ from Minecraft.",
+          "Entity and block-entity previews are labelled proxies; actual game capture remains authoritative."
+        ],
+        "textureErrors": [],
+        "texturedStates": 1,
+        "entityCount": 1,
+        "blockEntityCount": 1,
+        "fidelity": {
+          "renderer": "three-resource-preview",
+          "exactGamePixels": false,
+          "textureAnimations": "java-mcmeta-20hz",
+          "weightedModels": "deterministic-position-seed",
+          "weightedParts": 1,
+          "fluids": "level-height-mesh-neighbor-culling",
+          "entityRendering": "labelled-proxies",
+          "blockEntityRendering": "labelled-proxies",
+          "lightInputs": {
+            "known": 1,
+            "total": 1,
+            "shader": "approximate-lambert"
+          },
+          "biomeInputs": {
+            "known": 1,
+            "total": 1,
+            "color": "provided-rgb-or-approximate-biome-palette"
+          }
+        },
+        "animatedTextures": 1,
+        "animationTimeMs": 600,
+        "animationFrames": [
+          {
+            "texture": "fixture:block/animation",
+            "index": 0,
+            "nextIndex": 1,
+            "progress": 0
+          }
+        ]
+      }
+    }
+  ],
+  "status": "passed",
+  "finishedAt": "2026-10-17T18:24:56.341Z"
+}

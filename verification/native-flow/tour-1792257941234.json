@@ -1,0 +1,4770 @@
+{
+  "profile": {
+    "width": 0.6,
+    "height": 1.8,
+    "maxStepUp": 0.6,
+    "maxStepDown": 0.6,
+    "gridSpacing": 0.5,
+    "doors": "current-state",
+    "jumping": false,
+    "breakOrPlaceBlocks": false,
+    "specialMovement": "unknown",
+    "constraint": "paths must stay within inspection bounds; this is static geometric analysis"
+  },
+  "limitations": [
+    "Half-block horizontal sampling may miss narrow passages offset from the search grid. Unreachable describes this bounded walking profile; unusual geometry should be confirmed in game."
+  ],
+  "dimension": "minecraft:overworld",
+  "bounds": {
+    "min": {
+      "x": 160,
+      "y": 89,
+      "z": 316
+    },
+    "max": {
+      "x": 180,
+      "y": 94,
+      "z": 336
+    }
+  },
+  "entry": {
+    "position": {
+      "x": 169.5,
+      "y": 91,
+      "z": 326.5
+    },
+    "status": "clear"
+  },
+  "floors": [
+    {
+      "id": "arena",
+      "cutY": 92,
+      "imagePath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\native-flow\\artifacts\\map_slice_3ec6e236-0cb.png",
+      "axis": "y",
+      "at": 92,
+      "projection": "floor",
+      "bounds": {
+        "min": {
+          "x": 160,
+          "y": 89,
+          "z": 316
+        },
+        "max": {
+          "x": 180,
+          "y": 94,
+          "z": 336
+        }
+      },
+      "coordinateAxes": {
+        "horizontal": "x",
+        "vertical": "z",
+        "verticalDirection": "increasing"
+      },
+      "unknownPixels": 0,
+      "legend": {
+        "minecraft:stone": [
+          132,
+          137,
+          142
+        ],
+        "minecraft:chest": [
+          154,
+          112,
+          68
+        ]
+      },
+      "shading": "darker surfaces are farther below cutY",
+      "imageSource": "mct-block-color-slice",
+      "accuracy": "block-state-color-diagram; resource-pack textures and entities are not rendered"
+    }
+  ],
+  "targets": [
+    {
+      "id": "west",
+      "position": {
+        "x": 166.5,
+        "y": 91,
+        "z": 326.5
+      },
+      "status": "reachable",
+      "statusLabel": "도달 가능",
+      "path": [
+        {
+          "x": 169.5,
+          "y": 91,
+          "z": 326.5
+        },
+        {
+          "x": 169,
+          "y": 91,
+          "z": 326.5
+        },
+        {
+          "x": 168.5,
+          "y": 91,
+          "z": 326.5
+        },
+        {
+          "x": 168,
+          "y": 91,
+          "z": 326.5
+        },
+        {
+          "x": 167.5,
+          "y": 91,
+          "z": 326.5
+        },
+        {
+          "x": 167,
+          "y": 91,
+          "z": 326.5
+        },
+        {
+          "x": 166.5,
+          "y": 91,
+          "z": 326.5
+        }
+      ],
+      "actualVisit": {
+        "status": "not_attempted",
+        "reason": "Static map analysis does not verify an in-game visit."
+      }
+    },
+    {
+      "id": "south",
+      "position": {
+        "x": 166.5,
+        "y": 91,
+        "z": 329.5
+      },
+      "lookAt": {
+        "x": 172.5,
+        "y": 91.5,
+        "z": 326.5
+      },
+      "status": "reachable",
+      "statusLabel": "도달 가능",
+      "path": [
+        {
+          "x": 169.5,
+          "y": 91,
+          "z": 326.5
+        },
+        {
+          "x": 169,
+          "y": 91,
+          "z": 326.5
+        },
+        {
+          "x": 168.5,
+          "y": 91,
+          "z": 326.5
+        },
+        {
+          "x": 168,
+          "y": 91,
+          "z": 326.5
+        },
+        {
+          "x": 167.5,
+          "y": 91,
+          "z": 326.5
+        },
+        {
+          "x": 167,
+          "y": 91,
+          "z": 326.5
+        },
+        {
+          "x": 166.5,
+          "y": 91,
+          "z": 326.5
+        },
+        {
+          "x": 166.5,
+          "y": 91,
+          "z": 327
+        },
+        {
+          "x": 166.5,
+          "y": 91,
+          "z": 327.5
+        },
+        {
+          "x": 166.5,
+          "y": 91,
+          "z": 328
+        },
+        {
+          "x": 166.5,
+          "y": 91,
+          "z": 328.5
+        },
+        {
+          "x": 166.5,
+          "y": 91,
+          "z": 329
+        },
+        {
+          "x": 166.5,
+          "y": 91,
+          "z": 329.5
+        }
+      ],
+      "actualVisit": {
+        "status": "not_attempted",
+        "reason": "Static map analysis does not verify an in-game visit."
+      }
+    }
+  ],
+  "unvisited": [],
+  "search": {
+    "visitedNodes": 1663,
+    "examinedBlocks": 2205,
+    "exhausted": false,
+    "unknownFrontiers": []
+  },
+  "actualVisitVerified": false,
+  "version": "26.3",
+  "source": "minecraft-client-block-collisions",
+  "snapshot": {
+    "client": "client_dbb644d6-d23",
+    "version": "26.3",
+    "firstTick": 1133,
+    "lastTick": 1136,
+    "source": "minecraft-client-block-collisions"
+  },
+  "warnings": [
+    "Block collision snapshot spans multiple client ticks; entities, moving mechanisms and later world changes require live verification."
+  ],
+  "reportPath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\native-flow\\artifacts\\native_interior_0a4af80c-3b1.json",
+  "observedAt": "2026-10-17T17:25:41.234Z",
+  "tour": [
+    {
+      "id": "west",
+      "liveVerified": true,
+      "movement": {
+        "ready": true,
+        "loading": false,
+        "overlay": null,
+        "gameVersion": "26.3",
+        "observedAt": "2026-10-17T17:25:37.659060500Z",
+        "tick": 1179,
+        "frame": 1857,
+        "source": "minecraft-client",
+        "connected": true,
+        "screen": null,
+        "dimension": "minecraft:overworld",
+        "player": {
+          "x": 166.55122373656474,
+          "y": 91,
+          "z": 326.5,
+          "yaw": 1.5707963267948966,
+          "pitch": 0,
+          "health": 20,
+          "name": "MctSmoke"
+        },
+        "inventory": {
+          "syncId": 0,
+          "slots": [
+            {
+              "slot": 0,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 1,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 2,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 3,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 4,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 5,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 6,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 7,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 8,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 9,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 10,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 11,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 12,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 13,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 14,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 15,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 16,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 17,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 18,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 19,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 20,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 21,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 22,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 23,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 24,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 25,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 26,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 27,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 28,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 29,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 30,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 31,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 32,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 33,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 34,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 35,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 36,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 37,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 38,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 39,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 40,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 41,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 42,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 43,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 44,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 45,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            }
+          ]
+        },
+        "angleUnit": "radians",
+        "bridge": {
+          "id": "client_dbb644d6-d23",
+          "kind": "fabric",
+          "name": "Minecraft 26.3",
+          "version": "26.3",
+          "capabilities": [
+            "observe",
+            "capture",
+            "look",
+            "input",
+            "inventory",
+            "gui",
+            "blocks",
+            "command",
+            "chat",
+            "stop"
+          ],
+          "port": 64550,
+          "discovery": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\fabric-tools\\smoke-26.3\\.mct\\fabric-28508.json"
+        },
+        "reached": true,
+        "liveVerified": true,
+        "profile": "ground-walk",
+        "target": {
+          "x": 166.5,
+          "y": 91,
+          "z": 326.5
+        },
+        "inputsReleased": true
+      },
+      "observation": {
+        "ready": true,
+        "loading": false,
+        "overlay": null,
+        "gameVersion": "26.3",
+        "observedAt": "2026-10-17T17:25:37.758637800Z",
+        "tick": 1181,
+        "frame": 1860,
+        "source": "minecraft-client",
+        "connected": true,
+        "screen": null,
+        "dimension": "minecraft:overworld",
+        "player": {
+          "x": 166.52953388215388,
+          "y": 91,
+          "z": 326.5,
+          "yaw": 1.5707963267948966,
+          "pitch": 0,
+          "health": 20,
+          "name": "MctSmoke"
+        },
+        "inventory": {
+          "syncId": 0,
+          "slots": [
+            {
+              "slot": 0,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 1,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 2,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 3,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 4,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 5,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 6,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 7,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 8,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 9,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 10,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 11,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 12,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 13,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 14,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 15,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 16,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 17,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 18,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 19,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 20,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 21,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 22,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 23,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 24,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 25,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 26,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 27,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 28,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 29,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 30,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 31,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 32,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 33,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 34,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 35,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 36,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 37,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 38,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 39,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 40,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 41,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 42,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 43,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 44,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 45,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            }
+          ]
+        },
+        "angleUnit": "radians",
+        "bridge": {
+          "id": "client_dbb644d6-d23",
+          "kind": "fabric",
+          "name": "Minecraft 26.3",
+          "version": "26.3",
+          "capabilities": [
+            "observe",
+            "capture",
+            "look",
+            "input",
+            "inventory",
+            "gui",
+            "blocks",
+            "command",
+            "chat",
+            "stop"
+          ],
+          "port": 64550,
+          "discovery": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\fabric-tools\\smoke-26.3\\.mct\\fabric-28508.json"
+        }
+      },
+      "captures": [
+        {
+          "ready": true,
+          "loading": false,
+          "overlay": null,
+          "gameVersion": "26.3",
+          "observedAt": "2026-10-17T17:25:37.824754Z",
+          "tick": 1182,
+          "frame": 1862,
+          "source": "minecraft-client",
+          "connected": true,
+          "screen": null,
+          "dimension": "minecraft:overworld",
+          "player": {
+            "x": 166.52535141522347,
+            "y": 91,
+            "z": 326.5,
+            "yaw": 0,
+            "pitch": 0,
+            "health": 20,
+            "name": "MctSmoke"
+          },
+          "inventory": {
+            "syncId": 0,
+            "slots": [
+              {
+                "slot": 0,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 1,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 2,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 3,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 4,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 5,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 6,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 7,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 8,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 9,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 10,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 11,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 12,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 13,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 14,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 15,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 16,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 17,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 18,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 19,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 20,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 21,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 22,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 23,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 24,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 25,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 26,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 27,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 28,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 29,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 30,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 31,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 32,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 33,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 34,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 35,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 36,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 37,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 38,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 39,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 40,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 41,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 42,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 43,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 44,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 45,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              }
+            ]
+          },
+          "mimeType": "image/png",
+          "includesHud": true,
+          "captureFrame": 1862,
+          "readbackCompletedAt": "2026-10-17T17:25:37.885590500Z",
+          "width": 640,
+          "height": 480,
+          "angleUnit": "radians",
+          "imagePath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\native-flow\\artifacts\\capture_2933aebd-3d2.png",
+          "bridge": {
+            "id": "client_dbb644d6-d23",
+            "kind": "fabric",
+            "name": "Minecraft 26.3",
+            "version": "26.3",
+            "capabilities": [
+              "observe",
+              "capture",
+              "look",
+              "input",
+              "inventory",
+              "gui",
+              "blocks",
+              "command",
+              "chat",
+              "stop"
+            ],
+            "port": 64550,
+            "discovery": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\fabric-tools\\smoke-26.3\\.mct\\fabric-28508.json"
+          }
+        },
+        {
+          "ready": true,
+          "loading": false,
+          "overlay": null,
+          "gameVersion": "26.3",
+          "observedAt": "2026-10-17T17:25:37.992572300Z",
+          "tick": 1185,
+          "frame": 1867,
+          "source": "minecraft-client",
+          "connected": true,
+          "screen": null,
+          "dimension": "minecraft:overworld",
+          "player": {
+            "x": 166.52535141522347,
+            "y": 91,
+            "z": 326.5,
+            "yaw": 1.5707963267948966,
+            "pitch": 0,
+            "health": 20,
+            "name": "MctSmoke"
+          },
+          "inventory": {
+            "syncId": 0,
+            "slots": [
+              {
+                "slot": 0,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 1,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 2,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 3,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 4,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 5,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 6,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 7,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 8,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 9,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 10,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 11,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 12,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 13,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 14,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 15,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 16,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 17,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 18,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 19,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 20,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 21,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 22,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 23,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 24,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 25,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 26,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 27,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 28,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 29,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 30,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 31,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 32,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 33,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 34,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 35,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 36,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 37,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 38,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 39,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 40,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 41,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 42,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 43,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 44,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 45,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              }
+            ]
+          },
+          "mimeType": "image/png",
+          "includesHud": true,
+          "captureFrame": 1867,
+          "readbackCompletedAt": "2026-10-17T17:25:38.051601700Z",
+          "width": 640,
+          "height": 480,
+          "angleUnit": "radians",
+          "imagePath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\native-flow\\artifacts\\capture_8f694610-93f.png",
+          "bridge": {
+            "id": "client_dbb644d6-d23",
+            "kind": "fabric",
+            "name": "Minecraft 26.3",
+            "version": "26.3",
+            "capabilities": [
+              "observe",
+              "capture",
+              "look",
+              "input",
+              "inventory",
+              "gui",
+              "blocks",
+              "command",
+              "chat",
+              "stop"
+            ],
+            "port": 64550,
+            "discovery": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\fabric-tools\\smoke-26.3\\.mct\\fabric-28508.json"
+          }
+        },
+        {
+          "ready": true,
+          "loading": false,
+          "overlay": null,
+          "gameVersion": "26.3",
+          "observedAt": "2026-10-17T17:25:38.093578400Z",
+          "tick": 1187,
+          "frame": 1870,
+          "source": "minecraft-client",
+          "connected": true,
+          "screen": null,
+          "dimension": "minecraft:overworld",
+          "player": {
+            "x": 166.52535141522347,
+            "y": 91,
+            "z": 326.5,
+            "yaw": 3.141592653589793,
+            "pitch": 0,
+            "health": 20,
+            "name": "MctSmoke"
+          },
+          "inventory": {
+            "syncId": 0,
+            "slots": [
+              {
+                "slot": 0,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 1,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 2,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 3,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 4,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 5,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 6,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 7,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 8,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 9,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 10,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 11,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 12,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 13,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 14,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 15,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 16,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 17,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 18,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 19,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 20,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 21,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 22,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 23,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 24,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 25,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 26,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 27,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 28,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 29,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 30,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 31,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 32,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 33,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 34,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 35,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 36,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 37,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 38,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 39,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 40,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 41,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 42,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 43,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 44,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 45,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              }
+            ]
+          },
+          "mimeType": "image/png",
+          "includesHud": true,
+          "captureFrame": 1870,
+          "readbackCompletedAt": "2026-10-17T17:25:38.149642600Z",
+          "width": 640,
+          "height": 480,
+          "angleUnit": "radians",
+          "imagePath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\native-flow\\artifacts\\capture_f7c5da35-fab.png",
+          "bridge": {
+            "id": "client_dbb644d6-d23",
+            "kind": "fabric",
+            "name": "Minecraft 26.3",
+            "version": "26.3",
+            "capabilities": [
+              "observe",
+              "capture",
+              "look",
+              "input",
+              "inventory",
+              "gui",
+              "blocks",
+              "command",
+              "chat",
+              "stop"
+            ],
+            "port": 64550,
+            "discovery": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\fabric-tools\\smoke-26.3\\.mct\\fabric-28508.json"
+          }
+        },
+        {
+          "ready": true,
+          "loading": false,
+          "overlay": null,
+          "gameVersion": "26.3",
+          "observedAt": "2026-10-17T17:25:38.226014200Z",
+          "tick": 1190,
+          "frame": 1874,
+          "source": "minecraft-client",
+          "connected": true,
+          "screen": null,
+          "dimension": "minecraft:overworld",
+          "player": {
+            "x": 166.52535141522347,
+            "y": 91,
+            "z": 326.5,
+            "yaw": 4.71238898038469,
+            "pitch": 0,
+            "health": 20,
+            "name": "MctSmoke"
+          },
+          "inventory": {
+            "syncId": 0,
+            "slots": [
+              {
+                "slot": 0,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 1,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 2,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 3,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 4,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 5,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 6,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 7,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 8,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 9,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 10,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 11,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 12,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 13,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 14,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 15,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 16,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 17,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 18,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 19,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 20,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 21,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 22,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 23,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 24,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 25,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 26,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 27,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 28,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 29,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 30,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 31,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 32,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 33,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 34,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 35,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 36,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 37,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 38,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 39,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 40,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 41,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 42,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 43,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 44,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 45,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              }
+            ]
+          },
+          "mimeType": "image/png",
+          "includesHud": true,
+          "captureFrame": 1874,
+          "readbackCompletedAt": "2026-10-17T17:25:38.288519500Z",
+          "width": 640,
+          "height": 480,
+          "angleUnit": "radians",
+          "imagePath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\native-flow\\artifacts\\capture_27aa4670-e82.png",
+          "bridge": {
+            "id": "client_dbb644d6-d23",
+            "kind": "fabric",
+            "name": "Minecraft 26.3",
+            "version": "26.3",
+            "capabilities": [
+              "observe",
+              "capture",
+              "look",
+              "input",
+              "inventory",
+              "gui",
+              "blocks",
+              "command",
+              "chat",
+              "stop"
+            ],
+            "port": 64550,
+            "discovery": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\fabric-tools\\smoke-26.3\\.mct\\fabric-28508.json"
+          }
+        }
+      ]
+    },
+    {
+      "id": "south",
+      "liveVerified": true,
+      "movement": {
+        "ready": true,
+        "loading": false,
+        "overlay": null,
+        "gameVersion": "26.3",
+        "observedAt": "2026-10-17T17:25:40.600071700Z",
+        "tick": 1238,
+        "frame": 1945,
+        "source": "minecraft-client",
+        "connected": true,
+        "screen": null,
+        "dimension": "minecraft:overworld",
+        "player": {
+          "x": 166.52535141522347,
+          "y": 91,
+          "z": 329.4394856475159,
+          "yaw": 0,
+          "pitch": 0,
+          "health": 20,
+          "name": "MctSmoke"
+        },
+        "inventory": {
+          "syncId": 0,
+          "slots": [
+            {
+              "slot": 0,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 1,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 2,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 3,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 4,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 5,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 6,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 7,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 8,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 9,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 10,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 11,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 12,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 13,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 14,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 15,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 16,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 17,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 18,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 19,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 20,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 21,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 22,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 23,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 24,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 25,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 26,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 27,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 28,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 29,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 30,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 31,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 32,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 33,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 34,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 35,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 36,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 37,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 38,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 39,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 40,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 41,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 42,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 43,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 44,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 45,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            }
+          ]
+        },
+        "angleUnit": "radians",
+        "bridge": {
+          "id": "client_dbb644d6-d23",
+          "kind": "fabric",
+          "name": "Minecraft 26.3",
+          "version": "26.3",
+          "capabilities": [
+            "observe",
+            "capture",
+            "look",
+            "input",
+            "inventory",
+            "gui",
+            "blocks",
+            "command",
+            "chat",
+            "stop"
+          ],
+          "port": 64550,
+          "discovery": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\fabric-tools\\smoke-26.3\\.mct\\fabric-28508.json"
+        },
+        "reached": true,
+        "liveVerified": true,
+        "profile": "ground-walk",
+        "target": {
+          "x": 166.5,
+          "y": 91,
+          "z": 329.5
+        },
+        "inputsReleased": true
+      },
+      "observation": {
+        "ready": true,
+        "loading": false,
+        "overlay": null,
+        "gameVersion": "26.3",
+        "observedAt": "2026-10-17T17:25:40.699720100Z",
+        "tick": 1240,
+        "frame": 1948,
+        "source": "minecraft-client",
+        "connected": true,
+        "screen": null,
+        "dimension": "minecraft:overworld",
+        "player": {
+          "x": 166.52535141522347,
+          "y": 91,
+          "z": 329.4671185389847,
+          "yaw": 0,
+          "pitch": 0,
+          "health": 20,
+          "name": "MctSmoke"
+        },
+        "inventory": {
+          "syncId": 0,
+          "slots": [
+            {
+              "slot": 0,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 1,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 2,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 3,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 4,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 5,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 6,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 7,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 8,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 9,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 10,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 11,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 12,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 13,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 14,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 15,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 16,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 17,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 18,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 19,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 20,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 21,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 22,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 23,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 24,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 25,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 26,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 27,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 28,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 29,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 30,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 31,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 32,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 33,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 34,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 35,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 36,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 37,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 38,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 39,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 40,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 41,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 42,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 43,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 44,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            },
+            {
+              "slot": 45,
+              "empty": true,
+              "count": 0,
+              "name": "Air",
+              "item": "minecraft:air"
+            }
+          ]
+        },
+        "angleUnit": "radians",
+        "bridge": {
+          "id": "client_dbb644d6-d23",
+          "kind": "fabric",
+          "name": "Minecraft 26.3",
+          "version": "26.3",
+          "capabilities": [
+            "observe",
+            "capture",
+            "look",
+            "input",
+            "inventory",
+            "gui",
+            "blocks",
+            "command",
+            "chat",
+            "stop"
+          ],
+          "port": 64550,
+          "discovery": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\fabric-tools\\smoke-26.3\\.mct\\fabric-28508.json"
+        }
+      },
+      "captures": [
+        {
+          "ready": true,
+          "loading": false,
+          "overlay": null,
+          "gameVersion": "26.3",
+          "observedAt": "2026-10-17T17:25:40.832907700Z",
+          "tick": 1242,
+          "frame": 1952,
+          "source": "minecraft-client",
+          "connected": true,
+          "screen": null,
+          "dimension": "minecraft:overworld",
+          "player": {
+            "x": 166.52535141522347,
+            "y": 91,
+            "z": 329.47244700512243,
+            "yaw": -2.0324498765814125,
+            "pitch": 0.16628523219279362,
+            "health": 20,
+            "name": "MctSmoke"
+          },
+          "inventory": {
+            "syncId": 0,
+            "slots": [
+              {
+                "slot": 0,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 1,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 2,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 3,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 4,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 5,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 6,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 7,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 8,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 9,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 10,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 11,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 12,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 13,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 14,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 15,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 16,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 17,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 18,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 19,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 20,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 21,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 22,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 23,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 24,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 25,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 26,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 27,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 28,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 29,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 30,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 31,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 32,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 33,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 34,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 35,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 36,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 37,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 38,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 39,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 40,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 41,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 42,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 43,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 44,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 45,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              }
+            ]
+          },
+          "mimeType": "image/png",
+          "includesHud": true,
+          "captureFrame": 1952,
+          "readbackCompletedAt": "2026-10-17T17:25:40.889979900Z",
+          "width": 640,
+          "height": 480,
+          "angleUnit": "radians",
+          "imagePath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\native-flow\\artifacts\\capture_88163028-ac9.png",
+          "bridge": {
+            "id": "client_dbb644d6-d23",
+            "kind": "fabric",
+            "name": "Minecraft 26.3",
+            "version": "26.3",
+            "capabilities": [
+              "observe",
+              "capture",
+              "look",
+              "input",
+              "inventory",
+              "gui",
+              "blocks",
+              "command",
+              "chat",
+              "stop"
+            ],
+            "port": 64550,
+            "discovery": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\fabric-tools\\smoke-26.3\\.mct\\fabric-28508.json"
+          }
+        },
+        {
+          "ready": true,
+          "loading": false,
+          "overlay": null,
+          "gameVersion": "26.3",
+          "observedAt": "2026-10-17T17:25:40.967164500Z",
+          "tick": 1245,
+          "frame": 1956,
+          "source": "minecraft-client",
+          "connected": true,
+          "screen": null,
+          "dimension": "minecraft:overworld",
+          "player": {
+            "x": 166.52535141522347,
+            "y": 91,
+            "z": 329.47244700512243,
+            "yaw": 1.5707963267948966,
+            "pitch": 0,
+            "health": 20,
+            "name": "MctSmoke"
+          },
+          "inventory": {
+            "syncId": 0,
+            "slots": [
+              {
+                "slot": 0,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 1,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 2,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 3,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 4,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 5,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 6,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 7,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 8,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 9,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 10,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 11,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 12,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 13,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 14,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 15,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 16,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 17,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 18,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 19,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 20,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 21,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 22,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 23,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 24,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 25,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 26,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 27,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 28,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 29,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 30,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 31,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 32,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 33,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 34,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 35,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 36,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 37,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 38,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 39,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 40,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 41,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 42,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 43,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 44,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 45,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              }
+            ]
+          },
+          "mimeType": "image/png",
+          "includesHud": true,
+          "captureFrame": 1956,
+          "readbackCompletedAt": "2026-10-17T17:25:41.027834900Z",
+          "width": 640,
+          "height": 480,
+          "angleUnit": "radians",
+          "imagePath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\native-flow\\artifacts\\capture_ae32321a-69b.png",
+          "bridge": {
+            "id": "client_dbb644d6-d23",
+            "kind": "fabric",
+            "name": "Minecraft 26.3",
+            "version": "26.3",
+            "capabilities": [
+              "observe",
+              "capture",
+              "look",
+              "input",
+              "inventory",
+              "gui",
+              "blocks",
+              "command",
+              "chat",
+              "stop"
+            ],
+            "port": 64550,
+            "discovery": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\fabric-tools\\smoke-26.3\\.mct\\fabric-28508.json"
+          }
+        },
+        {
+          "ready": true,
+          "loading": false,
+          "overlay": null,
+          "gameVersion": "26.3",
+          "observedAt": "2026-10-17T17:25:41.067815700Z",
+          "tick": 1247,
+          "frame": 1959,
+          "source": "minecraft-client",
+          "connected": true,
+          "screen": null,
+          "dimension": "minecraft:overworld",
+          "player": {
+            "x": 166.52535141522347,
+            "y": 91,
+            "z": 329.47244700512243,
+            "yaw": 3.141592653589793,
+            "pitch": 0,
+            "health": 20,
+            "name": "MctSmoke"
+          },
+          "inventory": {
+            "syncId": 0,
+            "slots": [
+              {
+                "slot": 0,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 1,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 2,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 3,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 4,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 5,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 6,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 7,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 8,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 9,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 10,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 11,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 12,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 13,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 14,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 15,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 16,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 17,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 18,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 19,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 20,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 21,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 22,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 23,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 24,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 25,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 26,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 27,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 28,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 29,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 30,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 31,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 32,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 33,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 34,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 35,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 36,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 37,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 38,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 39,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 40,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 41,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 42,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 43,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 44,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 45,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              }
+            ]
+          },
+          "mimeType": "image/png",
+          "includesHud": true,
+          "captureFrame": 1959,
+          "readbackCompletedAt": "2026-10-17T17:25:41.124855800Z",
+          "width": 640,
+          "height": 480,
+          "angleUnit": "radians",
+          "imagePath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\native-flow\\artifacts\\capture_725ab257-2f4.png",
+          "bridge": {
+            "id": "client_dbb644d6-d23",
+            "kind": "fabric",
+            "name": "Minecraft 26.3",
+            "version": "26.3",
+            "capabilities": [
+              "observe",
+              "capture",
+              "look",
+              "input",
+              "inventory",
+              "gui",
+              "blocks",
+              "command",
+              "chat",
+              "stop"
+            ],
+            "port": 64550,
+            "discovery": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\fabric-tools\\smoke-26.3\\.mct\\fabric-28508.json"
+          }
+        },
+        {
+          "ready": true,
+          "loading": false,
+          "overlay": null,
+          "gameVersion": "26.3",
+          "observedAt": "2026-10-17T17:25:41.168253600Z",
+          "tick": 1249,
+          "frame": 1962,
+          "source": "minecraft-client",
+          "connected": true,
+          "screen": null,
+          "dimension": "minecraft:overworld",
+          "player": {
+            "x": 166.52535141522347,
+            "y": 91,
+            "z": 329.47244700512243,
+            "yaw": 4.71238898038469,
+            "pitch": 0,
+            "health": 20,
+            "name": "MctSmoke"
+          },
+          "inventory": {
+            "syncId": 0,
+            "slots": [
+              {
+                "slot": 0,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 1,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 2,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 3,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 4,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 5,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 6,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 7,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 8,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 9,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 10,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 11,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 12,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 13,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 14,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 15,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 16,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 17,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 18,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 19,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 20,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 21,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 22,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 23,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 24,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 25,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 26,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 27,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 28,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 29,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 30,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 31,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 32,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 33,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 34,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 35,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 36,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 37,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 38,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 39,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 40,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 41,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 42,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 43,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 44,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              },
+              {
+                "slot": 45,
+                "empty": true,
+                "count": 0,
+                "name": "Air",
+                "item": "minecraft:air"
+              }
+            ]
+          },
+          "mimeType": "image/png",
+          "includesHud": true,
+          "captureFrame": 1962,
+          "readbackCompletedAt": "2026-10-17T17:25:41.232810200Z",
+          "width": 640,
+          "height": 480,
+          "angleUnit": "radians",
+          "imagePath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\native-flow\\artifacts\\capture_b1e9ad1d-86e.png",
+          "bridge": {
+            "id": "client_dbb644d6-d23",
+            "kind": "fabric",
+            "name": "Minecraft 26.3",
+            "version": "26.3",
+            "capabilities": [
+              "observe",
+              "capture",
+              "look",
+              "input",
+              "inventory",
+              "gui",
+              "blocks",
+              "command",
+              "chat",
+              "stop"
+            ],
+            "port": 64550,
+            "discovery": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\fabric-tools\\smoke-26.3\\.mct\\fabric-28508.json"
+          }
+        }
+      ]
+    }
+  ]
+}

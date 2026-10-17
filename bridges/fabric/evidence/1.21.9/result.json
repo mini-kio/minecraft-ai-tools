@@ -1,0 +1,48 @@
+{
+  "version": "1.21.9",
+  "startedAt": "2026-10-17T17:26:16.037Z",
+  "runtimeVerified": true,
+  "runtimeScenarios": {
+    "connect": "pass",
+    "observe": "pass",
+    "move": "pass",
+    "command": "pass",
+    "interact": "pass",
+    "capture": "pass",
+    "cancel": "pass"
+  },
+  "evidenceDirectory": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\fabric-runtime-legacy\\final\\1.21.9",
+  "errors": [],
+  "artifactSha256": "0eeafd834da8f26847b66906f2d884353c8bb9a025fd16dece2837ed1ad00d1a",
+  "server": {
+    "version": "1.21.9",
+    "port": 56484,
+    "directory": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\fabric-runtime-legacy\\final\\1.21.9\\state\\servers\\server_8ba435e7-873",
+    "checksum": "11e54c2081420a4d49db3007e66c80a22579ff2a"
+  },
+  "clientPid": 28596,
+  "titleScreenObserve": "pass",
+  "titleScreenCapture": "pass",
+  "movement": {
+    "before": {
+      "x": 0.5,
+      "y": 100,
+      "z": 0.5,
+      "yaw": 0,
+      "pitch": 0,
+      "health": 20,
+      "name": "MctSmoke"
+    },
+    "after": {
+      "x": 0.5,
+      "y": 100,
+      "z": 2.6548441280441573,
+      "yaw": 0,
+      "pitch": 0,
+      "health": 20,
+      "name": "MctSmoke"
+    }
+  },
+  "interactionAttempts": [],
+  "finishedAt": "2026-10-17T17:26:50.434Z"
+}

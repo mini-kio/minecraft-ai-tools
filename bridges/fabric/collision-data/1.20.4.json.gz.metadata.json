@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "gameVersion": "1.20.4",
+  "file": "1.20.4.json.gz",
+  "sha256": "f62b7e44d1945e7ca9eb262decfb41d4c8dcfeea93eae149a241dabe23f7cf82",
+  "artifactSha256": "aa2db16a37311468ec96f88e2e060c876f21b19cbc9d757904035acc33bd785a",
+  "registryFingerprint": "a642599d595ecc3b4f4340dbb50b66aa061d72bb3f38072b383cd27dd4f1fddb",
+  "states": 26644,
+  "staticStates": 26433,
+  "defaultStates": 1058,
+  "contextCases": 0,
+  "unsupportedContextSamples": 0,
+  "shapeContext": "empty",
+  "generatedAt": "2026-10-17T18:02:23.046215200Z",
+  "source": "fabric-exact-game-registry",
+  "contextCasesExhaustive": false,
+  "contextProof": {},
+  "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4"
+}

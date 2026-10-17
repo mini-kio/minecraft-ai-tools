@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "classification": "upstream-blockbench-start-screen-error-in-isolated-profile",
+  "message": "Cannot read properties of undefined (reading update)",
+  "mctPluginCaused": false,
+  "independentControl": {
+    "report": "vanilla-startup-baseline.json",
+    "sourceRun": "run-1792258567916",
+    "mctPluginLoaded": false,
+    "openProjects": 0,
+    "setupSuccessful": true,
+    "startScreenResizerReady": false,
+    "errorCount": 2
+  },
+  "fullWorkflow": {
+    "report": "evidence.json",
+    "sourceRun": "run-1792258635694",
+    "status": "passed",
+    "behavioralChecks": 12,
+    "errorStage": "app-startup",
+    "errorCount": 2
+  },
+  "upstreamCall": "Interface.Resizers.start_screen_width.update()",
+  "bundleLocations": [
+    {
+      "line": 3717,
+      "column": 56
+    },
+    {
+      "line": 3717,
+      "column": 697
+    }
+  ],
+  "officialSource": {
+    "url": "https://github.com/JannisX11/blockbench/blob/v5.2.2/js/interface/start_screen.ts",
+    "lines": [
+      772,
+      807
+    ],
+    "bundledSourceMapName": "../js/interface/start_screen.ts",
+    "bundledSourceSha256": "3b2d158f8440e06c02cce89244a7c9b4e91edfb347ff70cd0587c7d9867fffb0"
+  },
+  "finding": "Both errors were reproduced in the unmodified official app before MCT was loaded. The callbacks dereference a missing start-screen resizer. This diagnosis is limited to the tested isolated Windows profile; it does not assert every Blockbench installation is affected.",
+  "resolution": "No MCT plugin patch is indicated. Keep upstream errors and independent control evidence, retain 12 passing model/renderer checks, and keep the native filesystem permission-flow limitation explicit."
+}

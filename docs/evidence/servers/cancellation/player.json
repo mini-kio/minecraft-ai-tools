@@ -1,0 +1,44 @@
+{
+  "startedAt": "2026-10-17T18:00:52.361Z",
+  "version": "1.21.4",
+  "checks": {
+    "connectionAbortRemovedOwnedBot": true,
+    "movementAbortReleasedInputs": true,
+    "captureAbortCleanedArtifacts": true,
+    "captureSessionReusable": true,
+    "interactionAbortClosedOwnedConnection": true
+  },
+  "recoveryCapture": {
+    "sessionId": "player_7d6263d0-641",
+    "kind": "player",
+    "backend": "mineflayer",
+    "source": "prismarine-viewer",
+    "version": "1.21.4",
+    "observedAt": "2026-10-17T18:01:21.053Z",
+    "state": "connected",
+    "host": "127.0.0.1",
+    "port": 58517,
+    "auth": "offline",
+    "imageSource": "approximate-protocol-renderer",
+    "assetsVersion": "1.21.4",
+    "nativeHud": false,
+    "resourcePacks": false,
+    "rendererUrl": "http://127.0.0.1:60721",
+    "limitations": [
+      "Vanilla viewer assets may differ from the exact game version.",
+      "HUD, custom models and resource packs require the actual Fabric game client."
+    ],
+    "imagePath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\player-cancellation-live\\images\\player_7d6263d0-641-1792260080987.png",
+    "width": 320,
+    "height": 240,
+    "position": {
+      "x": 0.5,
+      "y": 100,
+      "z": 1.5727513186292372
+    },
+    "yaw": 3.141592653589793,
+    "pitch": 0
+  },
+  "status": "passed",
+  "finishedAt": "2026-10-17T18:01:23.708Z"
+}

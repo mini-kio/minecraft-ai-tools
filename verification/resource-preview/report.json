@@ -1,0 +1,59 @@
+{
+  "startedAt": "2026-10-17T17:59:30.375Z",
+  "checks": {
+    "vanillaModelsAndTextures": true,
+    "zipResourcePackChangesWorldPixels": 200749,
+    "originalMapUnchanged": true
+  },
+  "vanilla": {
+    "imagePath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\resource-preview-qa\\artifacts\\map3d_9d6200da-410.png",
+    "session": "map_e31ced43-798",
+    "blockCount": 995,
+    "source": "java-resource-model-preview",
+    "version": "1.20.1",
+    "resourcePacks": [
+      "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\fabric-tools\\minecraft-1.20.1.jar"
+    ],
+    "warnings": [],
+    "limitations": [
+      "Lighting and biome tint are preview approximations.",
+      "Block entities, fluids and entity renderers use structural fallback; actual game capture remains available.",
+      "Weighted block model alternatives use the first variant."
+    ],
+    "textureErrors": [],
+    "texturedStates": 9,
+    "approximate": true,
+    "observedAt": "2026-10-17T17:59:34.173Z",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    }
+  },
+  "custom": {
+    "imagePath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\resource-preview-qa\\artifacts\\map3d_dd10744c-1ef.png",
+    "session": "map_e31ced43-798",
+    "blockCount": 995,
+    "source": "java-resource-model-preview",
+    "version": "1.20.1",
+    "resourcePacks": [
+      "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\resource-preview-qa\\pack.zip",
+      "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\fabric-tools\\minecraft-1.20.1.jar"
+    ],
+    "warnings": [],
+    "limitations": [
+      "Lighting and biome tint are preview approximations.",
+      "Block entities, fluids and entity renderers use structural fallback; actual game capture remains available.",
+      "Weighted block model alternatives use the first variant."
+    ],
+    "textureErrors": [],
+    "texturedStates": 9,
+    "approximate": true,
+    "observedAt": "2026-10-17T17:59:36.574Z",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    }
+  },
+  "passed": true,
+  "finishedAt": "2026-10-17T17:59:36.938Z"
+}

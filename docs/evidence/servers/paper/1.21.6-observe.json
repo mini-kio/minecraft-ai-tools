@@ -1,0 +1,74 @@
+{
+  "sessionId": "player_212d6cad-edb",
+  "kind": "player",
+  "backend": "mineflayer",
+  "source": "server-protocol",
+  "version": "1.21.6",
+  "observedAt": "2026-10-17T17:53:57.071Z",
+  "state": "connected",
+  "host": "127.0.0.1",
+  "port": 54888,
+  "auth": "offline",
+  "position": {
+    "x": 0.5,
+    "y": 100,
+    "z": 0.5
+  },
+  "yaw": 3.141592653589793,
+  "pitch": 0,
+  "health": 20,
+  "food": 20,
+  "game": {
+    "serverBrand": "Paper",
+    "levelType": "flat",
+    "hardcore": false,
+    "gameMode": "survival",
+    "dimension": "overworld",
+    "minY": -64,
+    "height": 384,
+    "maxPlayers": 8,
+    "enableRespawnScreen": true,
+    "serverViewDistance": 6
+  },
+  "username": "MCTPaperQA",
+  "heldItem": null,
+  "messages": [
+    {
+      "text": "MCTPaperQA joined the game",
+      "at": "2026-10-17T17:53:56.308Z"
+    },
+    {
+      "text": "[Server: Made MCTPaperQA a server operator]",
+      "at": "2026-10-17T17:53:56.914Z"
+    },
+    {
+      "text": "[Server: Successfully filled 289 block(s)]",
+      "at": "2026-10-17T17:53:56.915Z"
+    },
+    {
+      "text": "[Server: Teleported MCTPaperQA to 0.500000, 100.000000, 0.500000]",
+      "at": "2026-10-17T17:53:56.915Z"
+    },
+    {
+      "text": "[Server: Set the time to 6000]",
+      "at": "2026-10-17T17:53:56.915Z"
+    },
+    {
+      "text": "[Server: Set the weather to clear]",
+      "at": "2026-10-17T17:53:56.915Z"
+    }
+  ],
+  "window": null,
+  "capabilities": {
+    "move": true,
+    "look": true,
+    "inventory": true,
+    "interact": true,
+    "chat": true,
+    "capture": "prismarine-viewer",
+    "nativeHud": false,
+    "resourcePacks": false,
+    "liveVersionValidated": false
+  },
+  "limitation": "Protocol observation and approximate viewer; native HUD, resource packs and exact game rendering require the Fabric client bridge."
+}

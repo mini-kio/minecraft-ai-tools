@@ -1,0 +1,27 @@
+{
+  "version": "1.21.9",
+  "software": "paper",
+  "startedAt": "2026-10-17T18:03:48.415Z",
+  "status": "unavailable",
+  "runtimeVerified": false,
+  "scenarios": {
+    "connect": "not-run",
+    "observe": "not-run",
+    "move": "not-run",
+    "command": "not-run",
+    "interact": "not-run",
+    "capture": "not-run",
+    "cancel": "not-run"
+  },
+  "errors": [],
+  "availability": {
+    "buildsUrl": "https://fill.papermc.io/v3/projects/paper/versions/1.21.9/builds",
+    "httpStatus": 200,
+    "checkedAt": "2026-10-17T18:03:48.738Z",
+    "channelCounts": {
+      "ALPHA": 20
+    }
+  },
+  "reason": "No official STABLE build with SHA256 for this exact release",
+  "finishedAt": "2026-10-17T18:03:48.738Z"
+}

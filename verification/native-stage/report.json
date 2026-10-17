@@ -1,0 +1,19 @@
+{
+  "startedAt": "2026-10-17T17:34:05.996Z",
+  "checks": {
+    "worldCopyStage": true,
+    "realSpectatorCameraAndCapture": true,
+    "sourceWorldUnchanged": true
+  },
+  "imagePath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\native-stage-final\\artifacts\\capture_4fcf95d3-b25.png",
+  "sourceFiles": 33,
+  "sourceWorld": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\fabric-runtime-modern\\sdl-fixed\\26.3\\state\\servers\\server_7adf147f-950\\world",
+  "staged": {
+    "client": "client_bb341c85-6dd",
+    "server": "server_a7b0266e-541",
+    "source": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\fabric-runtime-modern\\sdl-fixed\\26.3\\state\\servers\\server_7adf147f-950\\world",
+    "version": "26.3"
+  },
+  "passed": true,
+  "finishedAt": "2026-10-17T17:34:16.810Z"
+}

@@ -1,0 +1,2077 @@
+{
+  "version": "4.12.6",
+  "startedAt": "2026-10-17T18:04:19.782Z",
+  "runDir": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769",
+  "download": {
+    "version": "4.12.6",
+    "asset": "Blockbench_4.12.6_portable.exe",
+    "url": "https://github.com/JannisX11/blockbench/releases/download/v4.12.6/Blockbench_4.12.6_portable.exe",
+    "sha256": "b1ea6bf4f9c71cebbfd47015c1b05a8e08a0c871e1895253d93e3e599d9830a8",
+    "size": 78949992,
+    "fetchedAt": "2026-10-17T18:04:19.384Z",
+    "release": "https://github.com/JannisX11/blockbench/releases/tag/v4.12.6",
+    "executable": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\Blockbench_4.12.6_portable.exe",
+    "isolation": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\userData-4.12.6"
+  },
+  "checks": {
+    "desktopPluginConnection": true,
+    "openInspectTextureUvBones": true,
+    "realCliSourceTransport": true,
+    "invalidArgumentsRejected": true,
+    "playAndPauseActualTimeline": true,
+    "animationTimeChangesRenderedPixels": true,
+    "cameraChangesRenderedPixels": true,
+    "animationFrameSequence": true,
+    "externalTextureChangeDetected": true,
+    "externalTextureReloadChangesPixels": true,
+    "originalUnchangedByObservation": true,
+    "externalSourceChangeDetected": true,
+    "malformedReloadPreservesWorkingProject": true,
+    "reloadSeesExternalChanges": true,
+    "closePreservesOtherProjects": true
+  },
+  "operations": [
+    {
+      "action": "open",
+      "result": {
+        "id": "model_5c10799f-ae4",
+        "kind": "model",
+        "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\fixture.bbmodel",
+        "bridge": "bridge_10d519ce-c9c",
+        "project": "4b10f2e1-02c6-4879-5652-fe387c68fdeb",
+        "openedAt": "2026-10-17T18:04:29.266Z",
+        "source": "blockbench",
+        "changed": false,
+        "sourceChangePending": false,
+        "model": {
+          "project": "ef3f71f6-4588-0bdf-d99f-b778278ad66b",
+          "name": "fixture",
+          "format": "bedrock",
+          "elements": [
+            {
+              "uuid": "4db8ff2a-b7d0-4ed8-8a21-5ddaf9634984",
+              "name": "qa_cube",
+              "type": "cube",
+              "parent": "48b9cbe5-2037-4f2f-9f35-cacd097a4697",
+              "from": [
+                -4,
+                0,
+                -2
+              ],
+              "to": [
+                4,
+                10,
+                2
+              ],
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "faces": {
+                "north": {
+                  "uv": [
+                    0,
+                    0,
+                    16,
+                    16
+                  ],
+                  "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                  "rotation": 0
+                },
+                "east": {
+                  "uv": [
+                    0,
+                    0,
+                    16,
+                    16
+                  ],
+                  "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                  "rotation": 0
+                },
+                "south": {
+                  "uv": [
+                    0,
+                    0,
+                    16,
+                    16
+                  ],
+                  "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                  "rotation": 0
+                },
+                "west": {
+                  "uv": [
+                    0,
+                    0,
+                    16,
+                    16
+                  ],
+                  "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                  "rotation": 0
+                },
+                "up": {
+                  "uv": [
+                    0,
+                    0,
+                    16,
+                    16
+                  ],
+                  "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                  "rotation": 0
+                },
+                "down": {
+                  "uv": [
+                    0,
+                    0,
+                    16,
+                    16
+                  ],
+                  "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                  "rotation": 0
+                }
+              }
+            }
+          ],
+          "groups": [
+            {
+              "uuid": "48b9cbe5-2037-4f2f-9f35-cacd097a4697",
+              "name": "qa_bone",
+              "parent": null,
+              "children": [
+                "4db8ff2a-b7d0-4ed8-8a21-5ddaf9634984"
+              ],
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            }
+          ],
+          "textures": [
+            {
+              "uuid": "492bd461-1620-48cc-98c1-78cb41a69a49",
+              "name": "qa_checker.png",
+              "width": 16,
+              "height": 16,
+              "error": 0
+            }
+          ],
+          "animations": [
+            {
+              "uuid": "4cd4a89d-ccf2-4900-b0a7-c2fbd1467fc2",
+              "name": "qa_turn",
+              "length": 3,
+              "loop": "loop"
+            }
+          ],
+          "observedAt": "2026-10-17T18:04:29.255Z",
+          "bridge": {
+            "id": "bridge_10d519ce-c9c",
+            "kind": "blockbench",
+            "name": "Blockbench Desktop",
+            "version": "4.12.6",
+            "capabilities": [
+              "model.open",
+              "model.inspect",
+              "model.camera",
+              "model.animation",
+              "model.capture",
+              "model.reload",
+              "model.close"
+            ]
+          },
+          "source": "blockbench"
+        },
+        "sourceFiles": [
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\fixture.bbmodel",
+            "sha256": "c2e9f52972e290164ee7e7e89756fdc866548ac36de63dfe8ad4908bbe50eea4",
+            "bytes": 3661,
+            "modifiedAt": "2026-10-17T18:04:19.776Z"
+          },
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\qa_checker.png",
+            "sha256": "cd90b9cf670fb5d9a68bf9c3e071c074667801baec315517976822429989b9e0",
+            "bytes": 155,
+            "modifiedAt": "2026-10-17T18:04:19.775Z"
+          }
+        ],
+        "changedFiles": [],
+        "fileTransport": "cli-read-model-data",
+        "warnings": []
+      }
+    },
+    {
+      "action": "inspect",
+      "result": {
+        "project": "ef3f71f6-4588-0bdf-d99f-b778278ad66b",
+        "name": "fixture",
+        "format": "bedrock",
+        "elements": [
+          {
+            "uuid": "4db8ff2a-b7d0-4ed8-8a21-5ddaf9634984",
+            "name": "qa_cube",
+            "type": "cube",
+            "parent": "48b9cbe5-2037-4f2f-9f35-cacd097a4697",
+            "from": [
+              -4,
+              0,
+              -2
+            ],
+            "to": [
+              4,
+              10,
+              2
+            ],
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "faces": {
+              "north": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              },
+              "east": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              },
+              "south": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              },
+              "west": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              },
+              "up": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              },
+              "down": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              }
+            }
+          }
+        ],
+        "groups": [
+          {
+            "uuid": "48b9cbe5-2037-4f2f-9f35-cacd097a4697",
+            "name": "qa_bone",
+            "parent": null,
+            "children": [
+              "4db8ff2a-b7d0-4ed8-8a21-5ddaf9634984"
+            ],
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "textures": [
+          {
+            "uuid": "492bd461-1620-48cc-98c1-78cb41a69a49",
+            "name": "qa_checker.png",
+            "width": 16,
+            "height": 16,
+            "error": 0
+          }
+        ],
+        "animations": [
+          {
+            "uuid": "4cd4a89d-ccf2-4900-b0a7-c2fbd1467fc2",
+            "name": "qa_turn",
+            "length": 3,
+            "loop": "loop"
+          }
+        ],
+        "observedAt": "2026-10-17T18:04:29.338Z",
+        "bridge": {
+          "id": "bridge_10d519ce-c9c",
+          "kind": "blockbench",
+          "name": "Blockbench Desktop",
+          "version": "4.12.6",
+          "capabilities": [
+            "model.open",
+            "model.inspect",
+            "model.camera",
+            "model.animation",
+            "model.capture",
+            "model.reload",
+            "model.close"
+          ]
+        },
+        "source": "blockbench",
+        "changed": false,
+        "sourceFiles": [
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\fixture.bbmodel",
+            "sha256": "c2e9f52972e290164ee7e7e89756fdc866548ac36de63dfe8ad4908bbe50eea4",
+            "bytes": 3661,
+            "modifiedAt": "2026-10-17T18:04:19.776Z"
+          },
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\qa_checker.png",
+            "sha256": "cd90b9cf670fb5d9a68bf9c3e071c074667801baec315517976822429989b9e0",
+            "bytes": 155,
+            "modifiedAt": "2026-10-17T18:04:19.775Z"
+          }
+        ],
+        "changedFiles": [],
+        "fileTransport": "cli-read-model-data",
+        "warnings": []
+      }
+    },
+    {
+      "action": "animation",
+      "result": {
+        "clip": "qa_turn",
+        "time": 0.0004000000022351742,
+        "length": 3,
+        "bridge": {
+          "id": "bridge_10d519ce-c9c",
+          "kind": "blockbench",
+          "name": "Blockbench Desktop",
+          "version": "4.12.6",
+          "capabilities": [
+            "model.open",
+            "model.inspect",
+            "model.camera",
+            "model.animation",
+            "model.capture",
+            "model.reload",
+            "model.close"
+          ]
+        },
+        "source": "blockbench",
+        "observedAt": "2026-10-17T18:04:29.452Z",
+        "changed": false,
+        "sourceFiles": [
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\fixture.bbmodel",
+            "sha256": "c2e9f52972e290164ee7e7e89756fdc866548ac36de63dfe8ad4908bbe50eea4",
+            "bytes": 3661,
+            "modifiedAt": "2026-10-17T18:04:19.776Z"
+          },
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\qa_checker.png",
+            "sha256": "cd90b9cf670fb5d9a68bf9c3e071c074667801baec315517976822429989b9e0",
+            "bytes": 155,
+            "modifiedAt": "2026-10-17T18:04:19.775Z"
+          }
+        ],
+        "changedFiles": [],
+        "fileTransport": "cli-read-model-data",
+        "warnings": []
+      }
+    },
+    {
+      "action": "animation",
+      "result": {
+        "clip": "qa_turn",
+        "time": 0,
+        "length": 3,
+        "bridge": {
+          "id": "bridge_10d519ce-c9c",
+          "kind": "blockbench",
+          "name": "Blockbench Desktop",
+          "version": "4.12.6",
+          "capabilities": [
+            "model.open",
+            "model.inspect",
+            "model.camera",
+            "model.animation",
+            "model.capture",
+            "model.reload",
+            "model.close"
+          ]
+        },
+        "source": "blockbench",
+        "observedAt": "2026-10-17T18:04:29.576Z",
+        "changed": false,
+        "sourceFiles": [
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\fixture.bbmodel",
+            "sha256": "c2e9f52972e290164ee7e7e89756fdc866548ac36de63dfe8ad4908bbe50eea4",
+            "bytes": 3661,
+            "modifiedAt": "2026-10-17T18:04:19.776Z"
+          },
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\qa_checker.png",
+            "sha256": "cd90b9cf670fb5d9a68bf9c3e071c074667801baec315517976822429989b9e0",
+            "bytes": 155,
+            "modifiedAt": "2026-10-17T18:04:19.775Z"
+          }
+        ],
+        "changedFiles": [],
+        "fileTransport": "cli-read-model-data",
+        "warnings": []
+      }
+    },
+    {
+      "action": "camera",
+      "result": {
+        "position": [
+          28,
+          22.000000000000004,
+          34
+        ],
+        "target": [
+          0,
+          5,
+          0
+        ],
+        "bridge": {
+          "id": "bridge_10d519ce-c9c",
+          "kind": "blockbench",
+          "name": "Blockbench Desktop",
+          "version": "4.12.6",
+          "capabilities": [
+            "model.open",
+            "model.inspect",
+            "model.camera",
+            "model.animation",
+            "model.capture",
+            "model.reload",
+            "model.close"
+          ]
+        },
+        "source": "blockbench",
+        "observedAt": "2026-10-17T18:04:29.594Z",
+        "changed": false,
+        "sourceFiles": [
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\fixture.bbmodel",
+            "sha256": "c2e9f52972e290164ee7e7e89756fdc866548ac36de63dfe8ad4908bbe50eea4",
+            "bytes": 3661,
+            "modifiedAt": "2026-10-17T18:04:19.776Z"
+          },
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\qa_checker.png",
+            "sha256": "cd90b9cf670fb5d9a68bf9c3e071c074667801baec315517976822429989b9e0",
+            "bytes": 155,
+            "modifiedAt": "2026-10-17T18:04:19.775Z"
+          }
+        ],
+        "changedFiles": [],
+        "fileTransport": "cli-read-model-data",
+        "warnings": []
+      }
+    },
+    {
+      "action": "capture",
+      "result": {
+        "project": "ef3f71f6-4588-0bdf-d99f-b778278ad66b",
+        "animationTime": 0,
+        "camera": {
+          "position": [
+            28,
+            22.000000000000004,
+            34
+          ],
+          "target": [
+            0,
+            5,
+            0
+          ]
+        },
+        "observedAt": "2026-10-17T18:04:29.988Z",
+        "imagePath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\captures\\capture_ad6a2854-6c1.png",
+        "mimeType": "image/png",
+        "bridge": {
+          "id": "bridge_10d519ce-c9c",
+          "kind": "blockbench",
+          "name": "Blockbench Desktop",
+          "version": "4.12.6",
+          "capabilities": [
+            "model.open",
+            "model.inspect",
+            "model.camera",
+            "model.animation",
+            "model.capture",
+            "model.reload",
+            "model.close"
+          ]
+        },
+        "source": "blockbench",
+        "changed": false,
+        "sourceFiles": [
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\fixture.bbmodel",
+            "sha256": "c2e9f52972e290164ee7e7e89756fdc866548ac36de63dfe8ad4908bbe50eea4",
+            "bytes": 3661,
+            "modifiedAt": "2026-10-17T18:04:19.776Z"
+          },
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\qa_checker.png",
+            "sha256": "cd90b9cf670fb5d9a68bf9c3e071c074667801baec315517976822429989b9e0",
+            "bytes": 155,
+            "modifiedAt": "2026-10-17T18:04:19.775Z"
+          }
+        ],
+        "changedFiles": [],
+        "fileTransport": "cli-read-model-data",
+        "warnings": []
+      }
+    },
+    {
+      "action": "animation",
+      "result": {
+        "clip": "qa_turn",
+        "time": 0.5,
+        "length": 3,
+        "bridge": {
+          "id": "bridge_10d519ce-c9c",
+          "kind": "blockbench",
+          "name": "Blockbench Desktop",
+          "version": "4.12.6",
+          "capabilities": [
+            "model.open",
+            "model.inspect",
+            "model.camera",
+            "model.animation",
+            "model.capture",
+            "model.reload",
+            "model.close"
+          ]
+        },
+        "source": "blockbench",
+        "observedAt": "2026-10-17T18:04:30.051Z",
+        "changed": false,
+        "sourceFiles": [
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\fixture.bbmodel",
+            "sha256": "c2e9f52972e290164ee7e7e89756fdc866548ac36de63dfe8ad4908bbe50eea4",
+            "bytes": 3661,
+            "modifiedAt": "2026-10-17T18:04:19.776Z"
+          },
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\qa_checker.png",
+            "sha256": "cd90b9cf670fb5d9a68bf9c3e071c074667801baec315517976822429989b9e0",
+            "bytes": 155,
+            "modifiedAt": "2026-10-17T18:04:19.775Z"
+          }
+        ],
+        "changedFiles": [],
+        "fileTransport": "cli-read-model-data",
+        "warnings": []
+      }
+    },
+    {
+      "action": "capture",
+      "result": {
+        "project": "ef3f71f6-4588-0bdf-d99f-b778278ad66b",
+        "animationTime": 0.5,
+        "camera": {
+          "position": [
+            28,
+            22.000000000000004,
+            34
+          ],
+          "target": [
+            0,
+            5,
+            0
+          ]
+        },
+        "observedAt": "2026-10-17T18:04:30.133Z",
+        "imagePath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\captures\\capture_8c3b551a-84d.png",
+        "mimeType": "image/png",
+        "bridge": {
+          "id": "bridge_10d519ce-c9c",
+          "kind": "blockbench",
+          "name": "Blockbench Desktop",
+          "version": "4.12.6",
+          "capabilities": [
+            "model.open",
+            "model.inspect",
+            "model.camera",
+            "model.animation",
+            "model.capture",
+            "model.reload",
+            "model.close"
+          ]
+        },
+        "source": "blockbench",
+        "changed": false,
+        "sourceFiles": [
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\fixture.bbmodel",
+            "sha256": "c2e9f52972e290164ee7e7e89756fdc866548ac36de63dfe8ad4908bbe50eea4",
+            "bytes": 3661,
+            "modifiedAt": "2026-10-17T18:04:19.776Z"
+          },
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\qa_checker.png",
+            "sha256": "cd90b9cf670fb5d9a68bf9c3e071c074667801baec315517976822429989b9e0",
+            "bytes": 155,
+            "modifiedAt": "2026-10-17T18:04:19.775Z"
+          }
+        ],
+        "changedFiles": [],
+        "fileTransport": "cli-read-model-data",
+        "warnings": []
+      }
+    },
+    {
+      "action": "camera",
+      "result": {
+        "position": [
+          -27.999999999999996,
+          12.000000000000004,
+          20.000000000000007
+        ],
+        "target": [
+          0,
+          5,
+          0
+        ],
+        "bridge": {
+          "id": "bridge_10d519ce-c9c",
+          "kind": "blockbench",
+          "name": "Blockbench Desktop",
+          "version": "4.12.6",
+          "capabilities": [
+            "model.open",
+            "model.inspect",
+            "model.camera",
+            "model.animation",
+            "model.capture",
+            "model.reload",
+            "model.close"
+          ]
+        },
+        "source": "blockbench",
+        "observedAt": "2026-10-17T18:04:30.177Z",
+        "changed": false,
+        "sourceFiles": [
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\fixture.bbmodel",
+            "sha256": "c2e9f52972e290164ee7e7e89756fdc866548ac36de63dfe8ad4908bbe50eea4",
+            "bytes": 3661,
+            "modifiedAt": "2026-10-17T18:04:19.776Z"
+          },
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\qa_checker.png",
+            "sha256": "cd90b9cf670fb5d9a68bf9c3e071c074667801baec315517976822429989b9e0",
+            "bytes": 155,
+            "modifiedAt": "2026-10-17T18:04:19.775Z"
+          }
+        ],
+        "changedFiles": [],
+        "fileTransport": "cli-read-model-data",
+        "warnings": []
+      }
+    },
+    {
+      "action": "capture",
+      "result": {
+        "project": "ef3f71f6-4588-0bdf-d99f-b778278ad66b",
+        "animationTime": 0,
+        "camera": {
+          "position": [
+            -27.999999999999993,
+            12.000000000000004,
+            20.00000000000001
+          ],
+          "target": [
+            0,
+            5,
+            0
+          ]
+        },
+        "observedAt": "2026-10-17T18:04:30.232Z",
+        "imagePath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\captures\\capture_b9e5b3d0-d80.png",
+        "mimeType": "image/png",
+        "bridge": {
+          "id": "bridge_10d519ce-c9c",
+          "kind": "blockbench",
+          "name": "Blockbench Desktop",
+          "version": "4.12.6",
+          "capabilities": [
+            "model.open",
+            "model.inspect",
+            "model.camera",
+            "model.animation",
+            "model.capture",
+            "model.reload",
+            "model.close"
+          ]
+        },
+        "source": "blockbench",
+        "changed": false,
+        "sourceFiles": [
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\fixture.bbmodel",
+            "sha256": "c2e9f52972e290164ee7e7e89756fdc866548ac36de63dfe8ad4908bbe50eea4",
+            "bytes": 3661,
+            "modifiedAt": "2026-10-17T18:04:19.776Z"
+          },
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\qa_checker.png",
+            "sha256": "cd90b9cf670fb5d9a68bf9c3e071c074667801baec315517976822429989b9e0",
+            "bytes": 155,
+            "modifiedAt": "2026-10-17T18:04:19.775Z"
+          }
+        ],
+        "changedFiles": [],
+        "fileTransport": "cli-read-model-data",
+        "warnings": []
+      }
+    },
+    {
+      "action": "sample",
+      "result": {
+        "session": "model_5c10799f-ae4",
+        "clip": "qa_turn",
+        "captures": [
+          {
+            "project": "ef3f71f6-4588-0bdf-d99f-b778278ad66b",
+            "animationTime": 0,
+            "camera": {
+              "position": [
+                -27.999999999999993,
+                12.000000000000004,
+                20.00000000000001
+              ],
+              "target": [
+                0,
+                5,
+                0
+              ]
+            },
+            "observedAt": "2026-10-17T18:04:30.282Z",
+            "imagePath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\captures\\capture_738a9def-b04.png",
+            "mimeType": "image/png",
+            "bridge": {
+              "id": "bridge_10d519ce-c9c",
+              "kind": "blockbench",
+              "name": "Blockbench Desktop",
+              "version": "4.12.6",
+              "capabilities": [
+                "model.open",
+                "model.inspect",
+                "model.camera",
+                "model.animation",
+                "model.capture",
+                "model.reload",
+                "model.close"
+              ]
+            },
+            "source": "blockbench"
+          },
+          {
+            "project": "ef3f71f6-4588-0bdf-d99f-b778278ad66b",
+            "animationTime": 0.25,
+            "camera": {
+              "position": [
+                -27.999999999999993,
+                12.000000000000004,
+                20.00000000000001
+              ],
+              "target": [
+                0,
+                5,
+                0
+              ]
+            },
+            "observedAt": "2026-10-17T18:04:30.330Z",
+            "imagePath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\captures\\capture_24355f11-b49.png",
+            "mimeType": "image/png",
+            "bridge": {
+              "id": "bridge_10d519ce-c9c",
+              "kind": "blockbench",
+              "name": "Blockbench Desktop",
+              "version": "4.12.6",
+              "capabilities": [
+                "model.open",
+                "model.inspect",
+                "model.camera",
+                "model.animation",
+                "model.capture",
+                "model.reload",
+                "model.close"
+              ]
+            },
+            "source": "blockbench"
+          },
+          {
+            "project": "ef3f71f6-4588-0bdf-d99f-b778278ad66b",
+            "animationTime": 0.5,
+            "camera": {
+              "position": [
+                -27.999999999999993,
+                12.000000000000004,
+                20.00000000000001
+              ],
+              "target": [
+                0,
+                5,
+                0
+              ]
+            },
+            "observedAt": "2026-10-17T18:04:30.385Z",
+            "imagePath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\captures\\capture_713d2177-3d1.png",
+            "mimeType": "image/png",
+            "bridge": {
+              "id": "bridge_10d519ce-c9c",
+              "kind": "blockbench",
+              "name": "Blockbench Desktop",
+              "version": "4.12.6",
+              "capabilities": [
+                "model.open",
+                "model.inspect",
+                "model.camera",
+                "model.animation",
+                "model.capture",
+                "model.reload",
+                "model.close"
+              ]
+            },
+            "source": "blockbench"
+          }
+        ]
+      }
+    },
+    {
+      "action": "inspect",
+      "result": {
+        "project": "ef3f71f6-4588-0bdf-d99f-b778278ad66b",
+        "name": "fixture",
+        "format": "bedrock",
+        "elements": [
+          {
+            "uuid": "4db8ff2a-b7d0-4ed8-8a21-5ddaf9634984",
+            "name": "qa_cube",
+            "type": "cube",
+            "parent": "48b9cbe5-2037-4f2f-9f35-cacd097a4697",
+            "from": [
+              -4,
+              0,
+              -2
+            ],
+            "to": [
+              4,
+              10,
+              2
+            ],
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "faces": {
+              "north": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              },
+              "east": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              },
+              "south": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              },
+              "west": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              },
+              "up": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              },
+              "down": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              }
+            }
+          }
+        ],
+        "groups": [
+          {
+            "uuid": "48b9cbe5-2037-4f2f-9f35-cacd097a4697",
+            "name": "qa_bone",
+            "parent": null,
+            "children": [
+              "4db8ff2a-b7d0-4ed8-8a21-5ddaf9634984"
+            ],
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "textures": [
+          {
+            "uuid": "492bd461-1620-48cc-98c1-78cb41a69a49",
+            "name": "qa_checker.png",
+            "width": 16,
+            "height": 16,
+            "error": 0
+          }
+        ],
+        "animations": [
+          {
+            "uuid": "4cd4a89d-ccf2-4900-b0a7-c2fbd1467fc2",
+            "name": "qa_turn",
+            "length": 3,
+            "loop": "loop"
+          }
+        ],
+        "observedAt": "2026-10-17T18:04:30.408Z",
+        "bridge": {
+          "id": "bridge_10d519ce-c9c",
+          "kind": "blockbench",
+          "name": "Blockbench Desktop",
+          "version": "4.12.6",
+          "capabilities": [
+            "model.open",
+            "model.inspect",
+            "model.camera",
+            "model.animation",
+            "model.capture",
+            "model.reload",
+            "model.close"
+          ]
+        },
+        "source": "blockbench",
+        "changed": true,
+        "sourceFiles": [
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\fixture.bbmodel",
+            "sha256": "c2e9f52972e290164ee7e7e89756fdc866548ac36de63dfe8ad4908bbe50eea4",
+            "bytes": 3661,
+            "modifiedAt": "2026-10-17T18:04:19.776Z"
+          },
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\qa_checker.png",
+            "sha256": "e9648e46ae9b754cda32f1d3b0844903d1974f6f2f299e984c5fb266bc01b5c6",
+            "bytes": 106,
+            "modifiedAt": "2026-10-17T18:04:30.388Z"
+          }
+        ],
+        "changedFiles": [
+          "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\qa_checker.png"
+        ],
+        "fileTransport": "cli-read-model-data",
+        "warnings": []
+      }
+    },
+    {
+      "action": "reload",
+      "result": {
+        "project": "4b10f2e1-02c6-4879-5652-fe387c68fdeb",
+        "name": "fixture",
+        "format": "bedrock",
+        "elements": [
+          {
+            "uuid": "4db8ff2a-b7d0-4ed8-8a21-5ddaf9634984",
+            "name": "qa_cube",
+            "type": "cube",
+            "parent": "48b9cbe5-2037-4f2f-9f35-cacd097a4697",
+            "from": [
+              -4,
+              0,
+              -2
+            ],
+            "to": [
+              4,
+              10,
+              2
+            ],
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "faces": {
+              "north": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              },
+              "east": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              },
+              "south": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              },
+              "west": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              },
+              "up": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              },
+              "down": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              }
+            }
+          }
+        ],
+        "groups": [
+          {
+            "uuid": "48b9cbe5-2037-4f2f-9f35-cacd097a4697",
+            "name": "qa_bone",
+            "parent": null,
+            "children": [
+              "4db8ff2a-b7d0-4ed8-8a21-5ddaf9634984"
+            ],
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "textures": [
+          {
+            "uuid": "492bd461-1620-48cc-98c1-78cb41a69a49",
+            "name": "qa_checker.png",
+            "width": 16,
+            "height": 16,
+            "error": 0
+          }
+        ],
+        "animations": [
+          {
+            "uuid": "4cd4a89d-ccf2-4900-b0a7-c2fbd1467fc2",
+            "name": "qa_turn",
+            "length": 3,
+            "loop": "loop"
+          }
+        ],
+        "observedAt": "2026-10-17T18:04:30.601Z",
+        "bridge": {
+          "id": "bridge_10d519ce-c9c",
+          "kind": "blockbench",
+          "name": "Blockbench Desktop",
+          "version": "4.12.6",
+          "capabilities": [
+            "model.open",
+            "model.inspect",
+            "model.camera",
+            "model.animation",
+            "model.capture",
+            "model.reload",
+            "model.close"
+          ]
+        },
+        "source": "blockbench",
+        "changed": false,
+        "sourceFiles": [
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\fixture.bbmodel",
+            "sha256": "c2e9f52972e290164ee7e7e89756fdc866548ac36de63dfe8ad4908bbe50eea4",
+            "bytes": 3661,
+            "modifiedAt": "2026-10-17T18:04:19.776Z"
+          },
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\qa_checker.png",
+            "sha256": "e9648e46ae9b754cda32f1d3b0844903d1974f6f2f299e984c5fb266bc01b5c6",
+            "bytes": 106,
+            "modifiedAt": "2026-10-17T18:04:30.388Z"
+          }
+        ],
+        "changedFiles": [],
+        "fileTransport": "cli-read-model-data",
+        "warnings": []
+      }
+    },
+    {
+      "action": "capture",
+      "result": {
+        "project": "4b10f2e1-02c6-4879-5652-fe387c68fdeb",
+        "animationTime": 0,
+        "camera": {
+          "position": [
+            -27.999999999999993,
+            12.000000000000004,
+            20.00000000000001
+          ],
+          "target": [
+            0,
+            5,
+            0
+          ]
+        },
+        "observedAt": "2026-10-17T18:04:30.735Z",
+        "imagePath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\captures\\capture_4569510c-c84.png",
+        "mimeType": "image/png",
+        "bridge": {
+          "id": "bridge_10d519ce-c9c",
+          "kind": "blockbench",
+          "name": "Blockbench Desktop",
+          "version": "4.12.6",
+          "capabilities": [
+            "model.open",
+            "model.inspect",
+            "model.camera",
+            "model.animation",
+            "model.capture",
+            "model.reload",
+            "model.close"
+          ]
+        },
+        "source": "blockbench",
+        "changed": false,
+        "sourceFiles": [
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\fixture.bbmodel",
+            "sha256": "c2e9f52972e290164ee7e7e89756fdc866548ac36de63dfe8ad4908bbe50eea4",
+            "bytes": 3661,
+            "modifiedAt": "2026-10-17T18:04:19.776Z"
+          },
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\qa_checker.png",
+            "sha256": "e9648e46ae9b754cda32f1d3b0844903d1974f6f2f299e984c5fb266bc01b5c6",
+            "bytes": 106,
+            "modifiedAt": "2026-10-17T18:04:30.388Z"
+          }
+        ],
+        "changedFiles": [],
+        "fileTransport": "cli-read-model-data",
+        "warnings": []
+      }
+    },
+    {
+      "action": "inspect",
+      "result": {
+        "project": "4b10f2e1-02c6-4879-5652-fe387c68fdeb",
+        "name": "fixture",
+        "format": "bedrock",
+        "elements": [
+          {
+            "uuid": "4db8ff2a-b7d0-4ed8-8a21-5ddaf9634984",
+            "name": "qa_cube",
+            "type": "cube",
+            "parent": "48b9cbe5-2037-4f2f-9f35-cacd097a4697",
+            "from": [
+              -4,
+              0,
+              -2
+            ],
+            "to": [
+              4,
+              10,
+              2
+            ],
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "faces": {
+              "north": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              },
+              "east": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              },
+              "south": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              },
+              "west": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              },
+              "up": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              },
+              "down": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              }
+            }
+          }
+        ],
+        "groups": [
+          {
+            "uuid": "48b9cbe5-2037-4f2f-9f35-cacd097a4697",
+            "name": "qa_bone",
+            "parent": null,
+            "children": [
+              "4db8ff2a-b7d0-4ed8-8a21-5ddaf9634984"
+            ],
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "textures": [
+          {
+            "uuid": "492bd461-1620-48cc-98c1-78cb41a69a49",
+            "name": "qa_checker.png",
+            "width": 16,
+            "height": 16,
+            "error": 0
+          }
+        ],
+        "animations": [
+          {
+            "uuid": "4cd4a89d-ccf2-4900-b0a7-c2fbd1467fc2",
+            "name": "qa_turn",
+            "length": 3,
+            "loop": "loop"
+          }
+        ],
+        "observedAt": "2026-10-17T18:04:30.772Z",
+        "bridge": {
+          "id": "bridge_10d519ce-c9c",
+          "kind": "blockbench",
+          "name": "Blockbench Desktop",
+          "version": "4.12.6",
+          "capabilities": [
+            "model.open",
+            "model.inspect",
+            "model.camera",
+            "model.animation",
+            "model.capture",
+            "model.reload",
+            "model.close"
+          ]
+        },
+        "source": "blockbench",
+        "changed": true,
+        "sourceFiles": [
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\fixture.bbmodel",
+            "sha256": "00a6fd7aa1484990400866867d5c4a36dec1ac868ec8437ef52c23d74b824993",
+            "bytes": 12,
+            "modifiedAt": "2026-10-17T18:04:30.755Z"
+          },
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\qa_checker.png",
+            "sha256": "e9648e46ae9b754cda32f1d3b0844903d1974f6f2f299e984c5fb266bc01b5c6",
+            "bytes": 106,
+            "modifiedAt": "2026-10-17T18:04:30.388Z"
+          }
+        ],
+        "changedFiles": [
+          "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\fixture.bbmodel"
+        ],
+        "fileTransport": "cli-read-model-data",
+        "warnings": []
+      }
+    },
+    {
+      "action": "inspect",
+      "result": {
+        "project": "4b10f2e1-02c6-4879-5652-fe387c68fdeb",
+        "name": "fixture",
+        "format": "bedrock",
+        "elements": [
+          {
+            "uuid": "4db8ff2a-b7d0-4ed8-8a21-5ddaf9634984",
+            "name": "qa_cube",
+            "type": "cube",
+            "parent": "48b9cbe5-2037-4f2f-9f35-cacd097a4697",
+            "from": [
+              -4,
+              0,
+              -2
+            ],
+            "to": [
+              4,
+              10,
+              2
+            ],
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "faces": {
+              "north": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              },
+              "east": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              },
+              "south": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              },
+              "west": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              },
+              "up": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              },
+              "down": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              }
+            }
+          }
+        ],
+        "groups": [
+          {
+            "uuid": "48b9cbe5-2037-4f2f-9f35-cacd097a4697",
+            "name": "qa_bone",
+            "parent": null,
+            "children": [
+              "4db8ff2a-b7d0-4ed8-8a21-5ddaf9634984"
+            ],
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "textures": [
+          {
+            "uuid": "492bd461-1620-48cc-98c1-78cb41a69a49",
+            "name": "qa_checker.png",
+            "width": 16,
+            "height": 16,
+            "error": 0
+          }
+        ],
+        "animations": [
+          {
+            "uuid": "4cd4a89d-ccf2-4900-b0a7-c2fbd1467fc2",
+            "name": "qa_turn",
+            "length": 3,
+            "loop": "loop"
+          }
+        ],
+        "observedAt": "2026-10-17T18:04:30.794Z",
+        "bridge": {
+          "id": "bridge_10d519ce-c9c",
+          "kind": "blockbench",
+          "name": "Blockbench Desktop",
+          "version": "4.12.6",
+          "capabilities": [
+            "model.open",
+            "model.inspect",
+            "model.camera",
+            "model.animation",
+            "model.capture",
+            "model.reload",
+            "model.close"
+          ]
+        },
+        "source": "blockbench",
+        "changed": true,
+        "sourceFiles": [
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\fixture.bbmodel",
+            "sha256": "00a6fd7aa1484990400866867d5c4a36dec1ac868ec8437ef52c23d74b824993",
+            "bytes": 12,
+            "modifiedAt": "2026-10-17T18:04:30.755Z"
+          },
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\qa_checker.png",
+            "sha256": "e9648e46ae9b754cda32f1d3b0844903d1974f6f2f299e984c5fb266bc01b5c6",
+            "bytes": 106,
+            "modifiedAt": "2026-10-17T18:04:30.388Z"
+          }
+        ],
+        "changedFiles": [
+          "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\fixture.bbmodel"
+        ],
+        "fileTransport": "cli-read-model-data",
+        "warnings": []
+      }
+    },
+    {
+      "action": "reload",
+      "result": {
+        "project": "dc09b881-ad4c-7926-c65f-2a1c997d5e91",
+        "name": "fixture",
+        "format": "bedrock",
+        "elements": [
+          {
+            "uuid": "4db8ff2a-b7d0-4ed8-8a21-5ddaf9634984",
+            "name": "qa_cube",
+            "type": "cube",
+            "parent": "48b9cbe5-2037-4f2f-9f35-cacd097a4697",
+            "from": [
+              -4,
+              0,
+              -2
+            ],
+            "to": [
+              4,
+              14,
+              2
+            ],
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "faces": {
+              "north": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              },
+              "east": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              },
+              "south": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              },
+              "west": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              },
+              "up": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              },
+              "down": {
+                "uv": [
+                  0,
+                  0,
+                  16,
+                  16
+                ],
+                "texture": "492bd461-1620-48cc-98c1-78cb41a69a49",
+                "rotation": 0
+              }
+            }
+          }
+        ],
+        "groups": [
+          {
+            "uuid": "48b9cbe5-2037-4f2f-9f35-cacd097a4697",
+            "name": "qa_bone",
+            "parent": null,
+            "children": [
+              "4db8ff2a-b7d0-4ed8-8a21-5ddaf9634984"
+            ],
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "textures": [
+          {
+            "uuid": "492bd461-1620-48cc-98c1-78cb41a69a49",
+            "name": "qa_checker.png",
+            "width": 16,
+            "height": 16,
+            "error": 0
+          }
+        ],
+        "animations": [
+          {
+            "uuid": "4cd4a89d-ccf2-4900-b0a7-c2fbd1467fc2",
+            "name": "qa_turn",
+            "length": 3,
+            "loop": "loop"
+          }
+        ],
+        "observedAt": "2026-10-17T18:04:31.027Z",
+        "bridge": {
+          "id": "bridge_10d519ce-c9c",
+          "kind": "blockbench",
+          "name": "Blockbench Desktop",
+          "version": "4.12.6",
+          "capabilities": [
+            "model.open",
+            "model.inspect",
+            "model.camera",
+            "model.animation",
+            "model.capture",
+            "model.reload",
+            "model.close"
+          ]
+        },
+        "source": "blockbench",
+        "changed": false,
+        "sourceFiles": [
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\fixture.bbmodel",
+            "sha256": "393ab94698b4d5f6b3e2f8139023b083b049d3a7e31df12e7e0df855e26351bb",
+            "bytes": 3661,
+            "modifiedAt": "2026-10-17T18:04:30.796Z"
+          },
+          {
+            "path": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\qa_checker.png",
+            "sha256": "e9648e46ae9b754cda32f1d3b0844903d1974f6f2f299e984c5fb266bc01b5c6",
+            "bytes": 106,
+            "modifiedAt": "2026-10-17T18:04:30.388Z"
+          }
+        ],
+        "changedFiles": [],
+        "fileTransport": "cli-read-model-data",
+        "warnings": []
+      }
+    },
+    {
+      "action": "close",
+      "result": {
+        "closed": true
+      }
+    }
+  ],
+  "console": [],
+  "pid": 19996,
+  "runtime": {
+    "version": "4.12.6",
+    "platform": "win32",
+    "isApp": true,
+    "globals": {
+      "process": "object",
+      "require": "function",
+      "Preview": "function",
+      "Animation": "function",
+      "BBPlugin": "function"
+    },
+    "mainPid": 16272
+  },
+  "backgroundRendering": true,
+  "unrelatedProject": "7b5bd448-91bf-1625-05d8-312d92016a18",
+  "nativeFilesystem": "real CLI filesystem; model and texture data sent over production bridge; no Blockbench filesystem adapter",
+  "plugin": {
+    "id": "mct_bridge",
+    "installed": true,
+    "registered": true
+  },
+  "session": "model_5c10799f-ae4",
+  "playState": {
+    "time": 0.0841000000052154,
+    "playing": true,
+    "animatorOpen": true,
+    "mode": "animate",
+    "background": true,
+    "visibility": "visible",
+    "speed": 100,
+    "now": 2844.7000000029802,
+    "lastFrame": 2819.7000000029802
+  },
+  "animationBeforeCapture": {
+    "mode": "animate",
+    "time": 0.5,
+    "selected": "qa_turn",
+    "playing": [
+      {
+        "name": "qa_turn",
+        "playing": true,
+        "animators": [
+          {
+            "uuid": "48b9cbe5-2037-4f2f-9f35-cacd097a4697",
+            "name": "qa_bone",
+            "rotation": [
+              {
+                "time": 0,
+                "points": [
+                  {
+                    "x": "0",
+                    "y": "0",
+                    "z": "0"
+                  }
+                ]
+              },
+              {
+                "time": 0.5,
+                "points": [
+                  {
+                    "x": "0",
+                    "y": "90",
+                    "z": "0"
+                  }
+                ]
+              },
+              {
+                "time": 1,
+                "points": [
+                  {
+                    "x": "0",
+                    "y": "180",
+                    "z": "0"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bones": [
+      {
+        "name": "qa_bone",
+        "rotation": [
+          0,
+          -1.5707963267948966,
+          0,
+          "ZYX"
+        ]
+      }
+    ],
+    "elements": [
+      {
+        "name": "qa_cube",
+        "rotation": [
+          0,
+          0,
+          0,
+          "ZYX"
+        ]
+      }
+    ]
+  },
+  "animationAfterCapture": {
+    "mode": "animate",
+    "time": 0.5,
+    "selected": "qa_turn",
+    "playing": [
+      {
+        "name": "qa_turn",
+        "playing": true,
+        "animators": [
+          {
+            "uuid": "48b9cbe5-2037-4f2f-9f35-cacd097a4697",
+            "name": "qa_bone",
+            "rotation": [
+              {
+                "time": 0,
+                "points": [
+                  {
+                    "x": "0",
+                    "y": "0",
+                    "z": "0"
+                  }
+                ]
+              },
+              {
+                "time": 0.5,
+                "points": [
+                  {
+                    "x": "0",
+                    "y": "90",
+                    "z": "0"
+                  }
+                ]
+              },
+              {
+                "time": 1,
+                "points": [
+                  {
+                    "x": "0",
+                    "y": "180",
+                    "z": "0"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bones": [
+      {
+        "name": "qa_bone",
+        "rotation": [
+          0,
+          -1.5707963267948966,
+          0,
+          "ZYX"
+        ]
+      }
+    ],
+    "elements": [
+      {
+        "name": "qa_cube",
+        "rotation": [
+          0,
+          0,
+          0,
+          "ZYX"
+        ]
+      }
+    ]
+  },
+  "initial": {
+    "imagePath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\captures\\capture_ad6a2854-6c1.png",
+    "width": 640,
+    "height": 480,
+    "painted": 14193,
+    "colors": 54,
+    "sha256": "acd2786f83477b16eedca601e9af6f8a7cf39d36538a56649dfb5721be332627",
+    "animationTime": 0,
+    "camera": {
+      "position": [
+        28,
+        22.000000000000004,
+        34
+      ],
+      "target": [
+        0,
+        5,
+        0
+      ]
+    }
+  },
+  "half": {
+    "imagePath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\captures\\capture_8c3b551a-84d.png",
+    "width": 640,
+    "height": 480,
+    "painted": 13433,
+    "colors": 60,
+    "sha256": "87e8a87430f9c1aef3dd295ff1f61b89545490bdcd284db1c55b7c926e745f56",
+    "animationTime": 0.5,
+    "camera": {
+      "position": [
+        28,
+        22.000000000000004,
+        34
+      ],
+      "target": [
+        0,
+        5,
+        0
+      ]
+    }
+  },
+  "camera": {
+    "imagePath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\captures\\capture_b9e5b3d0-d80.png",
+    "width": 640,
+    "height": 480,
+    "painted": 23294,
+    "colors": 51,
+    "sha256": "d40b636a9f9a3210d559f6fd53b42b00d1612a06af51a18a954f81e30b7858c2",
+    "animationTime": 0,
+    "camera": {
+      "position": [
+        -27.999999999999993,
+        12.000000000000004,
+        20.00000000000001
+      ],
+      "target": [
+        0,
+        5,
+        0
+      ]
+    }
+  },
+  "externalTexture": {
+    "imagePath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792260259769\\captures\\capture_4569510c-c84.png",
+    "width": 640,
+    "height": 480,
+    "painted": 23294,
+    "colors": 25,
+    "sha256": "858df671b2862d3220e51d0a04988cfd697fbb00fca5c2914edb977ed2567d03",
+    "animationTime": 0,
+    "camera": {
+      "position": [
+        -27.999999999999993,
+        12.000000000000004,
+        20.00000000000001
+      ],
+      "target": [
+        0,
+        5,
+        0
+      ]
+    }
+  },
+  "status": "passed",
+  "finishedAt": "2026-10-17T18:04:31.480Z"
+}

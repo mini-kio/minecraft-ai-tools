@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "gameVersion": "1.20",
+  "file": "1.20.json.gz",
+  "sha256": "90b956b6f911206c75e8f9ccbb3b5520191738675d6e5e5348064fbb6bb675a1",
+  "artifactSha256": "6c3b83e084140c86d6912e0958e50bfefea61613d156faca33ef6caf02f0bfc6",
+  "registryFingerprint": "a9d09314f4936ada5e03d9d0eb7e69c215d88a433a04bff7ad9ac8698f32139d",
+  "states": 24135,
+  "staticStates": 23924,
+  "defaultStates": 1003,
+  "contextCases": 1,
+  "unsupportedContextSamples": 1,
+  "shapeContext": "empty",
+  "generatedAt": "2026-10-17T18:01:49.262534Z",
+  "source": "fabric-exact-game-registry",
+  "contextCasesExhaustive": false,
+  "contextProof": {
+    "bambooExactPosition": {
+      "z": 326,
+      "x": 175,
+      "y": 91
+    },
+    "bambooShapes": [
+      [
+        0.22291667014360428,
+        0,
+        0.4895833432674408,
+        0.4104166701436043,
+        1,
+        0.6770833432674408
+      ]
+    ],
+    "entitySensitiveUnknown": true
+  },
+  "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4"
+}

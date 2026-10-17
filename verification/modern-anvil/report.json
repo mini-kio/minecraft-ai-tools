@@ -1,0 +1,50 @@
+{
+  "version": "26.3",
+  "dataVersion": 5023,
+  "regionDirectory": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\fabric-runtime-modern\\sdl-fixed\\26.3\\state\\servers\\server_7adf147f-950\\world\\dimensions\\minecraft\\overworld\\region",
+  "samples": [
+    {
+      "name": "minecraft:stone",
+      "properties": {},
+      "position": {
+        "x": 168,
+        "y": 90,
+        "z": 325
+      },
+      "known": true,
+      "shapes": null,
+      "collisionSource": "unknown",
+      "reason": "unresolved-block-collision"
+    },
+    {
+      "name": "minecraft:chest",
+      "properties": {
+        "waterlogged": "false",
+        "facing": "west",
+        "type": "single"
+      },
+      "position": {
+        "x": 172,
+        "y": 91,
+        "z": 326
+      },
+      "known": true,
+      "shapes": null,
+      "collisionSource": "unknown",
+      "reason": "unresolved-block-collision"
+    },
+    {
+      "name": "minecraft:stone",
+      "properties": {},
+      "position": {
+        "x": 165,
+        "y": 92,
+        "z": 329
+      },
+      "known": true,
+      "shapes": null,
+      "collisionSource": "unknown",
+      "reason": "unresolved-block-collision"
+    }
+  ]
+}

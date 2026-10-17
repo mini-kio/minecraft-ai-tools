@@ -1,0 +1,313 @@
+{
+  "release": "0.3.0",
+  "verifiedAt": "2026-10-17T18:39:48.735790+00:00",
+  "node": "v24.19.0",
+  "automatedTests": {
+    "total": 119,
+    "passed": 116,
+    "failed": 0,
+    "optInLiveSkippedInDefaultSuite": 3
+  },
+  "minecraft": {
+    "latestReleaseAtVerification": "26.3",
+    "targetVersions": [
+      "1.20",
+      "1.20.1",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6",
+      "1.21",
+      "1.21.1",
+      "1.21.2",
+      "1.21.3",
+      "1.21.4",
+      "1.21.5",
+      "1.21.6",
+      "1.21.7",
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11",
+      "26.1",
+      "26.1.1",
+      "26.1.2",
+      "26.2",
+      "26.3"
+    ],
+    "exactFabricJarsBuilt": 24,
+    "matchingVanillaRuntimeVerified": 20,
+    "acceptancePolicy": "User requested representative 26.3 testing and stopped the remaining full-version runtime matrix.",
+    "representativeVersion": "26.3",
+    "unverifiedCurrentArtifacts": [
+      "1.21.8",
+      "1.21.9",
+      "1.21.10",
+      "1.21.11"
+    ],
+    "coreScenariosPerVersion": [
+      "connect",
+      "observe",
+      "move",
+      "command",
+      "interact",
+      "capture",
+      "cancel"
+    ],
+    "offlineCollisionRegistry": "../bridges/fabric/collision-data/index.json",
+    "matrix": "../bridges/fabric/compatibility.json"
+  },
+  "integratedProofs": {
+    "nativeInteriorNavigationTour26_3": "native-flow/report.json",
+    "copiedWorldExactRendererOriginal33FilesUnchanged": "native-stage/report.json",
+    "realMineflayer1_21_4": "protocol-player/report.json",
+    "interactiveStructuralPreview": "map-viewer/report.json",
+    "modernWorldLayoutAndPalette26_3": "modern-anvil/report.json",
+    "blockbench": "../bridges/blockbench/evidence/README.md",
+    "portableFileNativeStages": "file-stage-client/report.json",
+    "zipResourcePackActualPixels": "resource-preview/report.json",
+    "paperAndCancellation": "../docs/evidence/servers/README.md",
+    "animatedTexturesWithInterpolation26_3": "animated-resource-preview-26.3/report.json",
+    "freeEntitiesPassengersRichTextRetry26_3": "free-entity-import-26.3/report.json",
+    "exactLiveBrowserAndCollisionAcquisition26_3": "christmas-native-view-26.3/report.json"
+  },
+  "scope": [
+    "Fabric runtime scenarios used isolated offline test profiles and matching Vanilla servers, not user accounts or arbitrary mod packs.",
+    "Java resource-model and Mineflayer previews are approximate; Fabric captures the actual game framebuffer.",
+    "Blockbench 4.12.6 and 5.2.2 use real CLI file transport and actual native codec/renderer; no fixture filesystem adapter or Blockbench filesystem permission is required.",
+    "Raw evidence keeps historical absolute paths. Inventory filenames below are portable relative to this directory."
+  ],
+  "files": [
+    {
+      "file": "native-flow/report.json",
+      "sha256": "82d45b8e702f62532cc508f54e1efc64464ec34a8be446e71f167794505f747e",
+      "bytes": 4170
+    },
+    {
+      "file": "native-stage/report.json",
+      "sha256": "81fd67e08b6587aafe709a3a56fea48e5f611e52404006d5943ff45392486305",
+      "bytes": 808
+    },
+    {
+      "file": "protocol-player/report.json",
+      "sha256": "90b047884863663f7b7881c8f40c85b958702e2e8cb367f0c1967fbbc16fb62b",
+      "bytes": 3978
+    },
+    {
+      "file": "map-viewer/report.json",
+      "sha256": "d0ffcf1f2639b602139888857f617c1a29f1f1f4cb5479cfce6b5ad21388cd06",
+      "bytes": 218
+    },
+    {
+      "file": "modern-anvil/report.json",
+      "sha256": "8a3c9bca8b023a5558151cbb9aa23449b003f79a9308fc434ac93d3a887e9cf6",
+      "bytes": 1184
+    },
+    {
+      "file": "legacy-audit/report.json",
+      "sha256": "bde410b16da01ce5a8fa422609f2b2f59f094537da443d6d5f7dc03496bea0f3",
+      "bytes": 23548
+    },
+    {
+      "file": "file-stage-client/report.json",
+      "sha256": "05a8aac7aedea6006cf0e519b827eb02e73c475d66fe5ab88b052aca4995e6ed",
+      "bytes": 4564
+    },
+    {
+      "file": "resource-preview/report.json",
+      "sha256": "8a6d20c92c34913b79336898899185434ba9bc6b363dc659b5b9ffe60c812aa0",
+      "bytes": 2105
+    },
+    {
+      "file": "animated-resource-preview-26.3/report.json",
+      "sha256": "bccacbdb495bf6cae5d2bcb1aa2822dda91f452de4a20e83ee7b5876e4d2f327",
+      "bytes": 11058
+    },
+    {
+      "file": "free-entity-import-26.3/report.json",
+      "sha256": "b3307045d431138411a230188b0e156585b3fe3001d552a8cf782667e99a2b49",
+      "bytes": 32883
+    },
+    {
+      "file": "christmas-native-view-26.3/report.json",
+      "sha256": "25c0395e8c6abf0428461edd509431c5254c5d120b150449b70e9fcdf2708d7f",
+      "bytes": 2201
+    },
+    {
+      "file": "native-flow/capture_21dbc546-491.png",
+      "sha256": "91fc728558877c77aee2997d637e76d9a451881c733408450306bf455f638eac",
+      "bytes": 75324
+    },
+    {
+      "file": "native-flow/capture_27aa4670-e82.png",
+      "sha256": "30dcd37d9689c8605ea4dd6ad0771380ed47e0ff914414d262bf7775e2b82ed2",
+      "bytes": 152350
+    },
+    {
+      "file": "native-flow/capture_2933aebd-3d2.png",
+      "sha256": "9829259273bd04776021e52476c96a3d2780fde24a23232ba04f73b67787b608",
+      "bytes": 140376
+    },
+    {
+      "file": "native-flow/capture_725ab257-2f4.png",
+      "sha256": "cc28bf2f479b7aedffdde7bc0d8bcbc3de6059a3be37be91e63d005b9a7e39fd",
+      "bytes": 28254
+    },
+    {
+      "file": "native-flow/capture_88163028-ac9.png",
+      "sha256": "8b633df8f93565d1ad0bba058e8094d9ab8e70c4cad0e528d2d6599d33e049ef",
+      "bytes": 153240
+    },
+    {
+      "file": "native-flow/capture_8f694610-93f.png",
+      "sha256": "eb7940757769a109d5b76ecf4e82e6752e20ee5050e82fcce5ed49edbc07e62e",
+      "bytes": 152901
+    },
+    {
+      "file": "native-flow/capture_ae32321a-69b.png",
+      "sha256": "fe1bf312bf30721360ef57bafe0fe2f1c08da0f4325b55a6fc302cfecdd44a99",
+      "bytes": 194533
+    },
+    {
+      "file": "native-flow/capture_b1e9ad1d-86e.png",
+      "sha256": "7ebf20697c26ca97a6233e065c0da3f473a090d66209e6f0a1e982cd4bc46735",
+      "bytes": 130056
+    },
+    {
+      "file": "native-flow/capture_f7c5da35-fab.png",
+      "sha256": "15587cfe53f5d0f5acadf47b4011912d1db64a4aca1f841d15d6f2e2a3cbccea",
+      "bytes": 156201
+    },
+    {
+      "file": "native-flow/map_slice_3ec6e236-0cb.png",
+      "sha256": "c26b2f88562a16de266542b89106f1ab0f566a0d869a9ab55990c7cbfc92ada9",
+      "bytes": 5440
+    },
+    {
+      "file": "native-flow/map_slice_dc395b1a-3c3.png",
+      "sha256": "c26b2f88562a16de266542b89106f1ab0f566a0d869a9ab55990c7cbfc92ada9",
+      "bytes": 5440
+    },
+    {
+      "file": "native-flow/native_interior_0a4af80c-3b1.json",
+      "sha256": "6afc5d7237256de96f803f6f4b60bdb762e5848d562c24033558eeb89349ded1",
+      "bytes": 5075
+    },
+    {
+      "file": "native-flow/native_interior_295a9fa9-2ee.json",
+      "sha256": "2bf7d6d1276e31b2ee9e3c161a238fd741ddda8490cf73fe5c0e97a0a0b6f475",
+      "bytes": 2776
+    },
+    {
+      "file": "native-flow/native_interior_46825d1b-caf.json",
+      "sha256": "afae786c01ff9c991b477f936f00b443a015d1367fff2f7d7984a55b74a1f5fd",
+      "bytes": 2768
+    },
+    {
+      "file": "native-flow/native_interior_89c53c93-817.json",
+      "sha256": "d8bdaba368d8e9c1b177dbe0621615ff8666ccfe8889805c508d906ce924d703",
+      "bytes": 2583
+    },
+    {
+      "file": "native-flow/native_interior_8bf22bde-c08.json",
+      "sha256": "1a10a04e7fd5d967da9d3bc9b3d0f0946cc454f1e7f9c97ab71237f408d57b97",
+      "bytes": 2770
+    },
+    {
+      "file": "native-flow/native_interior_bcd308cf-737.json",
+      "sha256": "50404e9ede95a6426783a180db824ecb8ebeffbcf068b25b70bbfc5fb6d93edc",
+      "bytes": 4771
+    },
+    {
+      "file": "native-flow/tour-1792257941234.json",
+      "sha256": "d5620ab76d5c7da21c4a5b2f65f10e2b4e739b53a5fde33306223f4a9dab3ebf",
+      "bytes": 127269
+    },
+    {
+      "file": "native-stage/capture_4fcf95d3-b25.png",
+      "sha256": "a59b660daa7166a459dde41b26265167bd3695a72c0ca83f22d5d83c0283693e",
+      "bytes": 329064
+    },
+    {
+      "file": "protocol-player/player_ceeb52e7-c48-1792246973925.png",
+      "sha256": "61897a5951077ce00361a98493946866552b72dec8d802996987135c33e9d092",
+      "bytes": 18498
+    },
+    {
+      "file": "protocol-player/player_ceeb52e7-c48-1792246973925.png.json",
+      "sha256": "c808f41a5941c392e8a622b6eccb29be4535e55a89f0b6261047a73858c37b87",
+      "bytes": 926
+    },
+    {
+      "file": "map-viewer/interior.png",
+      "sha256": "2d356494ca8b1090ecb6e793b3254d51d5afe5b14f387e92c208d4b056d0489d",
+      "bytes": 244300
+    },
+    {
+      "file": "map-viewer/roof.png",
+      "sha256": "61b58a668505f59337a3293e04c9bdf5f0cd476fccae87d1c4c08b60dc08a957",
+      "bytes": 382466
+    },
+    {
+      "file": "file-stage-client/capture_24448596-523.png",
+      "sha256": "d945ddae5a2ef901986ae7c272dc8853de1d433d3be2f3b783b68ae29133b6b0",
+      "bytes": 37262
+    },
+    {
+      "file": "file-stage-client/capture_409b19a8-069.png",
+      "sha256": "9b5aaa81d577c23ad87246686d1d0602679317f4f85e0c4f2bda80ef58379d84",
+      "bytes": 36255
+    },
+    {
+      "file": "file-stage-client/capture_7687ab75-c90.png",
+      "sha256": "190e5fcf97d334181b57bd3109f1454b209892169cb09096eef979a914b2526d",
+      "bytes": 36903
+    },
+    {
+      "file": "resource-preview/map3d_9d6200da-410.png",
+      "sha256": "2d356494ca8b1090ecb6e793b3254d51d5afe5b14f387e92c208d4b056d0489d",
+      "bytes": 244300
+    },
+    {
+      "file": "resource-preview/map3d_dd10744c-1ef.png",
+      "sha256": "317f25513c63e4a1964cf832243f7d134793dc76555741c22d9b9024dd11bf91",
+      "bytes": 158867
+    },
+    {
+      "file": "animated-resource-preview-26.3/evidence.json",
+      "sha256": "bccacbdb495bf6cae5d2bcb1aa2822dda91f452de4a20e83ee7b5876e4d2f327",
+      "bytes": 11058
+    },
+    {
+      "file": "animated-resource-preview-26.3/frame-0.png",
+      "sha256": "89f3e3fd7f291458dd6ff9b725bd33828a55c7f9526314f0c2eb0dd64b2446b3",
+      "bytes": 17747
+    },
+    {
+      "file": "animated-resource-preview-26.3/frame-100.png",
+      "sha256": "20f266d7dff06aeb6aaa617895bc4c9d7e719e2b1ca6246839d03a09ab613fac",
+      "bytes": 17764
+    },
+    {
+      "file": "animated-resource-preview-26.3/frame-200.png",
+      "sha256": "acfc2f6f8a15cdedb8f4c7a21b52ab0ad176a5d07ee11aaf4a4e284fcec439ad",
+      "bytes": 17747
+    },
+    {
+      "file": "animated-resource-preview-26.3/frame-550.png",
+      "sha256": "9880e9b6e2c9a737a6a18de15b73a481a78d432ae7109960f37b17ed3ab73dde",
+      "bytes": 17764
+    },
+    {
+      "file": "animated-resource-preview-26.3/frame-600.png",
+      "sha256": "89f3e3fd7f291458dd6ff9b725bd33828a55c7f9526314f0c2eb0dd64b2446b3",
+      "bytes": 17747
+    },
+    {
+      "file": "automated-tests.txt",
+      "sha256": "0fcd215201861270c50dbaf7ff336c98f1b2ddf3ae7cf9741f4b9819a391eeae",
+      "bytes": 11669
+    }
+  ]
+}

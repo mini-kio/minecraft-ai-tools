@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 2,
+  "version": "5.2.2",
+  "status": "passed",
+  "sourceRun": "run-1792260225516",
+  "startedAt": "2026-10-17T18:03:45.531Z",
+  "finishedAt": "2026-10-17T18:04:00.697Z",
+  "checks": {
+    "desktopPluginConnection": true,
+    "currentBbmodel5Format": true,
+    "openInspectTextureUvBones": true,
+    "realCliSourceTransport": true,
+    "invalidArgumentsRejected": true,
+    "playAndPauseActualTimeline": true,
+    "animationTimeChangesRenderedPixels": true,
+    "cameraChangesRenderedPixels": true,
+    "animationFrameSequence": true,
+    "externalTextureChangeDetected": true,
+    "externalTextureReloadChangesPixels": true,
+    "originalUnchangedByObservation": true,
+    "externalSourceChangeDetected": true,
+    "malformedReloadPreservesWorkingProject": true,
+    "reloadSeesExternalChanges": true,
+    "closePreservesOtherProjects": true
+  },
+  "fileTransport": "real CLI filesystem; model and texture data sent over production bridge; no Blockbench filesystem adapter",
+  "scope": "Actual official desktop plugin file loader, actual CLI model and external texture files, production WebSocket/model services, original codec and renderer; no filesystem adapter or app permission modifications.",
+  "consoleEntries": 2,
+  "files": [
+    {
+      "file": "evidence.json",
+      "kind": "unchanged-runtime-report",
+      "bytes": 65556,
+      "sha256": "8585309c751fe7aad967da7018c9e218fcd00348e5858d83d42a3b1014f5d21b"
+    },
+    {
+      "file": "initial.png",
+      "kind": "actual-renderer-capture",
+      "bytes": 11785,
+      "sha256": "9f717f2a8d722e8ced7739dafd442a4f1af2a552b6131b406e9596b12b4034b1"
+    },
+    {
+      "file": "half.png",
+      "kind": "actual-renderer-capture",
+      "bytes": 11610,
+      "sha256": "ff361b6b76d4f3fcdcc207dc16664bcd93524b6e8de216f99a0d48c53a6251ba"
+    },
+    {
+      "file": "camera.png",
+      "kind": "actual-renderer-capture",
+      "bytes": 11042,
+      "sha256": "d4b3d9a99c37372b31ae3d7e59443259f1381178f53402d0074b6cb869a637b1"
+    },
+    {
+      "file": "externalTexture.png",
+      "kind": "actual-renderer-capture",
+      "bytes": 9435,
+      "sha256": "b517fdeb57b2a34a61bf57d9785d70da2c517cec44bd704ca002d7716c1b2f80"
+    },
+    {
+      "file": "vanilla-startup-baseline.json",
+      "kind": "official-app-control-diagnosis",
+      "bytes": 2556,
+      "sha256": "ca81f4d9eed9ec005fd18b45b3a7376697fb2dbac4a2d203f4b8667ff80b2334"
+    },
+    {
+      "file": "console-diagnosis.json",
+      "kind": "official-app-control-diagnosis",
+      "bytes": 1681,
+      "sha256": "ed3e99d9cd580abde7445550cc13859606ca8fa3f5b4a23e6356f3e53a4fe663"
+    }
+  ]
+}

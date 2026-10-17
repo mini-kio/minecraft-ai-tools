@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 2,
+  "version": "4.12.6",
+  "status": "passed",
+  "sourceRun": "run-1792260259769",
+  "startedAt": "2026-10-17T18:04:19.782Z",
+  "finishedAt": "2026-10-17T18:04:31.480Z",
+  "checks": {
+    "desktopPluginConnection": true,
+    "openInspectTextureUvBones": true,
+    "realCliSourceTransport": true,
+    "invalidArgumentsRejected": true,
+    "playAndPauseActualTimeline": true,
+    "animationTimeChangesRenderedPixels": true,
+    "cameraChangesRenderedPixels": true,
+    "animationFrameSequence": true,
+    "externalTextureChangeDetected": true,
+    "externalTextureReloadChangesPixels": true,
+    "originalUnchangedByObservation": true,
+    "externalSourceChangeDetected": true,
+    "malformedReloadPreservesWorkingProject": true,
+    "reloadSeesExternalChanges": true,
+    "closePreservesOtherProjects": true
+  },
+  "fileTransport": "real CLI filesystem; model and texture data sent over production bridge; no Blockbench filesystem adapter",
+  "scope": "Actual official desktop plugin file loader, actual CLI model and external texture files, production WebSocket/model services, original codec and renderer; no filesystem adapter or app permission modifications.",
+  "consoleEntries": 0,
+  "files": [
+    {
+      "file": "evidence.json",
+      "kind": "unchanged-runtime-report",
+      "bytes": 59097,
+      "sha256": "bb5e843fffd40a6b1028bc8b41d1399b440ceec24a6dfcfa6acde3de13c0bde3"
+    },
+    {
+      "file": "initial.png",
+      "kind": "actual-renderer-capture",
+      "bytes": 10975,
+      "sha256": "acd2786f83477b16eedca601e9af6f8a7cf39d36538a56649dfb5721be332627"
+    },
+    {
+      "file": "half.png",
+      "kind": "actual-renderer-capture",
+      "bytes": 10984,
+      "sha256": "87e8a87430f9c1aef3dd295ff1f61b89545490bdcd284db1c55b7c926e745f56"
+    },
+    {
+      "file": "camera.png",
+      "kind": "actual-renderer-capture",
+      "bytes": 10936,
+      "sha256": "d40b636a9f9a3210d559f6fd53b42b00d1612a06af51a18a954f81e30b7858c2"
+    },
+    {
+      "file": "externalTexture.png",
+      "kind": "actual-renderer-capture",
+      "bytes": 9084,
+      "sha256": "858df671b2862d3220e51d0a04988cfd697fbb00fca5c2914edb977ed2567d03"
+    }
+  ]
+}

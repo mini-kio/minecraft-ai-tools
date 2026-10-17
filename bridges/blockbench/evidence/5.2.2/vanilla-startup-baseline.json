@@ -1,0 +1,58 @@
+{
+  "version": "5.2.2",
+  "startedAt": "2026-10-17T17:36:07.926Z",
+  "runDir": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\run-1792258567916",
+  "download": {
+    "version": "5.2.2",
+    "asset": "Blockbench_5.2.2_portable.exe",
+    "url": "https://github.com/JannisX11/blockbench/releases/download/v5.2.2/Blockbench_5.2.2_portable.exe",
+    "sha256": "2c29819ac9ad2f0abcfda2ba6eed8a75afcb1ead58412b6f6152d2eb9e81e827",
+    "size": 105436440,
+    "fetchedAt": "2026-10-17T17:34:21.302Z",
+    "release": "https://github.com/JannisX11/blockbench/releases/tag/v5.2.2",
+    "executable": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\Blockbench_5.2.2_portable.exe",
+    "isolation": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\blockbench-qa\\userData-5.2.2"
+  },
+  "checks": {},
+  "operations": [],
+  "console": [
+    "pageerror [app-startup]: TypeError: Cannot read properties of undefined (reading 'update')\n    at file:///C:/Users/kiola/AppData/Local/Temp/3KQcx2po8UHyyCzxxhQXYMax4nf/resources/app.asar/dist/bundle.js:3717:56",
+    "pageerror [app-startup]: TypeError: Cannot read properties of undefined (reading 'update')\n    at file:///C:/Users/kiola/AppData/Local/Temp/3KQcx2po8UHyyCzxxhQXYMax4nf/resources/app.asar/dist/bundle.js:3717:697"
+  ],
+  "pid": 28976,
+  "consoleEvents": [
+    {
+      "stage": "app-startup",
+      "at": "2026-10-17T17:36:15.538Z",
+      "message": "Cannot read properties of undefined (reading 'update')",
+      "stack": "TypeError: Cannot read properties of undefined (reading 'update')\n    at file:///C:/Users/kiola/AppData/Local/Temp/3KQcx2po8UHyyCzxxhQXYMax4nf/resources/app.asar/dist/bundle.js:3717:56"
+    },
+    {
+      "stage": "app-startup",
+      "at": "2026-10-17T17:36:15.550Z",
+      "message": "Cannot read properties of undefined (reading 'update')",
+      "stack": "TypeError: Cannot read properties of undefined (reading 'update')\n    at file:///C:/Users/kiola/AppData/Local/Temp/3KQcx2po8UHyyCzxxhQXYMax4nf/resources/app.asar/dist/bundle.js:3717:697"
+    }
+  ],
+  "runtime": {
+    "version": "5.2.2",
+    "platform": "win32",
+    "isApp": true,
+    "globals": {
+      "process": "undefined",
+      "require": "undefined",
+      "Preview": "function",
+      "Animation": "function",
+      "BBPlugin": "function"
+    },
+    "mainPid": 8160
+  },
+  "baseline": {
+    "mctLoaded": false,
+    "setupSuccessful": true,
+    "resizerReady": false,
+    "projects": 0
+  },
+  "status": "baseline-complete",
+  "finishedAt": "2026-10-17T17:36:19.832Z"
+}

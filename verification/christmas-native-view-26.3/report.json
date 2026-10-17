@@ -1,0 +1,100 @@
+{
+  "version": "26.3",
+  "checks": {
+    "all77BlockNamesMatchExactRegistry": true,
+    "nativeCollisionAcquiredThroughCli": true,
+    "nativeFrameRejectsBadKey": true,
+    "exactBrowserFrame": true
+  },
+  "captures": [
+    {
+      "file": "previews/village-overview.png",
+      "position": {
+        "x": 0.5,
+        "y": 160,
+        "z": 15.5
+      },
+      "target": {
+        "x": 0,
+        "y": 64,
+        "z": 0
+      },
+      "actualPosition": {
+        "x": 0.5,
+        "y": 160,
+        "z": 15.5,
+        "yaw": 3.1093457757970207,
+        "pitch": 1.4106375842490386,
+        "health": 20,
+        "name": "MctSmoke",
+        "selectedSlot": 0
+      },
+      "source": "minecraft-native-renderer",
+      "exactGamePixels": true,
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "file": "previews/village-twilight.png",
+      "position": {
+        "x": 35.5,
+        "y": 114,
+        "z": 42.5
+      },
+      "target": {
+        "x": 0,
+        "y": 70,
+        "z": -8
+      },
+      "actualPosition": {
+        "x": 35.5,
+        "y": 114,
+        "z": 42.5,
+        "yaw": 2.528875970121262,
+        "pitch": 0.619258456757686,
+        "health": 20,
+        "name": "MctSmoke",
+        "selectedSlot": 0
+      },
+      "source": "minecraft-native-renderer",
+      "exactGamePixels": true,
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "file": "previews/bakery-loft.png",
+      "position": {
+        "x": -41.5,
+        "y": 71,
+        "z": -35.5
+      },
+      "target": {
+        "x": -37,
+        "y": 71,
+        "z": -45
+      },
+      "actualPosition": {
+        "x": -41.5,
+        "y": 71,
+        "z": -35.5,
+        "yaw": -2.6992183597866566,
+        "pitch": 0,
+        "health": 20,
+        "name": "MctSmoke",
+        "selectedSlot": 0
+      },
+      "source": "minecraft-native-renderer",
+      "exactGamePixels": true,
+      "width": 1280,
+      "height": 800
+    }
+  ],
+  "at": "2026-10-17T18:36:00.923Z",
+  "collisionExport": {
+    "version": "26.3",
+    "states": 35723,
+    "sha256": "9f27d896f4fe5daa4e09d79875c0470773a15b46bf33184e76ce7e72c0735156",
+    "source": "fabric-exact-game-registry",
+    "contextCasesExhaustive": false
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "startedAt": "2026-10-17T17:58:25.709Z",
+  "checks": {
+    "allPortableFormatsActualGame": true,
+    "nativeHotbarThroughCommonInventoryCommand": true
+  },
+  "formats": [
+    {
+      "format": "schem",
+      "sourceSha256": "bdcee39bb7f3a8b402a066c57006d4689245e9b901cbea4d759ea4c60beb7663",
+      "originalUnchanged": true,
+      "staging": {
+        "kind": "block-import",
+        "commandsProcessed": 8,
+        "blockCount": 6,
+        "blockEntities": 1,
+        "originalFilesUnchanged": true,
+        "marker": "mct_stage_3005f10cbc9640578f71a2f8b23bafe8_done",
+        "bounds": {
+          "min": {
+            "x": -18,
+            "y": 64,
+            "z": -2
+          },
+          "max": {
+            "x": -16,
+            "y": 65,
+            "z": -2
+          }
+        },
+        "focus": {
+          "x": -16.5,
+          "y": 67,
+          "z": -1.5
+        }
+      },
+      "block": {
+        "position": {
+          "z": -2,
+          "y": 65,
+          "x": -17
+        },
+        "known": true,
+        "state": "Block{minecraft:chest}[facing=west,type=single,waterlogged=false]",
+        "air": false,
+        "name": "minecraft:chest",
+        "properties": {
+          "facing": "west",
+          "type": "single",
+          "waterlogged": "false"
+        },
+        "shapes": [
+          [
+            0.0625,
+            0,
+            0.0625,
+            0.9375,
+            0.875,
+            0.9375
+          ]
+        ]
+      },
+      "capture": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\file-stage-client\\captures\\capture_24448596-523.png",
+      "hotbar": true
+    },
+    {
+      "format": "nbt",
+      "sourceSha256": "c743e1ed7f212f712c3acc18230e57e8795b433bfc8cc4862062bd7e88270a57",
+      "originalUnchanged": true,
+      "staging": {
+        "kind": "block-import",
+        "commandsProcessed": 7,
+        "blockCount": 6,
+        "blockEntities": 0,
+        "originalFilesUnchanged": true,
+        "marker": "mct_stage_7755dee6867943ed84c60f74041f444e_done",
+        "bounds": {
+          "min": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "max": {
+            "x": 2,
+            "y": 1,
+            "z": 0
+          }
+        },
+        "focus": {
+          "x": 1.5,
+          "y": 3,
+          "z": 0.5
+        }
+      },
+      "block": {
+        "position": {
+          "z": 0,
+          "y": 1,
+          "x": 1
+        },
+        "known": true,
+        "state": "Block{minecraft:chest}[facing=west,type=single,waterlogged=false]",
+        "air": false,
+        "name": "minecraft:chest",
+        "properties": {
+          "facing": "west",
+          "type": "single",
+          "waterlogged": "false"
+        },
+        "shapes": [
+          [
+            0.0625,
+            0,
+            0.0625,
+            0.9375,
+            0.875,
+            0.9375
+          ]
+        ]
+      },
+      "capture": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\file-stage-client\\captures\\capture_409b19a8-069.png",
+      "hotbar": true
+    },
+    {
+      "format": "mca",
+      "sourceSha256": "5128e4451117518db2130e1a8d3f7d9c013a17f8d0fdd94774ac2c326354dd89",
+      "originalUnchanged": true,
+      "staging": {
+        "kind": "region-copy",
+        "commandsProcessed": 0,
+        "blockCount": 0,
+        "blockEntities": 0,
+        "originalFilesUnchanged": true,
+        "marker": "mct_stage_ad0c1c572e2949bf82a5843a96570bb9_done",
+        "bounds": {
+          "min": {
+            "x": -18,
+            "y": 64,
+            "z": -2
+          },
+          "max": {
+            "x": -16,
+            "y": 65,
+            "z": -2
+          }
+        },
+        "focus": {
+          "x": -16.5,
+          "y": 67,
+          "z": -1.5
+        }
+      },
+      "block": {
+        "position": {
+          "z": -2,
+          "y": 65,
+          "x": -17
+        },
+        "known": true,
+        "state": "Block{minecraft:chest}[facing=west,type=single,waterlogged=false]",
+        "air": false,
+        "name": "minecraft:chest",
+        "properties": {
+          "facing": "west",
+          "type": "single",
+          "waterlogged": "false"
+        },
+        "shapes": [
+          [
+            0.0625,
+            0,
+            0.0625,
+            0.9375,
+            0.875,
+            0.9375
+          ]
+        ]
+      },
+      "capture": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\file-stage-client\\captures\\capture_7687ab75-c90.png",
+      "hotbar": true
+    }
+  ],
+  "passed": true,
+  "finishedAt": "2026-10-17T17:59:32.288Z"
+}

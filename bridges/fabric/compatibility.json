@@ -1,0 +1,1317 @@
+{
+  "generatedAt": "2026-10-17T17:59:56.341Z",
+  "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+  "minecraftManifest": "https://piston-meta.mojang.com/mc/game/version_manifest_v2.json",
+  "interpretation": "each version records its own compile source hash; compiled and hook-signature-checked does not mean launched or runtime verified; no runtime support claim until scenarios pass",
+  "versions": [
+    {
+      "version": "1.20",
+      "java": 17,
+      "loader": "0.19.5",
+      "yarn": "1.20+build.1",
+      "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+      "artifact": "bridges/fabric/dist/mct-bridge-1.20.jar",
+      "sha256": "6c3b83e084140c86d6912e0958e50bfefea61613d156faca33ef6caf02f0bfc6",
+      "hookTarget": "net.minecraft.class_310",
+      "tickMethod": "method_1574()V",
+      "renderMethod": "method_1523(Z)V",
+      "closeMethod": "close()V",
+      "compiled": true,
+      "hookSignaturesVerified": true,
+      "runtimeVerified": true,
+      "runtimeScenarios": {
+        "connect": "passed",
+        "observe": "passed",
+        "move": "passed",
+        "command": "passed",
+        "interact": "passed",
+        "capture": "passed",
+        "cancel": "passed",
+        "hotbar": "passed",
+        "guiLeftClick": "passed",
+        "guiRightClick": "passed",
+        "guiUnicodeChat": "passed"
+      },
+      "builtAt": "2026-10-17T17:59:12.141Z",
+      "runtimeEvidence": {
+        "file": "bridges/fabric/evidence/1.20/result.json",
+        "originalReport": "work/fabric-runtime-legacy/gui-oldest/result.json",
+        "reportSha256": "096d0fdce30cc8b6824d243e00431070f06da3bef3269714bc951dcc74c97c17",
+        "images": [
+          {
+            "file": "bridges/fabric/evidence/1.20/native-hud.png",
+            "sha256": "c41b19eab3b1eacfd47dc36065dfdc8781a6709de2ba17dade72845376eb551a"
+          },
+          {
+            "file": "bridges/fabric/evidence/1.20/native-chest.png",
+            "sha256": "8d21fdd7530ae3288f81193880d96a47315d2909c1b67df51bb17e45b1ad9b5a"
+          },
+          {
+            "file": "bridges/fabric/evidence/1.20/native-unicode-chat.png",
+            "sha256": "e473a215d50b161007d532a64b40dadadf2b260af48191194f70fd034ed40296"
+          },
+          {
+            "file": "bridges/fabric/evidence/1.20/native-inventory.png",
+            "sha256": "8e1567f253945926bece1a6c4652055f1b8d2ab369ed6abe67accea9fa8b916e"
+          }
+        ],
+        "artifactSha256": "6c3b83e084140c86d6912e0958e50bfefea61613d156faca33ef6caf02f0bfc6",
+        "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+        "startedAt": "2026-10-17T18:00:34.170Z",
+        "finishedAt": "2026-10-17T18:01:16.211Z",
+        "additionalScenarios": {
+          "authentication": "passed",
+          "connect": "passed",
+          "observe": "passed",
+          "command": "passed",
+          "hotbar": "passed",
+          "move": "passed",
+          "cancel": "passed",
+          "capture": "passed",
+          "interact": "passed",
+          "gui-unicode": "passed",
+          "gui-mouse-scroll": "passed",
+          "native-collision": "passed",
+          "disconnect": "passed"
+        }
+      }
+    },
+    {
+      "version": "1.20.1",
+      "java": 17,
+      "loader": "0.19.5",
+      "yarn": "1.20.1+build.10",
+      "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+      "artifact": "bridges/fabric/dist/mct-bridge-1.20.1.jar",
+      "sha256": "9d2d6fb66f70ab2b8c33ed1f7ef577c50d8c7205606b3924540e2636043fa51b",
+      "hookTarget": "net.minecraft.class_310",
+      "tickMethod": "method_1574()V",
+      "renderMethod": "method_1523(Z)V",
+      "closeMethod": "close()V",
+      "compiled": true,
+      "hookSignaturesVerified": true,
+      "runtimeVerified": true,
+      "runtimeScenarios": {
+        "connect": "passed",
+        "observe": "passed",
+        "move": "passed",
+        "command": "passed",
+        "interact": "passed",
+        "capture": "passed",
+        "cancel": "passed",
+        "hotbar": "passed",
+        "guiLeftClick": "passed",
+        "guiRightClick": "passed",
+        "guiUnicodeChat": "passed"
+      },
+      "builtAt": "2026-10-17T17:59:14.214Z",
+      "runtimeEvidence": {
+        "file": "bridges/fabric/evidence/1.20.1/result.json",
+        "originalReport": "work/fabric-runtime-legacy/expanded/1.20.1/result.json",
+        "reportSha256": "0bc6826c16da5fbf095f295f2d294c0202c30a784e597a11867695d6d5e9d270",
+        "images": [
+          {
+            "file": "bridges/fabric/evidence/1.20.1/world-screen.png",
+            "sha256": "5b1d9ee736abd95bb74f0c0665b6bb39da2c0a3a64ebfd969283b78b09292122"
+          },
+          {
+            "file": "bridges/fabric/evidence/1.20.1/chest-screen.png",
+            "sha256": "d240f394c8ed31bc0cfe37cb27236a2d5d3920ef095feb6b99d9842b7c4e1746"
+          }
+        ],
+        "artifactSha256": "9d2d6fb66f70ab2b8c33ed1f7ef577c50d8c7205606b3924540e2636043fa51b",
+        "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+        "startedAt": "2026-10-17T18:00:53.055Z",
+        "finishedAt": "2026-10-17T18:01:40.677Z",
+        "additionalScenarios": {
+          "hotbar": "pass",
+          "guiLeftClick": "pass",
+          "guiRightClick": "pass",
+          "guiUnicodeChat": "pass"
+        }
+      }
+    },
+    {
+      "version": "1.20.2",
+      "java": 17,
+      "loader": "0.19.5",
+      "yarn": "1.20.2+build.4",
+      "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+      "artifact": "bridges/fabric/dist/mct-bridge-1.20.2.jar",
+      "sha256": "caa90e16a23a1d3df306e1dc154a28bab88f54718092eab4fcce82ba5d918b6f",
+      "hookTarget": "net.minecraft.class_310",
+      "tickMethod": "method_1574()V",
+      "renderMethod": "method_1523(Z)V",
+      "closeMethod": "close()V",
+      "compiled": true,
+      "hookSignaturesVerified": true,
+      "runtimeVerified": true,
+      "runtimeScenarios": {
+        "connect": "passed",
+        "observe": "passed",
+        "move": "passed",
+        "command": "passed",
+        "interact": "passed",
+        "capture": "passed",
+        "cancel": "passed",
+        "hotbar": "passed",
+        "guiLeftClick": "passed",
+        "guiRightClick": "passed",
+        "guiUnicodeChat": "passed"
+      },
+      "builtAt": "2026-10-17T17:59:17.153Z",
+      "runtimeEvidence": {
+        "file": "bridges/fabric/evidence/1.20.2/result.json",
+        "originalReport": "work/fabric-runtime-legacy/expanded/1.20.2/result.json",
+        "reportSha256": "994cbb5965152e540b042b03efb0fd8e41e4ac44fd8c4b6c0c23d9ca12282b37",
+        "images": [
+          {
+            "file": "bridges/fabric/evidence/1.20.2/world-screen.png",
+            "sha256": "46b0aa036a5da47cdbcf2813c05c6289d1edbff303425306d26d42b035220cc4"
+          },
+          {
+            "file": "bridges/fabric/evidence/1.20.2/chest-screen.png",
+            "sha256": "6264dd84d03dffb448ae46a7382ce8b8625dd0f6e0ad4be3e04af6f82e31a395"
+          }
+        ],
+        "artifactSha256": "caa90e16a23a1d3df306e1dc154a28bab88f54718092eab4fcce82ba5d918b6f",
+        "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+        "startedAt": "2026-10-17T18:01:40.707Z",
+        "finishedAt": "2026-10-17T18:02:20.984Z",
+        "additionalScenarios": {
+          "hotbar": "pass",
+          "guiLeftClick": "pass",
+          "guiRightClick": "pass",
+          "guiUnicodeChat": "pass"
+        }
+      }
+    },
+    {
+      "version": "1.20.3",
+      "java": 17,
+      "loader": "0.19.5",
+      "yarn": "1.20.3+build.1",
+      "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+      "artifact": "bridges/fabric/dist/mct-bridge-1.20.3.jar",
+      "sha256": "35a7744994842da629d8a29d7c40448fe154c59ff07b2b9f37707bae79f31068",
+      "hookTarget": "net.minecraft.class_310",
+      "tickMethod": "method_1574()V",
+      "renderMethod": "method_1523(Z)V",
+      "closeMethod": "close()V",
+      "compiled": true,
+      "hookSignaturesVerified": true,
+      "runtimeVerified": true,
+      "runtimeScenarios": {
+        "connect": "passed",
+        "observe": "passed",
+        "move": "passed",
+        "command": "passed",
+        "interact": "passed",
+        "capture": "passed",
+        "cancel": "passed",
+        "hotbar": "passed",
+        "guiLeftClick": "passed",
+        "guiRightClick": "passed",
+        "guiUnicodeChat": "passed"
+      },
+      "builtAt": "2026-10-17T17:59:19.136Z",
+      "runtimeEvidence": {
+        "file": "bridges/fabric/evidence/1.20.3/result.json",
+        "originalReport": "work/fabric-runtime-legacy/expanded/1.20.3/result.json",
+        "reportSha256": "66e4e0f0d21547bf55813591107c38881bdb942f81fc934db87f5040b90a1687",
+        "images": [
+          {
+            "file": "bridges/fabric/evidence/1.20.3/world-screen.png",
+            "sha256": "0df03bfe3b5f15eb7d5017aed8a4d4d73fe90233e7f5843420f64e418e9024bd"
+          },
+          {
+            "file": "bridges/fabric/evidence/1.20.3/chest-screen.png",
+            "sha256": "35be5d6027aaf5888233f3fbfa4c900a96da953bcc7cf5c037b1678447c0e365"
+          }
+        ],
+        "artifactSha256": "35a7744994842da629d8a29d7c40448fe154c59ff07b2b9f37707bae79f31068",
+        "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+        "startedAt": "2026-10-17T18:02:20.990Z",
+        "finishedAt": "2026-10-17T18:02:56.705Z",
+        "additionalScenarios": {
+          "hotbar": "pass",
+          "guiLeftClick": "pass",
+          "guiRightClick": "pass",
+          "guiUnicodeChat": "pass"
+        }
+      }
+    },
+    {
+      "version": "1.20.4",
+      "java": 17,
+      "loader": "0.19.5",
+      "yarn": "1.20.4+build.3",
+      "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+      "artifact": "bridges/fabric/dist/mct-bridge-1.20.4.jar",
+      "sha256": "aa2db16a37311468ec96f88e2e060c876f21b19cbc9d757904035acc33bd785a",
+      "hookTarget": "net.minecraft.class_310",
+      "tickMethod": "method_1574()V",
+      "renderMethod": "method_1523(Z)V",
+      "closeMethod": "close()V",
+      "compiled": true,
+      "hookSignaturesVerified": true,
+      "runtimeVerified": true,
+      "runtimeScenarios": {
+        "connect": "passed",
+        "observe": "passed",
+        "move": "passed",
+        "command": "passed",
+        "interact": "passed",
+        "capture": "passed",
+        "cancel": "passed",
+        "hotbar": "passed",
+        "guiLeftClick": "passed",
+        "guiRightClick": "passed",
+        "guiUnicodeChat": "passed"
+      },
+      "builtAt": "2026-10-17T17:59:21.762Z",
+      "runtimeEvidence": {
+        "file": "bridges/fabric/evidence/1.20.4/result.json",
+        "originalReport": "work/fabric-runtime-legacy/expanded/1.20.4/result.json",
+        "reportSha256": "2ba3844a12c737adc710439823fdcc874a51db42ba58a1ee843de6c5fc1b0aa2",
+        "images": [
+          {
+            "file": "bridges/fabric/evidence/1.20.4/world-screen.png",
+            "sha256": "47c24e9e013072378f8a025b349bbd023dd995b3c3f4fc2c7da303e4d60a9320"
+          },
+          {
+            "file": "bridges/fabric/evidence/1.20.4/chest-screen.png",
+            "sha256": "aae11a33627b5cc25b6cc07ede1e20ce8df255a0baae3aea5d96de329b9fe616"
+          }
+        ],
+        "artifactSha256": "aa2db16a37311468ec96f88e2e060c876f21b19cbc9d757904035acc33bd785a",
+        "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+        "startedAt": "2026-10-17T18:02:56.715Z",
+        "finishedAt": "2026-10-17T18:03:31.710Z",
+        "additionalScenarios": {
+          "hotbar": "pass",
+          "guiLeftClick": "pass",
+          "guiRightClick": "pass",
+          "guiUnicodeChat": "pass"
+        }
+      }
+    },
+    {
+      "version": "1.20.5",
+      "java": 21,
+      "loader": "0.19.5",
+      "yarn": "1.20.5+build.1",
+      "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+      "artifact": "bridges/fabric/dist/mct-bridge-1.20.5.jar",
+      "sha256": "5bebb79d4b6c7755d4773542b344fd65201bed21b13b06532f311ded45748ee2",
+      "hookTarget": "net.minecraft.class_310",
+      "tickMethod": "method_1574()V",
+      "renderMethod": "method_1523(Z)V",
+      "closeMethod": "close()V",
+      "compiled": true,
+      "hookSignaturesVerified": true,
+      "runtimeVerified": true,
+      "runtimeScenarios": {
+        "connect": "passed",
+        "observe": "passed",
+        "move": "passed",
+        "command": "passed",
+        "interact": "passed",
+        "capture": "passed",
+        "cancel": "passed",
+        "hotbar": "passed",
+        "guiLeftClick": "passed",
+        "guiRightClick": "passed",
+        "guiUnicodeChat": "passed"
+      },
+      "builtAt": "2026-10-17T17:59:24.259Z",
+      "runtimeEvidence": {
+        "file": "bridges/fabric/evidence/1.20.5/result.json",
+        "originalReport": "work/fabric-runtime-legacy/expanded/1.20.5/result.json",
+        "reportSha256": "5e38789440e52f75fe5e63d2770a731fa1e54f0d974e3dc8aafda248cfdb47fa",
+        "images": [
+          {
+            "file": "bridges/fabric/evidence/1.20.5/world-screen.png",
+            "sha256": "ec497a54fafc9db0a375e8a444e138099c555abda656bb819f46e925e15def37"
+          },
+          {
+            "file": "bridges/fabric/evidence/1.20.5/chest-screen.png",
+            "sha256": "a90c2a6477b076f1c4b7d944b090664a692b0ab8571b2cd19abe0da6cc0eebd7"
+          }
+        ],
+        "artifactSha256": "5bebb79d4b6c7755d4773542b344fd65201bed21b13b06532f311ded45748ee2",
+        "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+        "startedAt": "2026-10-17T18:03:31.713Z",
+        "finishedAt": "2026-10-17T18:04:03.334Z",
+        "additionalScenarios": {
+          "hotbar": "pass",
+          "guiLeftClick": "pass",
+          "guiRightClick": "pass",
+          "guiUnicodeChat": "pass"
+        }
+      }
+    },
+    {
+      "version": "1.20.6",
+      "java": 21,
+      "loader": "0.19.5",
+      "yarn": "1.20.6+build.3",
+      "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+      "artifact": "bridges/fabric/dist/mct-bridge-1.20.6.jar",
+      "sha256": "c10a7fa9d0162401dfd3217785200a436e5d928411eccd36ad80913c74aebf5f",
+      "hookTarget": "net.minecraft.class_310",
+      "tickMethod": "method_1574()V",
+      "renderMethod": "method_1523(Z)V",
+      "closeMethod": "close()V",
+      "compiled": true,
+      "hookSignaturesVerified": true,
+      "runtimeVerified": true,
+      "runtimeScenarios": {
+        "connect": "passed",
+        "observe": "passed",
+        "move": "passed",
+        "command": "passed",
+        "interact": "passed",
+        "capture": "passed",
+        "cancel": "passed",
+        "hotbar": "passed",
+        "guiLeftClick": "passed",
+        "guiRightClick": "passed",
+        "guiUnicodeChat": "passed"
+      },
+      "builtAt": "2026-10-17T17:59:26.699Z",
+      "runtimeEvidence": {
+        "file": "bridges/fabric/evidence/1.20.6/result.json",
+        "originalReport": "work/fabric-runtime-legacy/expanded/1.20.6/result.json",
+        "reportSha256": "7dd24c4d95a2ffbe176a5c143340ffc671bf60814fe4ecf8222c2742011736f2",
+        "images": [
+          {
+            "file": "bridges/fabric/evidence/1.20.6/world-screen.png",
+            "sha256": "b6c5e8799893705262de94d7ad5992501cbe805ab9e8327efec7dc886548d316"
+          },
+          {
+            "file": "bridges/fabric/evidence/1.20.6/chest-screen.png",
+            "sha256": "7d4a54320956d1271f98bfce5895f7c04d0133b2ee477c22dd08a6cb98b2afed"
+          }
+        ],
+        "artifactSha256": "c10a7fa9d0162401dfd3217785200a436e5d928411eccd36ad80913c74aebf5f",
+        "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+        "startedAt": "2026-10-17T18:04:03.338Z",
+        "finishedAt": "2026-10-17T18:04:35.639Z",
+        "additionalScenarios": {
+          "hotbar": "pass",
+          "guiLeftClick": "pass",
+          "guiRightClick": "pass",
+          "guiUnicodeChat": "pass"
+        }
+      }
+    },
+    {
+      "version": "1.21",
+      "java": 21,
+      "loader": "0.19.5",
+      "yarn": "1.21+build.9",
+      "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+      "artifact": "bridges/fabric/dist/mct-bridge-1.21.jar",
+      "sha256": "fee7235461df14476b9acfcb1203c6fb0b0d6519a42e41696e087e3aa1518ef4",
+      "hookTarget": "net.minecraft.class_310",
+      "tickMethod": "method_1574()V",
+      "renderMethod": "method_1523(Z)V",
+      "closeMethod": "close()V",
+      "compiled": true,
+      "hookSignaturesVerified": true,
+      "runtimeVerified": true,
+      "runtimeScenarios": {
+        "connect": "passed",
+        "observe": "passed",
+        "move": "passed",
+        "command": "passed",
+        "interact": "passed",
+        "capture": "passed",
+        "cancel": "passed",
+        "hotbar": "passed",
+        "guiLeftClick": "passed",
+        "guiRightClick": "passed",
+        "guiUnicodeChat": "passed"
+      },
+      "builtAt": "2026-10-17T17:59:28.900Z",
+      "runtimeEvidence": {
+        "file": "bridges/fabric/evidence/1.21/result.json",
+        "originalReport": "work/fabric-runtime-legacy/expanded/1.21/result.json",
+        "reportSha256": "b9332176c5a941346b6830c4ea3c5f617a7ac6e4bca77c223a529e93c6ccca6c",
+        "images": [
+          {
+            "file": "bridges/fabric/evidence/1.21/world-screen.png",
+            "sha256": "bc0a720fe62413b857aa151cd48c00420cf007aee043df60814fea83352313fd"
+          },
+          {
+            "file": "bridges/fabric/evidence/1.21/chest-screen.png",
+            "sha256": "7d4a54320956d1271f98bfce5895f7c04d0133b2ee477c22dd08a6cb98b2afed"
+          }
+        ],
+        "artifactSha256": "fee7235461df14476b9acfcb1203c6fb0b0d6519a42e41696e087e3aa1518ef4",
+        "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+        "startedAt": "2026-10-17T18:04:35.650Z",
+        "finishedAt": "2026-10-17T18:05:08.891Z",
+        "additionalScenarios": {
+          "hotbar": "pass",
+          "guiLeftClick": "pass",
+          "guiRightClick": "pass",
+          "guiUnicodeChat": "pass"
+        }
+      }
+    },
+    {
+      "version": "1.21.1",
+      "java": 21,
+      "loader": "0.19.5",
+      "yarn": "1.21.1+build.3",
+      "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+      "artifact": "bridges/fabric/dist/mct-bridge-1.21.1.jar",
+      "sha256": "b8f0ba2fa6efb5a0ae9cfdc8674d3942d691ef58ebc450fe80f85b3971d30cf7",
+      "hookTarget": "net.minecraft.class_310",
+      "tickMethod": "method_1574()V",
+      "renderMethod": "method_1523(Z)V",
+      "closeMethod": "close()V",
+      "compiled": true,
+      "hookSignaturesVerified": true,
+      "runtimeVerified": true,
+      "runtimeScenarios": {
+        "connect": "passed",
+        "observe": "passed",
+        "move": "passed",
+        "command": "passed",
+        "interact": "passed",
+        "capture": "passed",
+        "cancel": "passed",
+        "hotbar": "passed",
+        "guiLeftClick": "passed",
+        "guiRightClick": "passed",
+        "guiUnicodeChat": "passed"
+      },
+      "builtAt": "2026-10-17T17:59:31.693Z",
+      "runtimeEvidence": {
+        "file": "bridges/fabric/evidence/1.21.1/result.json",
+        "originalReport": "work/fabric-runtime-legacy/expanded/1.21.1/result.json",
+        "reportSha256": "65a62e71b180437984d673496334fa19820e3e5f051255ed095c100db992cdb3",
+        "images": [
+          {
+            "file": "bridges/fabric/evidence/1.21.1/world-screen.png",
+            "sha256": "0114f7da9434872f6366c1cbb25316a19a261f10515f31c3430c291d23c6ce82"
+          },
+          {
+            "file": "bridges/fabric/evidence/1.21.1/chest-screen.png",
+            "sha256": "93916f3f9eed1f9912eefa1a9d0744a3f8165adfe47679eeaafa9184d16d35ad"
+          }
+        ],
+        "artifactSha256": "b8f0ba2fa6efb5a0ae9cfdc8674d3942d691ef58ebc450fe80f85b3971d30cf7",
+        "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+        "startedAt": "2026-10-17T18:05:08.895Z",
+        "finishedAt": "2026-10-17T18:05:38.417Z",
+        "additionalScenarios": {
+          "hotbar": "pass",
+          "guiLeftClick": "pass",
+          "guiRightClick": "pass",
+          "guiUnicodeChat": "pass"
+        }
+      }
+    },
+    {
+      "version": "1.21.2",
+      "java": 21,
+      "loader": "0.19.5",
+      "yarn": "1.21.2+build.1",
+      "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+      "artifact": "bridges/fabric/dist/mct-bridge-1.21.2.jar",
+      "sha256": "89273dc39769979c4cfa98ba274a383748e13dfd81da381cd8c80ff05a2be949",
+      "hookTarget": "net.minecraft.class_310",
+      "tickMethod": "method_1574()V",
+      "renderMethod": "method_1523(Z)V",
+      "closeMethod": "close()V",
+      "compiled": true,
+      "hookSignaturesVerified": true,
+      "runtimeVerified": true,
+      "runtimeScenarios": {
+        "connect": "passed",
+        "observe": "passed",
+        "move": "passed",
+        "command": "passed",
+        "interact": "passed",
+        "capture": "passed",
+        "cancel": "passed",
+        "hotbar": "passed",
+        "guiLeftClick": "passed",
+        "guiRightClick": "passed",
+        "guiUnicodeChat": "passed"
+      },
+      "builtAt": "2026-10-17T17:59:33.933Z",
+      "runtimeEvidence": {
+        "file": "bridges/fabric/evidence/1.21.2/result.json",
+        "originalReport": "work/fabric-runtime-legacy/expanded/1.21.2/result.json",
+        "reportSha256": "ab909bd522856e87f66c24a899daffb65f7bdaac01bd8c171a7ef9c65fe25d82",
+        "images": [
+          {
+            "file": "bridges/fabric/evidence/1.21.2/world-screen.png",
+            "sha256": "4cb54f7ea8aac0889974525edc47cdc233ebb350f17fb74f9d516f2d0c6a8b01"
+          },
+          {
+            "file": "bridges/fabric/evidence/1.21.2/chest-screen.png",
+            "sha256": "97a8c4693b82650db7239483f4a8223767ec7f7bc46bdbca5df7a23b1169af70"
+          }
+        ],
+        "artifactSha256": "89273dc39769979c4cfa98ba274a383748e13dfd81da381cd8c80ff05a2be949",
+        "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+        "startedAt": "2026-10-17T18:05:38.429Z",
+        "finishedAt": "2026-10-17T18:06:06.923Z",
+        "additionalScenarios": {
+          "hotbar": "pass",
+          "guiLeftClick": "pass",
+          "guiRightClick": "pass",
+          "guiUnicodeChat": "pass"
+        }
+      }
+    },
+    {
+      "version": "1.21.3",
+      "java": 21,
+      "loader": "0.19.5",
+      "yarn": "1.21.3+build.2",
+      "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+      "artifact": "bridges/fabric/dist/mct-bridge-1.21.3.jar",
+      "sha256": "6b015d8ddf4d2ac7aadf9e2c70b295c6df5f755239c9c3530af4caf6581df42f",
+      "hookTarget": "net.minecraft.class_310",
+      "tickMethod": "method_1574()V",
+      "renderMethod": "method_1523(Z)V",
+      "closeMethod": "close()V",
+      "compiled": true,
+      "hookSignaturesVerified": true,
+      "runtimeVerified": true,
+      "runtimeScenarios": {
+        "connect": "passed",
+        "observe": "passed",
+        "move": "passed",
+        "command": "passed",
+        "interact": "passed",
+        "capture": "passed",
+        "cancel": "passed",
+        "hotbar": "passed",
+        "guiLeftClick": "passed",
+        "guiRightClick": "passed",
+        "guiUnicodeChat": "passed"
+      },
+      "builtAt": "2026-10-17T17:59:36.088Z",
+      "runtimeEvidence": {
+        "file": "bridges/fabric/evidence/1.21.3/result.json",
+        "originalReport": "work/fabric-runtime-legacy/expanded/1.21.3/result.json",
+        "reportSha256": "2b2b66c5a4a6647d7e635ec81a48c0bb10ea555bda1d8ecea7fcae33e770798d",
+        "images": [
+          {
+            "file": "bridges/fabric/evidence/1.21.3/world-screen.png",
+            "sha256": "a131276f36b5d024825dca95821663a5ad576117ccc10cd25bdde25a83d9d604"
+          },
+          {
+            "file": "bridges/fabric/evidence/1.21.3/chest-screen.png",
+            "sha256": "281219164ff7f7cf3e0fc0ae6dc41bef54a3eb02dc27fd78964a5b9070366dcb"
+          }
+        ],
+        "artifactSha256": "6b015d8ddf4d2ac7aadf9e2c70b295c6df5f755239c9c3530af4caf6581df42f",
+        "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+        "startedAt": "2026-10-17T18:06:06.928Z",
+        "finishedAt": "2026-10-17T18:06:35.405Z",
+        "additionalScenarios": {
+          "hotbar": "pass",
+          "guiLeftClick": "pass",
+          "guiRightClick": "pass",
+          "guiUnicodeChat": "pass"
+        }
+      }
+    },
+    {
+      "version": "1.21.4",
+      "java": 21,
+      "loader": "0.19.5",
+      "yarn": "1.21.4+build.8",
+      "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+      "artifact": "bridges/fabric/dist/mct-bridge-1.21.4.jar",
+      "sha256": "e308b1a563579c454c75bf77b8c0116f36fed0c6bb295a08fb588d5791b457f6",
+      "hookTarget": "net.minecraft.class_310",
+      "tickMethod": "method_1574()V",
+      "renderMethod": "method_1523(Z)V",
+      "closeMethod": "close()V",
+      "compiled": true,
+      "hookSignaturesVerified": true,
+      "runtimeVerified": true,
+      "runtimeScenarios": {
+        "connect": "passed",
+        "observe": "passed",
+        "move": "passed",
+        "command": "passed",
+        "interact": "passed",
+        "capture": "passed",
+        "cancel": "passed",
+        "hotbar": "passed",
+        "guiLeftClick": "passed",
+        "guiRightClick": "passed",
+        "guiUnicodeChat": "passed"
+      },
+      "builtAt": "2026-10-17T17:59:38.158Z",
+      "runtimeEvidence": {
+        "file": "bridges/fabric/evidence/1.21.4/result.json",
+        "originalReport": "work/fabric-runtime-legacy/expanded/1.21.4/result.json",
+        "reportSha256": "d04f4be74e0a507c964416d26ecc3b614bcba31588e821733d45ca6f8a8d3d03",
+        "images": [
+          {
+            "file": "bridges/fabric/evidence/1.21.4/world-screen.png",
+            "sha256": "2693d0194661a1ca91012e721bd5cef4c3bfc5470d3c5fc2f7aa446a4c5b4ec6"
+          },
+          {
+            "file": "bridges/fabric/evidence/1.21.4/chest-screen.png",
+            "sha256": "cd13973eac98180a50a240674f89214ee9216c9493fb7aa8843bb2b6900001ca"
+          }
+        ],
+        "artifactSha256": "e308b1a563579c454c75bf77b8c0116f36fed0c6bb295a08fb588d5791b457f6",
+        "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+        "startedAt": "2026-10-17T18:06:35.410Z",
+        "finishedAt": "2026-10-17T18:07:04.313Z",
+        "additionalScenarios": {
+          "hotbar": "pass",
+          "guiLeftClick": "pass",
+          "guiRightClick": "pass",
+          "guiUnicodeChat": "pass"
+        }
+      }
+    },
+    {
+      "version": "1.21.5",
+      "java": 21,
+      "loader": "0.19.5",
+      "yarn": "1.21.5+build.1",
+      "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+      "artifact": "bridges/fabric/dist/mct-bridge-1.21.5.jar",
+      "sha256": "bbf3888a635a78dc4c4481b022d9d07e0ab2b7153f539407b6f055c22bbb1833",
+      "hookTarget": "net.minecraft.class_310",
+      "tickMethod": "method_1574()V",
+      "renderMethod": "method_1523(Z)V",
+      "closeMethod": "close()V",
+      "compiled": true,
+      "hookSignaturesVerified": true,
+      "runtimeVerified": true,
+      "runtimeScenarios": {
+        "connect": "passed",
+        "observe": "passed",
+        "move": "passed",
+        "command": "passed",
+        "interact": "passed",
+        "capture": "passed",
+        "cancel": "passed",
+        "hotbar": "passed",
+        "guiLeftClick": "passed",
+        "guiRightClick": "passed",
+        "guiUnicodeChat": "passed"
+      },
+      "builtAt": "2026-10-17T17:59:40.936Z",
+      "runtimeEvidence": {
+        "file": "bridges/fabric/evidence/1.21.5/result.json",
+        "originalReport": "work/fabric-runtime-legacy/expanded/1.21.5/result.json",
+        "reportSha256": "b2fdf3049cdfcd4b9daa94933a0b69b6a8340249f8ba775ecef93e7d96943554",
+        "images": [
+          {
+            "file": "bridges/fabric/evidence/1.21.5/world-screen.png",
+            "sha256": "0ca2590e626521f3d97b8bf4f71faa74d46887a7475781635aba69f74615c890"
+          },
+          {
+            "file": "bridges/fabric/evidence/1.21.5/chest-screen.png",
+            "sha256": "9c5f581f33ce80638c223284ec4405539bc5e0893e7145e8cb1e6342d9376567"
+          }
+        ],
+        "artifactSha256": "bbf3888a635a78dc4c4481b022d9d07e0ab2b7153f539407b6f055c22bbb1833",
+        "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+        "startedAt": "2026-10-17T18:07:04.318Z",
+        "finishedAt": "2026-10-17T18:07:33.074Z",
+        "additionalScenarios": {
+          "hotbar": "pass",
+          "guiLeftClick": "pass",
+          "guiRightClick": "pass",
+          "guiUnicodeChat": "pass"
+        }
+      }
+    },
+    {
+      "version": "1.21.6",
+      "java": 21,
+      "loader": "0.19.5",
+      "yarn": "1.21.6+build.1",
+      "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+      "artifact": "bridges/fabric/dist/mct-bridge-1.21.6.jar",
+      "sha256": "07266a22f7adf051843ad8c311e102057a807838a0e858553250024a704403e0",
+      "hookTarget": "net.minecraft.class_310",
+      "tickMethod": "method_1574()V",
+      "renderMethod": "method_1523(Z)V",
+      "closeMethod": "close()V",
+      "compiled": true,
+      "hookSignaturesVerified": true,
+      "runtimeVerified": true,
+      "runtimeScenarios": {
+        "connect": "passed",
+        "observe": "passed",
+        "move": "passed",
+        "command": "passed",
+        "interact": "passed",
+        "capture": "passed",
+        "cancel": "passed",
+        "hotbar": "passed",
+        "guiLeftClick": "passed",
+        "guiRightClick": "passed",
+        "guiUnicodeChat": "passed"
+      },
+      "builtAt": "2026-10-17T17:59:43.409Z",
+      "runtimeEvidence": {
+        "file": "bridges/fabric/evidence/1.21.6/result.json",
+        "originalReport": "work/fabric-runtime-legacy/expanded/1.21.6/result.json",
+        "reportSha256": "a1b743e4d3f53f7f218447dcfa421713a6638e0a96edcec0a080ca9ce3683db4",
+        "images": [
+          {
+            "file": "bridges/fabric/evidence/1.21.6/world-screen.png",
+            "sha256": "b9a3d20beb5caf35e47132a7239ed2ca86005b057aa72d4f82c5bbc5db2e291a"
+          },
+          {
+            "file": "bridges/fabric/evidence/1.21.6/chest-screen.png",
+            "sha256": "80c74675d981cc14630b3fa3318a4312d33ec9810dbf70614daef094da3ed96c"
+          }
+        ],
+        "artifactSha256": "07266a22f7adf051843ad8c311e102057a807838a0e858553250024a704403e0",
+        "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+        "startedAt": "2026-10-17T18:07:33.079Z",
+        "finishedAt": "2026-10-17T18:08:03.300Z",
+        "additionalScenarios": {
+          "hotbar": "pass",
+          "guiLeftClick": "pass",
+          "guiRightClick": "pass",
+          "guiUnicodeChat": "pass"
+        }
+      }
+    },
+    {
+      "version": "1.21.7",
+      "java": 21,
+      "loader": "0.19.5",
+      "yarn": "1.21.7+build.8",
+      "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+      "artifact": "bridges/fabric/dist/mct-bridge-1.21.7.jar",
+      "sha256": "31831f0877d497253a6f2d5dbfeecc1aada309b15b0c0bbce1c739c2548ad6b6",
+      "hookTarget": "net.minecraft.class_310",
+      "tickMethod": "method_1574()V",
+      "renderMethod": "method_1523(Z)V",
+      "closeMethod": "close()V",
+      "compiled": true,
+      "hookSignaturesVerified": true,
+      "runtimeVerified": true,
+      "runtimeScenarios": {
+        "connect": "passed",
+        "observe": "passed",
+        "move": "passed",
+        "command": "passed",
+        "interact": "passed",
+        "capture": "passed",
+        "cancel": "passed",
+        "hotbar": "passed",
+        "guiLeftClick": "passed",
+        "guiRightClick": "passed",
+        "guiUnicodeChat": "passed"
+      },
+      "builtAt": "2026-10-17T17:59:45.799Z",
+      "runtimeEvidence": {
+        "file": "bridges/fabric/evidence/1.21.7/result.json",
+        "originalReport": "work/fabric-runtime-legacy/expanded/1.21.7/result.json",
+        "reportSha256": "64c95ffb262702b0feda9ed2e2caae21ea19ef417a46fccfc1f2394cd10056be",
+        "images": [
+          {
+            "file": "bridges/fabric/evidence/1.21.7/world-screen.png",
+            "sha256": "b5501307d65621061b76f328d1e8ed2f6c6cf5af1be196fd20cb17a30fe1f677"
+          },
+          {
+            "file": "bridges/fabric/evidence/1.21.7/chest-screen.png",
+            "sha256": "2d41c8510772fedc466c9c8b0c3512f279cfd98e6104554a1205ea8e10958387"
+          }
+        ],
+        "artifactSha256": "31831f0877d497253a6f2d5dbfeecc1aada309b15b0c0bbce1c739c2548ad6b6",
+        "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+        "startedAt": "2026-10-17T18:08:03.304Z",
+        "finishedAt": "2026-10-17T18:08:34.718Z",
+        "additionalScenarios": {
+          "hotbar": "pass",
+          "guiLeftClick": "pass",
+          "guiRightClick": "pass",
+          "guiUnicodeChat": "pass"
+        }
+      }
+    },
+    {
+      "version": "1.21.8",
+      "java": 21,
+      "loader": "0.19.5",
+      "yarn": "1.21.8+build.1",
+      "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+      "artifact": "bridges/fabric/dist/mct-bridge-1.21.8.jar",
+      "sha256": "c5631fed407be48cba4762a1c19d83537e32adfa69ec21e08036b4c9ed4553b2",
+      "hookTarget": "net.minecraft.class_310",
+      "tickMethod": "method_1574()V",
+      "renderMethod": "method_1523(Z)V",
+      "closeMethod": "close()V",
+      "compiled": true,
+      "hookSignaturesVerified": true,
+      "runtimeVerified": false,
+      "runtimeScenarios": {
+        "connect": "not-run",
+        "observe": "not-run",
+        "move": "not-run",
+        "command": "not-run",
+        "interact": "not-run",
+        "capture": "not-run",
+        "cancel": "not-run"
+      },
+      "builtAt": "2026-10-17T17:59:48.454Z"
+    },
+    {
+      "version": "1.21.9",
+      "java": 21,
+      "loader": "0.19.5",
+      "yarn": "1.21.9+build.1",
+      "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+      "artifact": "bridges/fabric/dist/mct-bridge-1.21.9.jar",
+      "sha256": "0af4a7e0acb6a5b1235215910ddf7f4478e9a70c45c0ef3691ae35a6eb9768b9",
+      "hookTarget": "net.minecraft.class_310",
+      "tickMethod": "method_1574()V",
+      "renderMethod": "method_1523(Z)V",
+      "closeMethod": "close()V",
+      "compiled": true,
+      "hookSignaturesVerified": true,
+      "runtimeVerified": false,
+      "runtimeScenarios": {
+        "connect": "not-run",
+        "observe": "not-run",
+        "move": "not-run",
+        "command": "not-run",
+        "interact": "not-run",
+        "capture": "not-run",
+        "cancel": "not-run"
+      },
+      "builtAt": "2026-10-17T17:59:50.586Z"
+    },
+    {
+      "version": "1.21.10",
+      "java": 21,
+      "loader": "0.19.5",
+      "yarn": "1.21.10+build.3",
+      "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+      "artifact": "bridges/fabric/dist/mct-bridge-1.21.10.jar",
+      "sha256": "29f4e815e725e7247a5b689b443c0d294dae2224298825cc990cf6d551e6cd33",
+      "hookTarget": "net.minecraft.class_310",
+      "tickMethod": "method_1574()V",
+      "renderMethod": "method_1523(Z)V",
+      "closeMethod": "close()V",
+      "compiled": true,
+      "hookSignaturesVerified": true,
+      "runtimeVerified": false,
+      "runtimeScenarios": {
+        "connect": "not-run",
+        "observe": "not-run",
+        "move": "not-run",
+        "command": "not-run",
+        "interact": "not-run",
+        "capture": "not-run",
+        "cancel": "not-run"
+      },
+      "builtAt": "2026-10-17T17:59:53.853Z"
+    },
+    {
+      "version": "1.21.11",
+      "java": 21,
+      "loader": "0.19.5",
+      "yarn": "1.21.11+build.6",
+      "sourceSha256": "78107a35a982006ac175311d46c902dea4e7b5c0240455968c15a153084232b4",
+      "artifact": "bridges/fabric/dist/mct-bridge-1.21.11.jar",
+      "sha256": "3a8690c6f16813161e5e408a5532783ce3e2d71c2387e34655a0ee40553626bd",
+      "hookTarget": "net.minecraft.class_310",
+      "tickMethod": "method_1574()V",
+      "renderMethod": "method_1523(Z)V",
+      "closeMethod": "close()V",
+      "compiled": true,
+      "hookSignaturesVerified": true,
+      "runtimeVerified": false,
+      "runtimeScenarios": {
+        "connect": "not-run",
+        "observe": "not-run",
+        "move": "not-run",
+        "command": "not-run",
+        "interact": "not-run",
+        "capture": "not-run",
+        "cancel": "not-run"
+      },
+      "builtAt": "2026-10-17T17:59:56.339Z"
+    },
+    {
+      "version": "26.1",
+      "java": 25,
+      "loader": "0.19.5",
+      "yarn": null,
+      "sourceSha256": "88b21e3199078a41ec665305be430a938261a92b505f8b436189cb6bdc81df6b",
+      "artifact": "bridges/fabric/dist/mct-bridge-26.1.jar",
+      "sha256": "a9f26ec8d8526f9bd85a700858d7a109dc3c784d7b167e0ec72a54e370f140c7",
+      "hookTarget": "net.minecraft.client.Minecraft",
+      "tickMethod": "tick()V",
+      "renderMethod": "renderFrame(Z)V",
+      "closeMethod": "close()V",
+      "compiled": true,
+      "hookSignaturesVerified": true,
+      "runtimeVerified": true,
+      "runtimeScenarios": {
+        "connect": "passed",
+        "observe": "passed",
+        "move": "passed",
+        "command": "passed",
+        "interact": "passed",
+        "capture": "passed",
+        "cancel": "passed",
+        "hotbar": "passed",
+        "guiLeftClick": "passed",
+        "guiRightClick": "passed",
+        "guiUnicodeChat": "passed"
+      },
+      "builtAt": "2026-10-17T17:54:55.099Z",
+      "runtimeEvidence": {
+        "file": "bridges/fabric/evidence/26.1/result.json",
+        "originalReport": "work/fabric-runtime-modern/registry-final/26.1/result.json",
+        "reportSha256": "49d53189b476c65991943cf336f789da495e9db8466122487e29e81aeaaa4aad",
+        "images": [
+          {
+            "file": "bridges/fabric/evidence/26.1/native-hud.png",
+            "sha256": "3df366faab0ef1f5c3a224b7952c5adcc5b34aa5b71060f4a417ce3e00d275ab"
+          },
+          {
+            "file": "bridges/fabric/evidence/26.1/native-chest.png",
+            "sha256": "f68e0217ad28d878a470c3181c9dc556198421b62b67df77ad2eac55a377419e"
+          },
+          {
+            "file": "bridges/fabric/evidence/26.1/native-unicode-chat.png",
+            "sha256": "2813e80a7a071684c81dddf101732ecbf4af546f6ba1be7534e198922bdd51bd"
+          },
+          {
+            "file": "bridges/fabric/evidence/26.1/native-inventory.png",
+            "sha256": "2d303a6a0577896ec4f3f691c2ff51e418b4fe98feb22618a764fa39a1e350ef"
+          }
+        ],
+        "artifactSha256": "a9f26ec8d8526f9bd85a700858d7a109dc3c784d7b167e0ec72a54e370f140c7",
+        "sourceSha256": "88b21e3199078a41ec665305be430a938261a92b505f8b436189cb6bdc81df6b",
+        "startedAt": "2026-10-17T17:55:44.778Z",
+        "finishedAt": "2026-10-17T17:55:52.580Z",
+        "additionalScenarios": {
+          "authentication": "passed",
+          "connect": "passed",
+          "observe": "passed",
+          "command": "passed",
+          "hotbar": "passed",
+          "move": "passed",
+          "cancel": "passed",
+          "capture": "passed",
+          "interact": "passed",
+          "gui-unicode": "passed",
+          "gui-mouse-scroll": "passed",
+          "native-collision": "passed",
+          "disconnect": "passed"
+        }
+      }
+    },
+    {
+      "version": "26.1.1",
+      "java": 25,
+      "loader": "0.19.5",
+      "yarn": null,
+      "sourceSha256": "88b21e3199078a41ec665305be430a938261a92b505f8b436189cb6bdc81df6b",
+      "artifact": "bridges/fabric/dist/mct-bridge-26.1.1.jar",
+      "sha256": "74afe068be7b3b6c4d71df65b5467e27d5072c9ce345288f49bb90da9e3972aa",
+      "hookTarget": "net.minecraft.client.Minecraft",
+      "tickMethod": "tick()V",
+      "renderMethod": "renderFrame(Z)V",
+      "closeMethod": "close()V",
+      "compiled": true,
+      "hookSignaturesVerified": true,
+      "runtimeVerified": true,
+      "runtimeScenarios": {
+        "connect": "passed",
+        "observe": "passed",
+        "move": "passed",
+        "command": "passed",
+        "interact": "passed",
+        "capture": "passed",
+        "cancel": "passed",
+        "hotbar": "passed",
+        "guiLeftClick": "passed",
+        "guiRightClick": "passed",
+        "guiUnicodeChat": "passed"
+      },
+      "builtAt": "2026-10-17T17:54:58.064Z",
+      "runtimeEvidence": {
+        "file": "bridges/fabric/evidence/26.1.1/result.json",
+        "originalReport": "work/fabric-runtime-modern/registry-final/26.1.1/result.json",
+        "reportSha256": "d369cf40e3575cb0e6746564e10c397659b1815ec608a747164476ed1e19b1b6",
+        "images": [
+          {
+            "file": "bridges/fabric/evidence/26.1.1/native-hud.png",
+            "sha256": "10cfefa2875b2ed9774faf3fcaa45aed4b04f20d483eb29f5852c3cd94f0cf51"
+          },
+          {
+            "file": "bridges/fabric/evidence/26.1.1/native-chest.png",
+            "sha256": "805ca3646818d52aa869b44837989857d484b22a82133696ed72db6c97d215fe"
+          },
+          {
+            "file": "bridges/fabric/evidence/26.1.1/native-unicode-chat.png",
+            "sha256": "3a4686f3261029bb1d00710f8c591d3fadea1f29a22f26c0e1681ca24e434bfe"
+          },
+          {
+            "file": "bridges/fabric/evidence/26.1.1/native-inventory.png",
+            "sha256": "5ba6c2829797efd2895dd1b7a88a0a558fb6f51980406abf70f8f373b7d8a59b"
+          }
+        ],
+        "artifactSha256": "74afe068be7b3b6c4d71df65b5467e27d5072c9ce345288f49bb90da9e3972aa",
+        "sourceSha256": "88b21e3199078a41ec665305be430a938261a92b505f8b436189cb6bdc81df6b",
+        "startedAt": "2026-10-17T17:56:18.538Z",
+        "finishedAt": "2026-10-17T17:56:26.840Z",
+        "additionalScenarios": {
+          "authentication": "passed",
+          "connect": "passed",
+          "observe": "passed",
+          "command": "passed",
+          "hotbar": "passed",
+          "move": "passed",
+          "cancel": "passed",
+          "capture": "passed",
+          "interact": "passed",
+          "gui-unicode": "passed",
+          "gui-mouse-scroll": "passed",
+          "native-collision": "passed",
+          "disconnect": "passed"
+        }
+      }
+    },
+    {
+      "version": "26.1.2",
+      "java": 25,
+      "loader": "0.19.5",
+      "yarn": null,
+      "sourceSha256": "88b21e3199078a41ec665305be430a938261a92b505f8b436189cb6bdc81df6b",
+      "artifact": "bridges/fabric/dist/mct-bridge-26.1.2.jar",
+      "sha256": "14f4133dbe022c0213708f666e73511b97ed0a495d59c10d1d8204b645e4837a",
+      "hookTarget": "net.minecraft.client.Minecraft",
+      "tickMethod": "tick()V",
+      "renderMethod": "renderFrame(Z)V",
+      "closeMethod": "close()V",
+      "compiled": true,
+      "hookSignaturesVerified": true,
+      "runtimeVerified": true,
+      "runtimeScenarios": {
+        "connect": "passed",
+        "observe": "passed",
+        "move": "passed",
+        "command": "passed",
+        "interact": "passed",
+        "capture": "passed",
+        "cancel": "passed",
+        "hotbar": "passed",
+        "guiLeftClick": "passed",
+        "guiRightClick": "passed",
+        "guiUnicodeChat": "passed"
+      },
+      "builtAt": "2026-10-17T17:54:59.604Z",
+      "runtimeEvidence": {
+        "file": "bridges/fabric/evidence/26.1.2/result.json",
+        "originalReport": "work/fabric-runtime-modern/registry-final/26.1.2/result.json",
+        "reportSha256": "4565863e3524b273883bc0b74e0bd93e126c051e2f502af238493f9cbfc6540b",
+        "images": [
+          {
+            "file": "bridges/fabric/evidence/26.1.2/native-hud.png",
+            "sha256": "7e97615e45c844a227e3fbb0ffccb51518a1ca2f23e64b590f6f7bc42ac90770"
+          },
+          {
+            "file": "bridges/fabric/evidence/26.1.2/native-chest.png",
+            "sha256": "0435adcd722b73d510615db586cf89504aea8b45dff5073728b331807cf93f7d"
+          },
+          {
+            "file": "bridges/fabric/evidence/26.1.2/native-unicode-chat.png",
+            "sha256": "b33e3475a36fc654ecad8c7d53e6d270f40cce5cb7b4112938153e3b4e0477b1"
+          },
+          {
+            "file": "bridges/fabric/evidence/26.1.2/native-inventory.png",
+            "sha256": "c1c9c213fb257e4babace74ee0e5b0171dedcc294337b2f35576f0563cd95657"
+          }
+        ],
+        "artifactSha256": "14f4133dbe022c0213708f666e73511b97ed0a495d59c10d1d8204b645e4837a",
+        "sourceSha256": "88b21e3199078a41ec665305be430a938261a92b505f8b436189cb6bdc81df6b",
+        "startedAt": "2026-10-17T17:56:59.161Z",
+        "finishedAt": "2026-10-17T17:57:07.115Z",
+        "additionalScenarios": {
+          "authentication": "passed",
+          "connect": "passed",
+          "observe": "passed",
+          "command": "passed",
+          "hotbar": "passed",
+          "move": "passed",
+          "cancel": "passed",
+          "capture": "passed",
+          "interact": "passed",
+          "gui-unicode": "passed",
+          "gui-mouse-scroll": "passed",
+          "native-collision": "passed",
+          "disconnect": "passed"
+        }
+      }
+    },
+    {
+      "version": "26.2",
+      "java": 25,
+      "loader": "0.19.5",
+      "yarn": null,
+      "sourceSha256": "88b21e3199078a41ec665305be430a938261a92b505f8b436189cb6bdc81df6b",
+      "artifact": "bridges/fabric/dist/mct-bridge-26.2.jar",
+      "sha256": "769702c0d7c01d2aa5770b35b2cb29b7236b522187674d02f714e8c698be305a",
+      "hookTarget": "net.minecraft.client.Minecraft",
+      "tickMethod": "tick()V",
+      "renderMethod": "renderFrame(Z)V",
+      "closeMethod": "close()V",
+      "compiled": true,
+      "hookSignaturesVerified": true,
+      "runtimeVerified": true,
+      "runtimeScenarios": {
+        "connect": "passed",
+        "observe": "passed",
+        "move": "passed",
+        "command": "passed",
+        "interact": "passed",
+        "capture": "passed",
+        "cancel": "passed",
+        "hotbar": "passed",
+        "guiLeftClick": "passed",
+        "guiRightClick": "passed",
+        "guiUnicodeChat": "passed"
+      },
+      "builtAt": "2026-10-17T17:55:01.092Z",
+      "runtimeEvidence": {
+        "file": "bridges/fabric/evidence/26.2/result.json",
+        "originalReport": "work/fabric-runtime-modern/registry-final/26.2/result.json",
+        "reportSha256": "34b55080600449285c8b6b72e1d63d9d7688b26159615fd9a6290266a88abb15",
+        "images": [
+          {
+            "file": "bridges/fabric/evidence/26.2/native-hud.png",
+            "sha256": "a6ae0237f2009f14be8170f7867c20dc5879f86b57dd503d1e6d32cb353cc071"
+          },
+          {
+            "file": "bridges/fabric/evidence/26.2/native-chest.png",
+            "sha256": "04476b859329a45474f0840808519c62888344280e3258e3a3f7d2ab472ce539"
+          },
+          {
+            "file": "bridges/fabric/evidence/26.2/native-unicode-chat.png",
+            "sha256": "be87394b34a838a46ebf10e2e9f7af153992d90b8a2b1b1ed684f6a430ae089b"
+          },
+          {
+            "file": "bridges/fabric/evidence/26.2/native-inventory.png",
+            "sha256": "546ee0ac5e14859645f3e06a2bebbb63e2d95b9790052f79e4505bcf07236ced"
+          }
+        ],
+        "artifactSha256": "769702c0d7c01d2aa5770b35b2cb29b7236b522187674d02f714e8c698be305a",
+        "sourceSha256": "88b21e3199078a41ec665305be430a938261a92b505f8b436189cb6bdc81df6b",
+        "startedAt": "2026-10-17T17:57:42.528Z",
+        "finishedAt": "2026-10-17T17:57:50.833Z",
+        "additionalScenarios": {
+          "authentication": "passed",
+          "connect": "passed",
+          "observe": "passed",
+          "command": "passed",
+          "hotbar": "passed",
+          "move": "passed",
+          "cancel": "passed",
+          "capture": "passed",
+          "interact": "passed",
+          "gui-unicode": "passed",
+          "gui-mouse-scroll": "passed",
+          "native-collision": "passed",
+          "disconnect": "passed"
+        }
+      }
+    },
+    {
+      "version": "26.3",
+      "java": 25,
+      "loader": "0.19.5",
+      "yarn": null,
+      "sourceSha256": "88b21e3199078a41ec665305be430a938261a92b505f8b436189cb6bdc81df6b",
+      "artifact": "bridges/fabric/dist/mct-bridge-26.3.jar",
+      "sha256": "d36d5f4e6dbaf48a8a44868adeebdf4d3a1ee48f6df84e71dfa83c1321e2a2f4",
+      "hookTarget": "net.minecraft.client.Minecraft",
+      "tickMethod": "tick()V",
+      "renderMethod": "renderFrame(Z)V",
+      "closeMethod": "close()V",
+      "compiled": true,
+      "hookSignaturesVerified": true,
+      "runtimeVerified": true,
+      "runtimeScenarios": {
+        "connect": "passed",
+        "observe": "passed",
+        "move": "passed",
+        "command": "passed",
+        "interact": "passed",
+        "capture": "passed",
+        "cancel": "passed",
+        "hotbar": "passed",
+        "guiLeftClick": "passed",
+        "guiRightClick": "passed",
+        "guiUnicodeChat": "passed"
+      },
+      "builtAt": "2026-10-17T17:49:51.358Z",
+      "runtimeEvidence": {
+        "file": "bridges/fabric/evidence/26.3/result.json",
+        "originalReport": "work/fabric-runtime-modern/registry-final/26.3/result.json",
+        "reportSha256": "c118beb03ee58520c2bbf661176c1c675db4cdf2bc10eb8e420512577ca5f34f",
+        "images": [
+          {
+            "file": "bridges/fabric/evidence/26.3/native-hud.png",
+            "sha256": "a585b060d1c0dfe4b5a84df13d662e7b940e362a625800ee1ce5e055069c862b"
+          },
+          {
+            "file": "bridges/fabric/evidence/26.3/native-chest.png",
+            "sha256": "bab12efca68c3e7be1394dcece0ea58db84eb7d7a61914d9080829eadda34a6c"
+          },
+          {
+            "file": "bridges/fabric/evidence/26.3/native-unicode-chat.png",
+            "sha256": "19acdba9f50fe98f5d6bf441dc269c8a83cba0b81635cb2706dab6c9b8d61e47"
+          },
+          {
+            "file": "bridges/fabric/evidence/26.3/native-inventory.png",
+            "sha256": "62940a8a6c9a431380fd0f4735b97c57008748ef7991faaf7a237fca382af021"
+          }
+        ],
+        "artifactSha256": "d36d5f4e6dbaf48a8a44868adeebdf4d3a1ee48f6df84e71dfa83c1321e2a2f4",
+        "sourceSha256": "88b21e3199078a41ec665305be430a938261a92b505f8b436189cb6bdc81df6b",
+        "startedAt": "2026-10-17T17:53:10.942Z",
+        "finishedAt": "2026-10-17T17:53:19.012Z",
+        "additionalScenarios": {
+          "authentication": "passed",
+          "connect": "passed",
+          "observe": "passed",
+          "command": "passed",
+          "hotbar": "passed",
+          "move": "passed",
+          "cancel": "passed",
+          "capture": "passed",
+          "interact": "passed",
+          "gui-unicode": "passed",
+          "gui-mouse-scroll": "passed",
+          "native-collision": "passed",
+          "disconnect": "passed"
+        }
+      }
+    }
+  ],
+  "buildErrors": [],
+  "runtimeEvidenceMergedAt": "2026-10-17T18:08:44.031Z",
+  "runtimeVerifiedCount": 20
+}

@@ -1,0 +1,31 @@
+{
+  "sessionId": "player_ceeb52e7-c48",
+  "kind": "player",
+  "backend": "mineflayer",
+  "source": "prismarine-viewer",
+  "version": "1.21.4",
+  "observedAt": "2026-10-17T14:22:54.051Z",
+  "state": "connected",
+  "host": "127.0.0.1",
+  "port": 25574,
+  "auth": "offline",
+  "imageSource": "approximate-protocol-renderer",
+  "assetsVersion": "1.21.4",
+  "nativeHud": false,
+  "resourcePacks": false,
+  "rendererUrl": "http://127.0.0.1:56877",
+  "limitations": [
+    "Vanilla viewer assets may differ from the exact game version.",
+    "HUD, custom models and resource packs require the actual Fabric game client."
+  ],
+  "imagePath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\player-live\\artifacts\\player_ceeb52e7-c48-1792246973925.png",
+  "width": 640,
+  "height": 360,
+  "position": {
+    "x": 3.5,
+    "y": 100,
+    "z": 0.49999999999959743
+  },
+  "yaw": -1.5707963267946035,
+  "pitch": -0.8429940287132087
+}

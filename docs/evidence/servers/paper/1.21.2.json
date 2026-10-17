@@ -1,0 +1,24 @@
+{
+  "version": "1.21.2",
+  "software": "paper",
+  "startedAt": "2026-10-17T18:03:46.173Z",
+  "status": "unavailable",
+  "runtimeVerified": false,
+  "scenarios": {
+    "connect": "not-run",
+    "observe": "not-run",
+    "move": "not-run",
+    "command": "not-run",
+    "interact": "not-run",
+    "capture": "not-run",
+    "cancel": "not-run"
+  },
+  "errors": [],
+  "availability": {
+    "buildsUrl": "https://fill.papermc.io/v3/projects/paper/versions/1.21.2/builds",
+    "httpStatus": 404,
+    "checkedAt": "2026-10-17T18:03:46.587Z"
+  },
+  "reason": "Official Paper API has no builds for this exact release",
+  "finishedAt": "2026-10-17T18:03:46.587Z"
+}

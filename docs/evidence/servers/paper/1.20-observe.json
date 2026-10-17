@@ -1,0 +1,351 @@
+{
+  "ready": true,
+  "loading": false,
+  "overlay": null,
+  "gameVersion": "1.20",
+  "observedAt": "2026-10-17T18:01:50.588427900Z",
+  "tick": 217,
+  "frame": 439,
+  "source": "fabric-client",
+  "connected": true,
+  "screen": null,
+  "dimension": "minecraft:overworld",
+  "player": {
+    "x": 0.5,
+    "y": 100,
+    "z": 0.5,
+    "yaw": 0,
+    "pitch": 3.5,
+    "health": 20,
+    "name": "MctSmoke",
+    "selectedSlot": 7
+  },
+  "inventory": {
+    "selectedSlot": 7,
+    "syncId": 0,
+    "slots": [
+      {
+        "slot": 0,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 1,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 2,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 3,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 4,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 5,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 6,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 7,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 8,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 9,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 10,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 11,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 12,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 13,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 14,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 15,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 16,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 17,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 18,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 19,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 20,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 21,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 22,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 23,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 24,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 25,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 26,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 27,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 28,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 29,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 30,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 31,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 32,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 33,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 34,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 35,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 36,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 37,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 38,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 39,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 40,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 41,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 42,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 43,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 44,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      },
+      {
+        "slot": 45,
+        "empty": true,
+        "count": 0,
+        "name": "Air",
+        "item": "air"
+      }
+    ]
+  }
+}

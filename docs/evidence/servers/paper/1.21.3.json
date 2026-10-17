@@ -1,0 +1,123 @@
+{
+  "version": "1.21.3",
+  "software": "paper",
+  "startedAt": "2026-10-17T17:53:07.067Z",
+  "status": "passed",
+  "runtimeVerified": true,
+  "scenarios": {
+    "connect": "pass",
+    "observe": "pass",
+    "move": "pass",
+    "command": "pass",
+    "interact": "pass",
+    "capture": "pass",
+    "cancel": "pass"
+  },
+  "errors": [],
+  "availability": {
+    "buildsUrl": "https://fill.papermc.io/v3/projects/paper/versions/1.21.3/builds",
+    "httpStatus": 200,
+    "checkedAt": "2026-10-17T18:03:46.932Z",
+    "channelCounts": {
+      "STABLE": 26,
+      "ALPHA": 56
+    }
+  },
+  "paper": {
+    "buildsUrl": "https://fill.papermc.io/v3/projects/paper/versions/1.21.3/builds",
+    "build": 83,
+    "channel": "STABLE",
+    "url": "https://fill-data.papermc.io/v1/objects/87e973e1d338e869e7fdbc4b8fadc1579d7bb0246a0e0cf6e5700ace6c8bc17e/paper-1.21.3-83.jar",
+    "sha256": "87e973e1d338e869e7fdbc4b8fadc1579d7bb0246a0e0cf6e5700ace6c8bc17e",
+    "observedAt": "2026-10-17T17:53:07.394Z"
+  },
+  "backend": "mineflayer",
+  "server": {
+    "session": "server_bfbf834b-a06",
+    "version": "1.21.3",
+    "java": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\paper-qa\\runtimes\\21\\jdk-21.0.12.1+1-jre\\bin\\java.exe",
+    "directory": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\paper-qa\\1.21.3\\state\\servers\\server_bfbf834b-a06",
+    "port": 64294,
+    "checksum": "87e973e1d338e869e7fdbc4b8fadc1579d7bb0246a0e0cf6e5700ace6c8bc17e"
+  },
+  "serverVersionLines": [
+    {
+      "at": "2026-10-17T17:53:22.417Z",
+      "stream": "stdout",
+      "line": "[02:53:22 INFO]: Starting minecraft server version 1.21.3"
+    },
+    {
+      "at": "2026-10-17T17:53:22.463Z",
+      "stream": "stdout",
+      "line": "[02:53:22 INFO]: This server is running Paper version 1.21.3-83-ver/1.21.3@d6c81da (2025-03-28T15:57:09Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)"
+    }
+  ],
+  "movement": {
+    "before": {
+      "x": 0.5,
+      "y": 100,
+      "z": 0.5
+    },
+    "after": {
+      "x": 3.5,
+      "y": 100,
+      "z": 0.49999999999959743
+    }
+  },
+  "capture": {
+    "sessionId": "player_014e6ddf-aee",
+    "kind": "player",
+    "backend": "mineflayer",
+    "source": "prismarine-viewer",
+    "version": "1.21.3",
+    "observedAt": "2026-10-17T17:53:30.560Z",
+    "state": "connected",
+    "host": "127.0.0.1",
+    "port": 64294,
+    "auth": "offline",
+    "imageSource": "approximate-protocol-renderer",
+    "assetsVersion": "1.21.4",
+    "nativeHud": false,
+    "resourcePacks": false,
+    "rendererUrl": "http://127.0.0.1:50773",
+    "limitations": [
+      "Vanilla viewer assets may differ from the exact game version.",
+      "HUD, custom models and resource packs require the actual Fabric game client."
+    ],
+    "imagePath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\paper-qa\\1.21.3\\player_014e6ddf-aee-1792259610515.png",
+    "width": 640,
+    "height": 360,
+    "position": {
+      "x": 2.5,
+      "y": 100,
+      "z": 0.5
+    },
+    "yaw": 1.5707963267953842,
+    "pitch": -0.1989675347273412
+  },
+  "nativeRendererVerified": false,
+  "cancel": {
+    "before": {
+      "x": 2.5,
+      "y": 100,
+      "z": 0.5
+    },
+    "held": {
+      "x": 1.873093426578939,
+      "y": 100,
+      "z": 0.500000000000191
+    },
+    "stopped": {
+      "x": 1.6428302801635535,
+      "y": 100,
+      "z": 0.500000000000191
+    },
+    "after": {
+      "x": 1.6428302801635535,
+      "y": 100,
+      "z": 0.500000000000191
+    }
+  },
+  "finishedAt": "2026-10-17T18:03:46.940Z",
+  "reusedAt": "2026-10-17T18:03:46.940Z"
+}

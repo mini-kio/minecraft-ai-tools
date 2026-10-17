@@ -1,0 +1,42 @@
+{
+  "startedAt": "2026-10-17T17:52:35.187Z",
+  "checks": {
+    "actualJavaProcessStarted": true,
+    "cancelledStartupWaitedForExit": true,
+    "sessionRemainsObservable": true
+  },
+  "version": "1.21.4",
+  "session": "server_cf1e4820-b6f",
+  "code": "CANCELLED",
+  "elapsedMs": 3137,
+  "duringStart": {
+    "sessionId": "server_cf1e4820-b6f",
+    "kind": "test-server",
+    "source": "managed-server",
+    "version": "1.21.4",
+    "software": "vanilla",
+    "state": "starting",
+    "directory": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\server-cancellation-live\\servers\\server_cf1e4820-b6f",
+    "host": "127.0.0.1",
+    "port": 64705,
+    "javaMajor": 21,
+    "pid": 15704,
+    "observedAt": "2026-10-17T17:52:36.526Z"
+  },
+  "after": {
+    "sessionId": "server_cf1e4820-b6f",
+    "kind": "test-server",
+    "source": "managed-server",
+    "version": "1.21.4",
+    "software": "vanilla",
+    "state": "failed",
+    "directory": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\server-cancellation-live\\servers\\server_cf1e4820-b6f",
+    "host": "127.0.0.1",
+    "port": 64705,
+    "javaMajor": 21,
+    "observedAt": "2026-10-17T17:52:39.549Z",
+    "lastError": "Server exited with code null, signal SIGKILL"
+  },
+  "status": "passed",
+  "finishedAt": "2026-10-17T17:52:49.552Z"
+}

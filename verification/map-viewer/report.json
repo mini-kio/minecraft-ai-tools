@@ -1,0 +1,9 @@
+{
+  "startedAt": "2026-10-17T17:52:20.994Z",
+  "checks": {
+    "heightCutChangesWorldPixels": 213919,
+    "coincidentCameraDoesNotBreakRenderer": true
+  },
+  "passed": true,
+  "finishedAt": "2026-10-17T17:52:24.850Z"
+}

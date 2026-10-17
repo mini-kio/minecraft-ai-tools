@@ -1,0 +1,43 @@
+import { Args, ServiceOptions } from './contracts.js';
+import { BridgeService } from './bridges.js';
+import { ModelService } from './models.js';
+import { JobManager } from './jobs.js';
+import { MapService } from './maps/index.js';
+import { PlayerService } from './players/index.js';
+import { ServerService } from './servers/index.js';
+import { NativeNavigation } from './native-navigation.js';
+import { ResourceManager } from './resources.js';
+export declare class Application {
+    options: ServiceOptions;
+    bridges: BridgeService;
+    models: ModelService;
+    maps: MapService;
+    players: PlayerService;
+    servers: ServerService;
+    jobs: JobManager;
+    viewerUrl: (_session: string, _args?: Args) => string;
+    nativeViewerUrl: (_session: string) => string;
+    private nativeFrames;
+    nativeFrame(session: string): Promise<Buffer>;
+    nativeMaps: Map<string, {
+        client: string;
+        server: string;
+        source: string;
+        version: string;
+    }>;
+    navigation: NativeNavigation;
+    resources: ResourceManager;
+    private mapResources;
+    constructor(options: ServiceOptions);
+    viewerData(args: Args): Promise<any>;
+    execute(domain: string, action: string, args?: Args): Promise<any>;
+    private javaPath;
+    private player;
+    private sessions;
+    private bySession;
+    private stageMap;
+    private nativeCamera;
+    private interiorTour;
+    private doctor;
+    close(): Promise<void>;
+}

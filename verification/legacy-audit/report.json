@@ -1,0 +1,782 @@
+{
+  "generatedAt": "2026-10-17T18:09:17.788Z",
+  "scope": "Completed evidence only; all-version verification stopped at user request",
+  "partial": true,
+  "totalTargets": 19,
+  "unverifiedVersions": [
+    "1.21.8",
+    "1.21.9",
+    "1.21.10",
+    "1.21.11"
+  ],
+  "versions": 15,
+  "passed": 15,
+  "failed": 0,
+  "results": [
+    {
+      "version": "1.20",
+      "passed": true,
+      "checks": {
+        "currentArtifact": true,
+        "runtimeVerified": true,
+        "core7": true,
+        "additionalGui": true,
+        "worldInventory": true,
+        "chestMenu": true,
+        "actualFloorMovement": true,
+        "initialCancelMotion": true,
+        "releasedCancelMotion": true,
+        "hotbarTelemetry": true,
+        "invalidHotbarRejected": true,
+        "actualGuiButtons": true,
+        "unicodeTyped": true,
+        "unicodeReachedServer": true,
+        "title-screenNativePng": true,
+        "chest-screenNativePng": true,
+        "world-screenNativePng": true,
+        "unicode-chat-screenNativePng": true
+      },
+      "errors": [],
+      "images": [
+        {
+          "file": "title-screen.png",
+          "sha256": "ebd07c8ae6bc74af7f2e3d0e5e0c795b0f0124e4db85972c2a83de4d0940523a",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "chest-screen.png",
+          "sha256": "ad155d96a54703715a296176c8f8d59f5d50460b253b019fa086f55d463cd0dc",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "world-screen.png",
+          "sha256": "1347de56109289de9b904f5706e3889058d1df958ca62e505bc0de5bf07e9c4b",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "unicode-chat-screen.png",
+          "sha256": "3de233ee27b4ea09cc07da5a19619fc28acb876c638a2dbc1f1caa452f938c12",
+          "width": 640,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "version": "1.20.1",
+      "passed": true,
+      "checks": {
+        "currentArtifact": true,
+        "runtimeVerified": true,
+        "core7": true,
+        "additionalGui": true,
+        "worldInventory": true,
+        "chestMenu": true,
+        "actualFloorMovement": true,
+        "initialCancelMotion": true,
+        "releasedCancelMotion": true,
+        "hotbarTelemetry": true,
+        "invalidHotbarRejected": true,
+        "actualGuiButtons": true,
+        "unicodeTyped": true,
+        "unicodeReachedServer": true,
+        "title-screenNativePng": true,
+        "chest-screenNativePng": true,
+        "world-screenNativePng": true,
+        "unicode-chat-screenNativePng": true
+      },
+      "errors": [],
+      "images": [
+        {
+          "file": "title-screen.png",
+          "sha256": "19040416e9addb8f8ee424b49e31dc590887415c535fcc84e20f0c3a384e3f7b",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "chest-screen.png",
+          "sha256": "d240f394c8ed31bc0cfe37cb27236a2d5d3920ef095feb6b99d9842b7c4e1746",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "world-screen.png",
+          "sha256": "5b1d9ee736abd95bb74f0c0665b6bb39da2c0a3a64ebfd969283b78b09292122",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "unicode-chat-screen.png",
+          "sha256": "ac199799d9f9d13559cd710985a69eaf2b7e4d753de1928294a785a4dddc2473",
+          "width": 640,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "version": "1.20.2",
+      "passed": true,
+      "checks": {
+        "currentArtifact": true,
+        "runtimeVerified": true,
+        "core7": true,
+        "additionalGui": true,
+        "worldInventory": true,
+        "chestMenu": true,
+        "actualFloorMovement": true,
+        "initialCancelMotion": true,
+        "releasedCancelMotion": true,
+        "hotbarTelemetry": true,
+        "invalidHotbarRejected": true,
+        "actualGuiButtons": true,
+        "unicodeTyped": true,
+        "unicodeReachedServer": true,
+        "title-screenNativePng": true,
+        "chest-screenNativePng": true,
+        "world-screenNativePng": true,
+        "unicode-chat-screenNativePng": true
+      },
+      "errors": [],
+      "images": [
+        {
+          "file": "title-screen.png",
+          "sha256": "c1d943a70b79790a511c0f8349abcda7aa71b80bf9ef529d89085b2e26c55657",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "chest-screen.png",
+          "sha256": "6264dd84d03dffb448ae46a7382ce8b8625dd0f6e0ad4be3e04af6f82e31a395",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "world-screen.png",
+          "sha256": "46b0aa036a5da47cdbcf2813c05c6289d1edbff303425306d26d42b035220cc4",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "unicode-chat-screen.png",
+          "sha256": "a1984e28b056d0559f0a5860c8a8ae743a3eca29f3a8afc8abc9a6c3a591d40f",
+          "width": 640,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "version": "1.20.3",
+      "passed": true,
+      "checks": {
+        "currentArtifact": true,
+        "runtimeVerified": true,
+        "core7": true,
+        "additionalGui": true,
+        "worldInventory": true,
+        "chestMenu": true,
+        "actualFloorMovement": true,
+        "initialCancelMotion": true,
+        "releasedCancelMotion": true,
+        "hotbarTelemetry": true,
+        "invalidHotbarRejected": true,
+        "actualGuiButtons": true,
+        "unicodeTyped": true,
+        "unicodeReachedServer": true,
+        "title-screenNativePng": true,
+        "chest-screenNativePng": true,
+        "world-screenNativePng": true,
+        "unicode-chat-screenNativePng": true
+      },
+      "errors": [],
+      "images": [
+        {
+          "file": "title-screen.png",
+          "sha256": "94b258c9cf9ef6a99194d4927fffd09c2507abb3f37822c0d7cfd775d0a42573",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "chest-screen.png",
+          "sha256": "35be5d6027aaf5888233f3fbfa4c900a96da953bcc7cf5c037b1678447c0e365",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "world-screen.png",
+          "sha256": "0df03bfe3b5f15eb7d5017aed8a4d4d73fe90233e7f5843420f64e418e9024bd",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "unicode-chat-screen.png",
+          "sha256": "6d2a148283805dcf3a20dcf9d076bd123bef01c62640ea1fcd27a90ff9187c10",
+          "width": 640,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "version": "1.20.4",
+      "passed": true,
+      "checks": {
+        "currentArtifact": true,
+        "runtimeVerified": true,
+        "core7": true,
+        "additionalGui": true,
+        "worldInventory": true,
+        "chestMenu": true,
+        "actualFloorMovement": true,
+        "initialCancelMotion": true,
+        "releasedCancelMotion": true,
+        "hotbarTelemetry": true,
+        "invalidHotbarRejected": true,
+        "actualGuiButtons": true,
+        "unicodeTyped": true,
+        "unicodeReachedServer": true,
+        "title-screenNativePng": true,
+        "chest-screenNativePng": true,
+        "world-screenNativePng": true,
+        "unicode-chat-screenNativePng": true
+      },
+      "errors": [],
+      "images": [
+        {
+          "file": "title-screen.png",
+          "sha256": "aeedf60aa3e02eb40b704c6f89e3a0baf05268ce60a0f3a380df0ef6ba11d755",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "chest-screen.png",
+          "sha256": "aae11a33627b5cc25b6cc07ede1e20ce8df255a0baae3aea5d96de329b9fe616",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "world-screen.png",
+          "sha256": "47c24e9e013072378f8a025b349bbd023dd995b3c3f4fc2c7da303e4d60a9320",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "unicode-chat-screen.png",
+          "sha256": "6d2a148283805dcf3a20dcf9d076bd123bef01c62640ea1fcd27a90ff9187c10",
+          "width": 640,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "version": "1.20.5",
+      "passed": true,
+      "checks": {
+        "currentArtifact": true,
+        "runtimeVerified": true,
+        "core7": true,
+        "additionalGui": true,
+        "worldInventory": true,
+        "chestMenu": true,
+        "actualFloorMovement": true,
+        "initialCancelMotion": true,
+        "releasedCancelMotion": true,
+        "hotbarTelemetry": true,
+        "invalidHotbarRejected": true,
+        "actualGuiButtons": true,
+        "unicodeTyped": true,
+        "unicodeReachedServer": true,
+        "title-screenNativePng": true,
+        "chest-screenNativePng": true,
+        "world-screenNativePng": true,
+        "unicode-chat-screenNativePng": true
+      },
+      "errors": [],
+      "images": [
+        {
+          "file": "title-screen.png",
+          "sha256": "54218f67096c5da73d76ac75d700cb04abcf18a07165e7e5189875684e209575",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "chest-screen.png",
+          "sha256": "a90c2a6477b076f1c4b7d944b090664a692b0ab8571b2cd19abe0da6cc0eebd7",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "world-screen.png",
+          "sha256": "ec497a54fafc9db0a375e8a444e138099c555abda656bb819f46e925e15def37",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "unicode-chat-screen.png",
+          "sha256": "de07ed028d49972b8667e48dfb6e3f2706d0c4ea44d08e9af24dc46c193eaaf2",
+          "width": 640,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "version": "1.20.6",
+      "passed": true,
+      "checks": {
+        "currentArtifact": true,
+        "runtimeVerified": true,
+        "core7": true,
+        "additionalGui": true,
+        "worldInventory": true,
+        "chestMenu": true,
+        "actualFloorMovement": true,
+        "initialCancelMotion": true,
+        "releasedCancelMotion": true,
+        "hotbarTelemetry": true,
+        "invalidHotbarRejected": true,
+        "actualGuiButtons": true,
+        "unicodeTyped": true,
+        "unicodeReachedServer": true,
+        "title-screenNativePng": true,
+        "chest-screenNativePng": true,
+        "world-screenNativePng": true,
+        "unicode-chat-screenNativePng": true
+      },
+      "errors": [],
+      "images": [
+        {
+          "file": "title-screen.png",
+          "sha256": "cf87f7fa7b40a145d44a874dc34aa21bd852397886eb45359d554bfa2be74a60",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "chest-screen.png",
+          "sha256": "7d4a54320956d1271f98bfce5895f7c04d0133b2ee477c22dd08a6cb98b2afed",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "world-screen.png",
+          "sha256": "b6c5e8799893705262de94d7ad5992501cbe805ab9e8327efec7dc886548d316",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "unicode-chat-screen.png",
+          "sha256": "5d07fede6b0a6763b42173a81fbf252fc219ba73798107ea612aba2685a0fdf9",
+          "width": 640,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "version": "1.21",
+      "passed": true,
+      "checks": {
+        "currentArtifact": true,
+        "runtimeVerified": true,
+        "core7": true,
+        "additionalGui": true,
+        "worldInventory": true,
+        "chestMenu": true,
+        "actualFloorMovement": true,
+        "initialCancelMotion": true,
+        "releasedCancelMotion": true,
+        "hotbarTelemetry": true,
+        "invalidHotbarRejected": true,
+        "actualGuiButtons": true,
+        "unicodeTyped": true,
+        "unicodeReachedServer": true,
+        "title-screenNativePng": true,
+        "chest-screenNativePng": true,
+        "world-screenNativePng": true,
+        "unicode-chat-screenNativePng": true
+      },
+      "errors": [],
+      "images": [
+        {
+          "file": "title-screen.png",
+          "sha256": "d77b10d887f30ad34b020b54e7f8888746d308cfa160c9ff1ce0d15e60c392fa",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "chest-screen.png",
+          "sha256": "7d4a54320956d1271f98bfce5895f7c04d0133b2ee477c22dd08a6cb98b2afed",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "world-screen.png",
+          "sha256": "bc0a720fe62413b857aa151cd48c00420cf007aee043df60814fea83352313fd",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "unicode-chat-screen.png",
+          "sha256": "7d6c93fd679fe17ac656a979b8616d75c3c0472cd04acad4ea6943f8d1ea0437",
+          "width": 640,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "version": "1.21.1",
+      "passed": true,
+      "checks": {
+        "currentArtifact": true,
+        "runtimeVerified": true,
+        "core7": true,
+        "additionalGui": true,
+        "worldInventory": true,
+        "chestMenu": true,
+        "actualFloorMovement": true,
+        "initialCancelMotion": true,
+        "releasedCancelMotion": true,
+        "hotbarTelemetry": true,
+        "invalidHotbarRejected": true,
+        "actualGuiButtons": true,
+        "unicodeTyped": true,
+        "unicodeReachedServer": true,
+        "title-screenNativePng": true,
+        "chest-screenNativePng": true,
+        "world-screenNativePng": true,
+        "unicode-chat-screenNativePng": true
+      },
+      "errors": [],
+      "images": [
+        {
+          "file": "title-screen.png",
+          "sha256": "be7556bfc064f35112f68e5538cff3ab856e92ea7b109020975f83d4ecaa0cb5",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "chest-screen.png",
+          "sha256": "93916f3f9eed1f9912eefa1a9d0744a3f8165adfe47679eeaafa9184d16d35ad",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "world-screen.png",
+          "sha256": "0114f7da9434872f6366c1cbb25316a19a261f10515f31c3430c291d23c6ce82",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "unicode-chat-screen.png",
+          "sha256": "94517e3cb5f85123b2cd6b11a37fdb383a50e2889cab42f8d950aa799b381b44",
+          "width": 640,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "version": "1.21.2",
+      "passed": true,
+      "checks": {
+        "currentArtifact": true,
+        "runtimeVerified": true,
+        "core7": true,
+        "additionalGui": true,
+        "worldInventory": true,
+        "chestMenu": true,
+        "actualFloorMovement": true,
+        "initialCancelMotion": true,
+        "releasedCancelMotion": true,
+        "hotbarTelemetry": true,
+        "invalidHotbarRejected": true,
+        "actualGuiButtons": true,
+        "unicodeTyped": true,
+        "unicodeReachedServer": true,
+        "title-screenNativePng": true,
+        "chest-screenNativePng": true,
+        "world-screenNativePng": true,
+        "unicode-chat-screenNativePng": true
+      },
+      "errors": [],
+      "images": [
+        {
+          "file": "title-screen.png",
+          "sha256": "69f7c406fde2c5f16e409895de26ec28e5b0472e5827262833e786c3c380c0b8",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "chest-screen.png",
+          "sha256": "97a8c4693b82650db7239483f4a8223767ec7f7bc46bdbca5df7a23b1169af70",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "world-screen.png",
+          "sha256": "4cb54f7ea8aac0889974525edc47cdc233ebb350f17fb74f9d516f2d0c6a8b01",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "unicode-chat-screen.png",
+          "sha256": "791ec2613cefeace91578b628d3bed2af264b5b50b69c68ad0aedd49ae7ccc16",
+          "width": 640,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "version": "1.21.3",
+      "passed": true,
+      "checks": {
+        "currentArtifact": true,
+        "runtimeVerified": true,
+        "core7": true,
+        "additionalGui": true,
+        "worldInventory": true,
+        "chestMenu": true,
+        "actualFloorMovement": true,
+        "initialCancelMotion": true,
+        "releasedCancelMotion": true,
+        "hotbarTelemetry": true,
+        "invalidHotbarRejected": true,
+        "actualGuiButtons": true,
+        "unicodeTyped": true,
+        "unicodeReachedServer": true,
+        "title-screenNativePng": true,
+        "chest-screenNativePng": true,
+        "world-screenNativePng": true,
+        "unicode-chat-screenNativePng": true
+      },
+      "errors": [],
+      "images": [
+        {
+          "file": "title-screen.png",
+          "sha256": "61073b26c801252b2d4a3a9313f88fc65aa52a1126031e705c19194ecb5d8858",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "chest-screen.png",
+          "sha256": "281219164ff7f7cf3e0fc0ae6dc41bef54a3eb02dc27fd78964a5b9070366dcb",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "world-screen.png",
+          "sha256": "a131276f36b5d024825dca95821663a5ad576117ccc10cd25bdde25a83d9d604",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "unicode-chat-screen.png",
+          "sha256": "a01aa2dc54d4db76b6ce95dfcd740eb645b729da366eedbf788c1b8fc4d5f898",
+          "width": 640,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "version": "1.21.4",
+      "passed": true,
+      "checks": {
+        "currentArtifact": true,
+        "runtimeVerified": true,
+        "core7": true,
+        "additionalGui": true,
+        "worldInventory": true,
+        "chestMenu": true,
+        "actualFloorMovement": true,
+        "initialCancelMotion": true,
+        "releasedCancelMotion": true,
+        "hotbarTelemetry": true,
+        "invalidHotbarRejected": true,
+        "actualGuiButtons": true,
+        "unicodeTyped": true,
+        "unicodeReachedServer": true,
+        "title-screenNativePng": true,
+        "chest-screenNativePng": true,
+        "world-screenNativePng": true,
+        "unicode-chat-screenNativePng": true
+      },
+      "errors": [],
+      "images": [
+        {
+          "file": "title-screen.png",
+          "sha256": "5729247c9b5e4b5adb3dcf3efef9385b1baa4de2eb1c0ee798718c0c93304bfa",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "chest-screen.png",
+          "sha256": "cd13973eac98180a50a240674f89214ee9216c9493fb7aa8843bb2b6900001ca",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "world-screen.png",
+          "sha256": "2693d0194661a1ca91012e721bd5cef4c3bfc5470d3c5fc2f7aa446a4c5b4ec6",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "unicode-chat-screen.png",
+          "sha256": "da82816b4f956c87f82c8c98601187a063fd9528b78d2c16684172551a4f913b",
+          "width": 640,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "version": "1.21.5",
+      "passed": true,
+      "checks": {
+        "currentArtifact": true,
+        "runtimeVerified": true,
+        "core7": true,
+        "additionalGui": true,
+        "worldInventory": true,
+        "chestMenu": true,
+        "actualFloorMovement": true,
+        "initialCancelMotion": true,
+        "releasedCancelMotion": true,
+        "hotbarTelemetry": true,
+        "invalidHotbarRejected": true,
+        "actualGuiButtons": true,
+        "unicodeTyped": true,
+        "unicodeReachedServer": true,
+        "title-screenNativePng": true,
+        "chest-screenNativePng": true,
+        "world-screenNativePng": true,
+        "unicode-chat-screenNativePng": true
+      },
+      "errors": [],
+      "images": [
+        {
+          "file": "title-screen.png",
+          "sha256": "dde27db9e1a437cb194447012f4230fe0814c2958d30b253beb6f00fcb99b68d",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "chest-screen.png",
+          "sha256": "9c5f581f33ce80638c223284ec4405539bc5e0893e7145e8cb1e6342d9376567",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "world-screen.png",
+          "sha256": "0ca2590e626521f3d97b8bf4f71faa74d46887a7475781635aba69f74615c890",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "unicode-chat-screen.png",
+          "sha256": "26047567e58a714c0e65ecfdf0f141ed20e992f09a9e0f51f117e678668e23df",
+          "width": 640,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "version": "1.21.6",
+      "passed": true,
+      "checks": {
+        "currentArtifact": true,
+        "runtimeVerified": true,
+        "core7": true,
+        "additionalGui": true,
+        "worldInventory": true,
+        "chestMenu": true,
+        "actualFloorMovement": true,
+        "initialCancelMotion": true,
+        "releasedCancelMotion": true,
+        "hotbarTelemetry": true,
+        "invalidHotbarRejected": true,
+        "actualGuiButtons": true,
+        "unicodeTyped": true,
+        "unicodeReachedServer": true,
+        "title-screenNativePng": true,
+        "chest-screenNativePng": true,
+        "world-screenNativePng": true,
+        "unicode-chat-screenNativePng": true
+      },
+      "errors": [],
+      "images": [
+        {
+          "file": "title-screen.png",
+          "sha256": "733b1d21a586cc39b162e027facffffd782968e8daf1cee90e63d37de31802af",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "chest-screen.png",
+          "sha256": "80c74675d981cc14630b3fa3318a4312d33ec9810dbf70614daef094da3ed96c",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "world-screen.png",
+          "sha256": "b9a3d20beb5caf35e47132a7239ed2ca86005b057aa72d4f82c5bbc5db2e291a",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "unicode-chat-screen.png",
+          "sha256": "ce4c09d123f931b14b3503bba50b81a88a015eb4811ff42b5805d3d066083c20",
+          "width": 640,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "version": "1.21.7",
+      "passed": true,
+      "checks": {
+        "currentArtifact": true,
+        "runtimeVerified": true,
+        "core7": true,
+        "additionalGui": true,
+        "worldInventory": true,
+        "chestMenu": true,
+        "actualFloorMovement": true,
+        "initialCancelMotion": true,
+        "releasedCancelMotion": true,
+        "hotbarTelemetry": true,
+        "invalidHotbarRejected": true,
+        "actualGuiButtons": true,
+        "unicodeTyped": true,
+        "unicodeReachedServer": true,
+        "title-screenNativePng": true,
+        "chest-screenNativePng": true,
+        "world-screenNativePng": true,
+        "unicode-chat-screenNativePng": true
+      },
+      "errors": [],
+      "images": [
+        {
+          "file": "title-screen.png",
+          "sha256": "b2da45655daa6bb64f30d8f2d95b41b5cf30f2352f602b5af6c9473966673e94",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "chest-screen.png",
+          "sha256": "2d41c8510772fedc466c9c8b0c3512f279cfd98e6104554a1205ea8e10958387",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "world-screen.png",
+          "sha256": "b5501307d65621061b76f328d1e8ed2f6c6cf5af1be196fd20cb17a30fe1f677",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "file": "unicode-chat-screen.png",
+          "sha256": "e375c7af4cc8ae044262022dbee4f94e51c167c1a029cefb0665b887ae1a36de",
+          "width": 640,
+          "height": 480
+        }
+      ]
+    }
+  ]
+}

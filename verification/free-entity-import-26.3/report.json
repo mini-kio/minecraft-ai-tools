@@ -1,0 +1,867 @@
+{
+  "at": "2026-10-17T18:27:48.914Z",
+  "version": "26.3",
+  "server": {
+    "sessionId": "server_a7947c5d-26a",
+    "kind": "test-server",
+    "source": "managed-server",
+    "version": "26.3",
+    "software": "vanilla",
+    "state": "created",
+    "directory": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\entity-stage-proof\\state\\servers\\server_a7947c5d-26a",
+    "host": "127.0.0.1",
+    "port": 64087,
+    "javaMajor": 25,
+    "observedAt": "2026-10-17T18:27:50.193Z",
+    "eula": "accepted explicitly",
+    "isolation": "loopback-only offline test server",
+    "sourceWorldModified": false,
+    "checksum": "33680f5f2ac32864d6d7cf5e56a705fdb3e05f4c",
+    "validation": "download integrity verified; gameplay compatibility unverified"
+  },
+  "plan": {
+    "entityCount": 4,
+    "entityTag": "mct_import_39792a75d21b4f23a3e94cb0c1a4b46c",
+    "uuidRemap": {
+      "00000001-0000-0002-0000-000300000004": "51c865c9-bf6f-4ef7-9707-abd027e43d7b",
+      "00000005-0000-0006-0000-000700000008": "dc2cf3fd-4446-47c6-a1be-c5ebcebc779b"
+    }
+  },
+  "first": {
+    "kind": "block-import",
+    "commandsProcessed": 46,
+    "blockCount": 64,
+    "blockEntities": 0,
+    "entityCount": 4,
+    "entityTreeCount": 3,
+    "entityTag": "mct_import_39792a75d21b4f23a3e94cb0c1a4b46c",
+    "uuidRemap": {
+      "00000001-0000-0002-0000-000300000004": "51c865c9-bf6f-4ef7-9707-abd027e43d7b",
+      "00000005-0000-0006-0000-000700000008": "dc2cf3fd-4446-47c6-a1be-c5ebcebc779b"
+    },
+    "originalFilesUnchanged": true,
+    "marker": "mct_stage_5c5a6a6d5e004aeb8a05ede3205cdbcd_done",
+    "bounds": {
+      "min": {
+        "x": -8,
+        "y": 64,
+        "z": -8
+      },
+      "max": {
+        "x": -5,
+        "y": 67,
+        "z": -5
+      }
+    },
+    "focus": {
+      "x": -6,
+      "y": 69,
+      "z": -6
+    }
+  },
+  "retry": {
+    "kind": "block-import",
+    "commandsProcessed": 46,
+    "blockCount": 64,
+    "blockEntities": 0,
+    "entityCount": 4,
+    "entityTreeCount": 3,
+    "entityTag": "mct_import_39792a75d21b4f23a3e94cb0c1a4b46c",
+    "uuidRemap": {
+      "00000001-0000-0002-0000-000300000004": "51c865c9-bf6f-4ef7-9707-abd027e43d7b",
+      "00000005-0000-0006-0000-000700000008": "dc2cf3fd-4446-47c6-a1be-c5ebcebc779b"
+    },
+    "originalFilesUnchanged": true,
+    "marker": "mct_stage_16c99600afa14a73af995786f120f31b_done",
+    "bounds": {
+      "min": {
+        "x": -8,
+        "y": 64,
+        "z": -8
+      },
+      "max": {
+        "x": -5,
+        "y": 67,
+        "z": -5
+      }
+    },
+    "focus": {
+      "x": -6,
+      "y": 69,
+      "z": -6
+    }
+  },
+  "logs": {
+    "sessionId": "server_a7947c5d-26a",
+    "kind": "test-server",
+    "source": "managed-server",
+    "version": "26.3",
+    "software": "vanilla",
+    "state": "running",
+    "directory": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\entity-stage-proof\\state\\servers\\server_a7947c5d-26a",
+    "host": "127.0.0.1",
+    "port": 64087,
+    "javaMajor": 25,
+    "pid": 32280,
+    "observedAt": "2026-10-17T18:28:04.291Z",
+    "lines": [
+      {
+        "at": "2026-10-17T18:28:01.592Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Nothing changed. The specified properties already have these values"
+      },
+      {
+        "at": "2026-10-17T18:28:01.592Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Nothing changed. The specified properties already have these values"
+      },
+      {
+        "at": "2026-10-17T18:28:01.594Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Modified entity data of Text Display"
+      },
+      {
+        "at": "2026-10-17T18:28:01.595Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Modified entity data of Text Display"
+      },
+      {
+        "at": "2026-10-17T18:28:01.596Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Modified entity data of Text Display"
+      },
+      {
+        "at": "2026-10-17T18:28:01.596Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Modified entity data of Text Display"
+      },
+      {
+        "at": "2026-10-17T18:28:01.597Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Nothing changed. The specified properties already have these values"
+      },
+      {
+        "at": "2026-10-17T18:28:01.597Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Nothing changed. The specified properties already have these values"
+      },
+      {
+        "at": "2026-10-17T18:28:01.599Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Modified entity data of Chicken"
+      },
+      {
+        "at": "2026-10-17T18:28:01.600Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Modified entity data of Chicken"
+      },
+      {
+        "at": "2026-10-17T18:28:01.600Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Modified entity data of Chicken"
+      },
+      {
+        "at": "2026-10-17T18:28:01.601Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Modified entity data of Chicken"
+      },
+      {
+        "at": "2026-10-17T18:28:01.601Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Nothing changed. The specified properties already have these values"
+      },
+      {
+        "at": "2026-10-17T18:28:01.601Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Nothing changed. The specified properties already have these values"
+      },
+      {
+        "at": "2026-10-17T18:28:01.602Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Modified entity data of Pig"
+      },
+      {
+        "at": "2026-10-17T18:28:01.602Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Modified entity data of Pig"
+      },
+      {
+        "at": "2026-10-17T18:28:01.603Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Modified entity data of Pig"
+      },
+      {
+        "at": "2026-10-17T18:28:01.603Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Modified entity data of Pig"
+      },
+      {
+        "at": "2026-10-17T18:28:01.604Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Modified entity data of Pig"
+      },
+      {
+        "at": "2026-10-17T18:28:01.604Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Nothing changed. The specified properties already have these values"
+      },
+      {
+        "at": "2026-10-17T18:28:01.604Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Storage mct:stage has the following contents: []"
+      },
+      {
+        "at": "2026-10-17T18:28:01.605Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Set the world spawn point to -6, 69, -6 [0.0, 0.0] in minecraft:overworld"
+      },
+      {
+        "at": "2026-10-17T18:28:01.606Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Modified storage mct:stage"
+      },
+      {
+        "at": "2026-10-17T18:28:01.606Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Storage mct:stage has the following contents: \"mct_stage_5c5a6a6d5e004aeb8a05ede3205cdbcd_done\""
+      },
+      {
+        "at": "2026-10-17T18:28:01.647Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Unmarked chunk [-1, -1] in minecraft:overworld for force loading"
+      },
+      {
+        "at": "2026-10-17T18:28:01.647Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Modified storage mct:stage"
+      },
+      {
+        "at": "2026-10-17T18:28:01.647Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Storage mct:stage has the following contents: \"mct_stage_5c5a6a6d5e004aeb8a05ede3205cdbcd_done_released\""
+      },
+      {
+        "at": "2026-10-17T18:28:01.755Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Modified storage mct:stage"
+      },
+      {
+        "at": "2026-10-17T18:28:01.755Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Storage mct:stage has the following contents: \"mct_stage_16c99600afa14a73af995786f120f31b_begin\""
+      },
+      {
+        "at": "2026-10-17T18:28:01.863Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Marked chunk [-1, -1] in minecraft:overworld to be force loaded"
+      },
+      {
+        "at": "2026-10-17T18:28:01.863Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Modified storage mct:stage"
+      },
+      {
+        "at": "2026-10-17T18:28:01.863Z",
+        "stream": "stdout",
+        "line": "[03:28:01] [Server thread/INFO]: System chat: Storage mct:stage has the following contents: \"mct_stage_16c99600afa14a73af995786f120f31b_forced\""
+      },
+      {
+        "at": "2026-10-17T18:28:02.003Z",
+        "stream": "stdout",
+        "line": "[03:28:02] [Server thread/INFO]: System chat: Modified storage mct:stage"
+      },
+      {
+        "at": "2026-10-17T18:28:02.003Z",
+        "stream": "stdout",
+        "line": "[03:28:02] [Server thread/INFO]: System chat: Storage mct:stage has the following contents: \"mct_stage_16c99600afa14a73af995786f120f31b_loaded\""
+      },
+      {
+        "at": "2026-10-17T18:28:02.095Z",
+        "stream": "stdout",
+        "line": "[03:28:02] [Server thread/INFO]: System chat: Storage mct:stage has the following contents: \"mct_stage_16c99600afa14a73af995786f120f31b_loaded\""
+      },
+      {
+        "at": "2026-10-17T18:28:02.096Z",
+        "stream": "stdout",
+        "line": "[03:28:02] [Server thread/INFO]: System chat: No blocks were filled"
+      },
+      {
+        "at": "2026-10-17T18:28:02.096Z",
+        "stream": "stdout",
+        "line": "[03:28:02] [Server thread/INFO]: System chat: No blocks were filled"
+      },
+      {
+        "at": "2026-10-17T18:28:02.096Z",
+        "stream": "stdout",
+        "line": "[03:28:02] [Server thread/INFO]: System chat: Game rule mob_drops is currently set to true"
+      },
+      {
+        "at": "2026-10-17T18:28:02.096Z",
+        "stream": "stdout",
+        "line": "[03:28:02] [Server thread/INFO]: System chat: Game rule entity_drops is currently set to true"
+      },
+      {
+        "at": "2026-10-17T18:28:02.096Z",
+        "stream": "stdout",
+        "line": "[03:28:02] [Server thread/INFO]: System chat: Game rule mob_drops is now set to false"
+      },
+      {
+        "at": "2026-10-17T18:28:02.096Z",
+        "stream": "stdout",
+        "line": "[03:28:02] [Server thread/INFO]: System chat: Game rule entity_drops is now set to false"
+      },
+      {
+        "at": "2026-10-17T18:28:02.100Z",
+        "stream": "stdout",
+        "line": "[03:28:02] [Server thread/INFO]: System chat: Killed 4 entities"
+      },
+      {
+        "at": "2026-10-17T18:28:02.100Z",
+        "stream": "stdout",
+        "line": "[03:28:02] [Server thread/INFO]: System chat: Modified storage mct:stage"
+      },
+      {
+        "at": "2026-10-17T18:28:02.101Z",
+        "stream": "stdout",
+        "line": "[03:28:02] [Server thread/INFO]: System chat: Storage mct:stage has the following contents: \"mct_stage_16c99600afa14a73af995786f120f31b_entity_cleanup\""
+      },
+      {
+        "at": "2026-10-17T18:28:02.205Z",
+        "stream": "stdout",
+        "line": "[03:28:02] [Server thread/INFO]: System chat: Storage mct:stage has the following contents: \"mct_stage_16c99600afa14a73af995786f120f31b_entity_cleanup\""
+      },
+      {
+        "at": "2026-10-17T18:28:02.298Z",
+        "stream": "stdout",
+        "line": "[03:28:02] [Server thread/INFO]: System chat: Storage mct:stage has the following contents: \"mct_stage_16c99600afa14a73af995786f120f31b_entity_cleanup\""
+      },
+      {
+        "at": "2026-10-17T18:28:02.391Z",
+        "stream": "stdout",
+        "line": "[03:28:02] [Server thread/INFO]: System chat: Storage mct:stage has the following contents: \"mct_stage_16c99600afa14a73af995786f120f31b_entity_cleanup\""
+      },
+      {
+        "at": "2026-10-17T18:28:02.498Z",
+        "stream": "stdout",
+        "line": "[03:28:02] [Server thread/INFO]: System chat: Storage mct:stage has the following contents: \"mct_stage_16c99600afa14a73af995786f120f31b_entity_cleanup\""
+      },
+      {
+        "at": "2026-10-17T18:28:02.651Z",
+        "stream": "stdout",
+        "line": "[03:28:02] [Server thread/INFO]: System chat: Storage mct:stage has the following contents: \"mct_stage_16c99600afa14a73af995786f120f31b_entity_cleanup\""
+      },
+      {
+        "at": "2026-10-17T18:28:02.744Z",
+        "stream": "stdout",
+        "line": "[03:28:02] [Server thread/INFO]: System chat: Storage mct:stage has the following contents: \"mct_stage_16c99600afa14a73af995786f120f31b_entity_cleanup\""
+      },
+      {
+        "at": "2026-10-17T18:28:02.852Z",
+        "stream": "stdout",
+        "line": "[03:28:02] [Server thread/INFO]: System chat: Storage mct:stage has the following contents: \"mct_stage_16c99600afa14a73af995786f120f31b_entity_cleanup\""
+      },
+      {
+        "at": "2026-10-17T18:28:02.943Z",
+        "stream": "stdout",
+        "line": "[03:28:02] [Server thread/INFO]: System chat: Storage mct:stage has the following contents: \"mct_stage_16c99600afa14a73af995786f120f31b_entity_cleanup\""
+      },
+      {
+        "at": "2026-10-17T18:28:03.051Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Storage mct:stage has the following contents: \"mct_stage_16c99600afa14a73af995786f120f31b_entity_cleanup\""
+      },
+      {
+        "at": "2026-10-17T18:28:03.144Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Modified storage mct:stage"
+      },
+      {
+        "at": "2026-10-17T18:28:03.145Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Storage mct:stage has the following contents: \"mct_stage_16c99600afa14a73af995786f120f31b_entities_removed_0\""
+      },
+      {
+        "at": "2026-10-17T18:28:03.254Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Storage mct:stage has the following contents: \"mct_stage_16c99600afa14a73af995786f120f31b_entities_removed_0\""
+      },
+      {
+        "at": "2026-10-17T18:28:03.254Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Game rule mob_drops is now set to true"
+      },
+      {
+        "at": "2026-10-17T18:28:03.254Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Game rule entity_drops is now set to true"
+      },
+      {
+        "at": "2026-10-17T18:28:03.255Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Nothing changed. The specified properties already have these values"
+      },
+      {
+        "at": "2026-10-17T18:28:03.255Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Summoned new Armor Stand"
+      },
+      {
+        "at": "2026-10-17T18:28:03.256Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Summoned new Text Display"
+      },
+      {
+        "at": "2026-10-17T18:28:03.257Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Summoned new Chicken"
+      },
+      {
+        "at": "2026-10-17T18:28:03.257Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Modified entity data of Armor Stand"
+      },
+      {
+        "at": "2026-10-17T18:28:03.258Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Modified entity data of Armor Stand"
+      },
+      {
+        "at": "2026-10-17T18:28:03.258Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Modified entity data of Armor Stand"
+      },
+      {
+        "at": "2026-10-17T18:28:03.258Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Modified entity data of Stand"
+      },
+      {
+        "at": "2026-10-17T18:28:03.258Z",
+        "stream": "stdout",
+        "line": "한글"
+      },
+      {
+        "at": "2026-10-17T18:28:03.259Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Nothing changed. The specified properties already have these values"
+      },
+      {
+        "at": "2026-10-17T18:28:03.259Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Nothing changed. The specified properties already have these values"
+      },
+      {
+        "at": "2026-10-17T18:28:03.259Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Modified entity data of Text Display"
+      },
+      {
+        "at": "2026-10-17T18:28:03.260Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Modified entity data of Text Display"
+      },
+      {
+        "at": "2026-10-17T18:28:03.260Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Modified entity data of Text Display"
+      },
+      {
+        "at": "2026-10-17T18:28:03.261Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Modified entity data of Text Display"
+      },
+      {
+        "at": "2026-10-17T18:28:03.261Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Nothing changed. The specified properties already have these values"
+      },
+      {
+        "at": "2026-10-17T18:28:03.261Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Nothing changed. The specified properties already have these values"
+      },
+      {
+        "at": "2026-10-17T18:28:03.262Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Modified entity data of Chicken"
+      },
+      {
+        "at": "2026-10-17T18:28:03.262Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Modified entity data of Chicken"
+      },
+      {
+        "at": "2026-10-17T18:28:03.263Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Modified entity data of Chicken"
+      },
+      {
+        "at": "2026-10-17T18:28:03.263Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Modified entity data of Chicken"
+      },
+      {
+        "at": "2026-10-17T18:28:03.263Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Nothing changed. The specified properties already have these values"
+      },
+      {
+        "at": "2026-10-17T18:28:03.263Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Nothing changed. The specified properties already have these values"
+      },
+      {
+        "at": "2026-10-17T18:28:03.264Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Modified entity data of Pig"
+      },
+      {
+        "at": "2026-10-17T18:28:03.264Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Modified entity data of Pig"
+      },
+      {
+        "at": "2026-10-17T18:28:03.265Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Modified entity data of Pig"
+      },
+      {
+        "at": "2026-10-17T18:28:03.265Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Modified entity data of Pig"
+      },
+      {
+        "at": "2026-10-17T18:28:03.265Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Modified entity data of Pig"
+      },
+      {
+        "at": "2026-10-17T18:28:03.266Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Nothing changed. The specified properties already have these values"
+      },
+      {
+        "at": "2026-10-17T18:28:03.266Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Storage mct:stage has the following contents: []"
+      },
+      {
+        "at": "2026-10-17T18:28:03.266Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Set the world spawn point to -6, 69, -6 [0.0, 0.0] in minecraft:overworld"
+      },
+      {
+        "at": "2026-10-17T18:28:03.266Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Modified storage mct:stage"
+      },
+      {
+        "at": "2026-10-17T18:28:03.266Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Storage mct:stage has the following contents: \"mct_stage_16c99600afa14a73af995786f120f31b_done\""
+      },
+      {
+        "at": "2026-10-17T18:28:03.394Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Unmarked chunk [-1, -1] in minecraft:overworld for force loading"
+      },
+      {
+        "at": "2026-10-17T18:28:03.394Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Modified storage mct:stage"
+      },
+      {
+        "at": "2026-10-17T18:28:03.394Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Storage mct:stage has the following contents: \"mct_stage_16c99600afa14a73af995786f120f31b_done_released\""
+      },
+      {
+        "at": "2026-10-17T18:28:03.510Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Marked chunk [-1, -1] in minecraft:overworld to be force loaded"
+      },
+      {
+        "at": "2026-10-17T18:28:03.997Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Stand"
+      },
+      {
+        "at": "2026-10-17T18:28:03.997Z",
+        "stream": "stdout",
+        "line": "한글 has the following entity data: {NoGravity: 1b, Brain: {memories: {}}, Invulnerable: 1b, FallFlying: 0b, ShowArms: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, DisabledSlots: 0, DeathTime: 0s, Pose: {}, Invisible: 0b, UUID: [I; 1372087753, -1083224329, -1761104944, 669269371], Tags: [\"mct_import_39792a75d21b4f23a3e94cb0c1a4b46c\", \"mct_import_39792a75d21b4f23a3e94cb0c1a4b46c_0\"], Motion: [0.0d, 0.0d, 0.0d], Small: 0b, Health: 20.0f, fall_distance: 0.0d, Air: 300s, OnGround: 0b, Rotation: [35.0f, 10.0f], current_impulse_context_reset_grace_time: 0, CustomName: \"Stand\\n한글\", Pos: [-6.5d, 65.0d, -6.5d], Fire: 0s, NoBasePlate: 0b, attributes: [{id: \"minecraft:movement_speed\", base: 0.7d}], HurtTime: 0s}"
+      },
+      {
+        "at": "2026-10-17T18:28:03.997Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Text Display has the following entity data: {NoGravity: 1b, glow_color_override: -1, shadow: 0b, line_width: 200, text_opacity: -1b, Invulnerable: 1b, PortalCooldown: 0, interpolation_duration: 0, teleport_duration: 0, see_through: 0b, text: \"첫 줄\\n둘째 줄\", UUID: [I; -1067342965, 327700193, -1587905247, 818981699], Tags: [\"mct_import_39792a75d21b4f23a3e94cb0c1a4b46c\", \"mct_import_39792a75d21b4f23a3e94cb0c1a4b46c_1\"], height: 0.0f, Motion: [0.0d, 0.0d, 0.0d], shadow_radius: 0.0f, fall_distance: 0.0d, Air: 300s, OnGround: 0b, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [0.0f, 0.0f, 0.0f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.0f, 1.0f, 1.0f]}, billboard: \"center\", shadow_strength: 1.0f, Rotation: [0.0f, 0.0f], default_background: 0b, Pos: [-5.5d, 66.0d, -6.5d], background: 1073741824, Fire: 0s, width: 0.0f, view_range: 1.0f, alignment: \"center\"}"
+      },
+      {
+        "at": "2026-10-17T18:28:03.997Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Chicken has the following entity data: {NoGravity: 1b, AgeLocked: 0b, IsChickenJockey: 0b, Brain: {memories: {}}, Invulnerable: 1b, FallFlying: 0b, ForcedAge: 0, sound_variant: \"minecraft:classic\", PortalCooldown: 0, AbsorptionAmount: 0.0f, InLove: 0, DeathTime: 0s, variant: \"minecraft:temperate\", PersistenceRequired: 1b, UUID: [I; 2056604072, 1374505459, -1143503686, -656484939], Tags: [\"mct_import_39792a75d21b4f23a3e94cb0c1a4b46c\", \"mct_import_39792a75d21b4f23a3e94cb0c1a4b46c_2\"], Age: 0, Motion: [0.0d, 0.0d, 0.0d], Health: 4.0f, LeftHanded: 0b, fall_distance: 0.0d, Air: 300s, OnGround: 0b, NoAI: 1b, Rotation: [0.0f, 0.0f], current_impulse_context_reset_grace_time: 0, EggLayTime: 8458, Passengers: [{NoGravity: 1b, AgeLocked: 0b, Brain: {memories: {}}, Invulnerable: 1b, FallFlying: 0b, ForcedAge: 0, sound_variant: \"minecraft:classic\", PortalCooldown: 0, AbsorptionAmount: 0.0f, InLove: 0, DeathTime: 0s, variant: \"minecraft:temperate\", PersistenceRequired: 1b, id: \"minecraft:pig\", UUID: [I; -601033731, 1145456582, -1581333013, -826509413], Tags: [\"mct_import_39792a75d21b4f23a3e94cb0c1a4b46c\", \"mct_import_39792a75d21b4f23a3e94cb0c1a4b46c_3\"], Age: 0, Motion: [0.0d, 0.0d, 0.0d], Health: 10.0f, LeftHanded: 0b, fall_distance: 0.0d, Air: 300s, OnGround: 0b, NoAI: 1b, Rotation: [0.0f, 0.0f], current_impulse_context_reset_grace_time: 0, Pos: [-7.5d, 65.7d, -5.5d], Fire: 0s, CanPickUpLoot: 0b, attributes: [{id: \"minecraft:movement_speed\", base: 0.25d}], HurtTime: 0s}], Pos: [-7.5d, 65.0d, -5.5d], Fire: 0s, CanPickUpLoot: 0b, attributes: [{id: \"minecraft:movement_speed\", base: 0.25d}], HurtTime: 0s}"
+      },
+      {
+        "at": "2026-10-17T18:28:03.998Z",
+        "stream": "stdout",
+        "line": "[03:28:03] [Server thread/INFO]: System chat: Pig has the following entity data: {NoGravity: 1b, AgeLocked: 0b, Brain: {memories: {}}, Invulnerable: 1b, FallFlying: 0b, ForcedAge: 0, sound_variant: \"minecraft:classic\", PortalCooldown: 0, AbsorptionAmount: 0.0f, InLove: 0, DeathTime: 0s, variant: \"minecraft:temperate\", PersistenceRequired: 1b, UUID: [I; -601033731, 1145456582, -1581333013, -826509413], Tags: [\"mct_import_39792a75d21b4f23a3e94cb0c1a4b46c\", \"mct_import_39792a75d21b4f23a3e94cb0c1a4b46c_3\"], Age: 0, Motion: [0.0d, 0.0d, 0.0d], Health: 10.0f, LeftHanded: 0b, fall_distance: 0.0d, Air: 300s, OnGround: 0b, NoAI: 1b, Rotation: [0.0f, 0.0f], current_impulse_context_reset_grace_time: 0, Pos: [-7.5d, 65.7d, -5.5d], Fire: 0s, CanPickUpLoot: 0b, attributes: [{id: \"minecraft:movement_speed\", base: 0.25d}], HurtTime: 0s}"
+      }
+    ],
+    "logPath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\entity-stage-proof\\state\\servers\\server_a7947c5d-26a\\mct-output.log"
+  },
+  "savedEntities": [
+    {
+      "NoGravity": 1,
+      "Brain": {
+        "memories": {}
+      },
+      "Invulnerable": 1,
+      "FallFlying": 0,
+      "ShowArms": 0,
+      "PortalCooldown": 0,
+      "AbsorptionAmount": 0,
+      "DisabledSlots": 0,
+      "DeathTime": 0,
+      "Pose": {},
+      "id": "minecraft:armor_stand",
+      "Invisible": 0,
+      "UUID": [
+        1372087753,
+        -1083224329,
+        -1761104944,
+        669269371
+      ],
+      "Tags": [
+        "mct_import_39792a75d21b4f23a3e94cb0c1a4b46c",
+        "mct_import_39792a75d21b4f23a3e94cb0c1a4b46c_0"
+      ],
+      "Motion": [
+        0,
+        0,
+        0
+      ],
+      "Small": 0,
+      "Health": 20,
+      "fall_distance": 0,
+      "Air": 300,
+      "OnGround": 0,
+      "Rotation": [
+        35,
+        10
+      ],
+      "current_impulse_context_reset_grace_time": 0,
+      "CustomName": "Stand\n한글",
+      "Pos": [
+        -6.5,
+        65,
+        -6.5
+      ],
+      "Fire": 0,
+      "NoBasePlate": 0,
+      "attributes": [
+        {
+          "id": "minecraft:movement_speed",
+          "base": 0.7
+        }
+      ],
+      "HurtTime": 0
+    },
+    {
+      "NoGravity": 1,
+      "glow_color_override": -1,
+      "shadow": 0,
+      "line_width": 200,
+      "text_opacity": -1,
+      "Invulnerable": 1,
+      "PortalCooldown": 0,
+      "interpolation_duration": 0,
+      "teleport_duration": 0,
+      "see_through": 0,
+      "id": "minecraft:text_display",
+      "text": "첫 줄\n둘째 줄",
+      "UUID": [
+        -1067342965,
+        327700193,
+        -1587905247,
+        818981699
+      ],
+      "Tags": [
+        "mct_import_39792a75d21b4f23a3e94cb0c1a4b46c",
+        "mct_import_39792a75d21b4f23a3e94cb0c1a4b46c_1"
+      ],
+      "height": 0,
+      "Motion": [
+        0,
+        0,
+        0
+      ],
+      "shadow_radius": 0,
+      "fall_distance": 0,
+      "Air": 300,
+      "OnGround": 0,
+      "transformation": {
+        "left_rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "right_rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "billboard": "center",
+      "shadow_strength": 1,
+      "Rotation": [
+        0,
+        0
+      ],
+      "default_background": 0,
+      "Pos": [
+        -5.5,
+        66,
+        -6.5
+      ],
+      "background": 1073741824,
+      "Fire": 0,
+      "width": 0,
+      "view_range": 1,
+      "alignment": "center"
+    },
+    {
+      "NoGravity": 1,
+      "AgeLocked": 0,
+      "IsChickenJockey": 0,
+      "Brain": {
+        "memories": {}
+      },
+      "Invulnerable": 1,
+      "FallFlying": 0,
+      "ForcedAge": 0,
+      "sound_variant": "minecraft:classic",
+      "PortalCooldown": 0,
+      "AbsorptionAmount": 0,
+      "InLove": 0,
+      "DeathTime": 0,
+      "variant": "minecraft:temperate",
+      "PersistenceRequired": 1,
+      "id": "minecraft:chicken",
+      "UUID": [
+        2056604072,
+        1374505459,
+        -1143503686,
+        -656484939
+      ],
+      "Tags": [
+        "mct_import_39792a75d21b4f23a3e94cb0c1a4b46c",
+        "mct_import_39792a75d21b4f23a3e94cb0c1a4b46c_2"
+      ],
+      "Age": 0,
+      "Motion": [
+        0,
+        0,
+        0
+      ],
+      "Health": 4,
+      "LeftHanded": 0,
+      "fall_distance": 0,
+      "Air": 300,
+      "OnGround": 0,
+      "NoAI": 1,
+      "Rotation": [
+        0,
+        0
+      ],
+      "current_impulse_context_reset_grace_time": 0,
+      "EggLayTime": 8452,
+      "Passengers": [
+        {
+          "NoGravity": 1,
+          "AgeLocked": 0,
+          "Brain": {
+            "memories": {}
+          },
+          "Invulnerable": 1,
+          "FallFlying": 0,
+          "ForcedAge": 0,
+          "sound_variant": "minecraft:classic",
+          "PortalCooldown": 0,
+          "AbsorptionAmount": 0,
+          "InLove": 0,
+          "DeathTime": 0,
+          "variant": "minecraft:temperate",
+          "PersistenceRequired": 1,
+          "id": "minecraft:pig",
+          "UUID": [
+            -601033731,
+            1145456582,
+            -1581333013,
+            -826509413
+          ],
+          "Tags": [
+            "mct_import_39792a75d21b4f23a3e94cb0c1a4b46c",
+            "mct_import_39792a75d21b4f23a3e94cb0c1a4b46c_3"
+          ],
+          "Age": 0,
+          "Motion": [
+            0,
+            0,
+            0
+          ],
+          "Health": 10,
+          "LeftHanded": 0,
+          "fall_distance": 0,
+          "Air": 300,
+          "OnGround": 0,
+          "NoAI": 1,
+          "Rotation": [
+            0,
+            0
+          ],
+          "current_impulse_context_reset_grace_time": 0,
+          "Pos": [
+            -7.5,
+            65.7,
+            -5.5
+          ],
+          "Fire": 0,
+          "CanPickUpLoot": 0,
+          "attributes": [
+            {
+              "id": "minecraft:movement_speed",
+              "base": 0.25
+            }
+          ],
+          "HurtTime": 0
+        }
+      ],
+      "Pos": [
+        -7.5,
+        65,
+        -5.5
+      ],
+      "Fire": 0,
+      "CanPickUpLoot": 0,
+      "attributes": [
+        {
+          "id": "minecraft:movement_speed",
+          "base": 0.25
+        }
+      ],
+      "HurtTime": 0
+    }
+  ],
+  "passed": true
+}

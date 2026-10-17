@@ -1,0 +1,7 @@
+node_modules/
+/dist/
+.mct/
+work/
+bridges/fabric/.gradle/
+bridges/fabric/**/build/
+*.log

@@ -1,0 +1,133 @@
+{
+  "startedAt": "2026-10-17T17:25:28.255Z",
+  "scenarios": {
+    "native-interior": {
+      "passed": true,
+      "result": {
+        "reportPath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\native-flow\\artifacts\\native_interior_bcd308cf-737.json",
+        "targets": [
+          {
+            "id": "clear",
+            "status": "reachable"
+          },
+          {
+            "id": "chest-collision",
+            "status": "unreachable_in_profile",
+            "failure": {
+              "position": {
+                "z": 326,
+                "y": 91,
+                "x": 172
+              },
+              "block": "minecraft:chest",
+              "reason": "player-collision"
+            }
+          },
+          {
+            "id": "headroom",
+            "status": "unreachable_in_profile",
+            "failure": {
+              "position": {
+                "z": 329,
+                "y": 92,
+                "x": 165
+              },
+              "block": "minecraft:stone",
+              "reason": "insufficient-headroom"
+            }
+          }
+        ]
+      }
+    },
+    "physical-navigation": {
+      "passed": true,
+      "result": {
+        "player": {
+          "x": 166.64250016996513,
+          "y": 91,
+          "z": 326.5,
+          "yaw": 1.5707963267948966,
+          "pitch": 0,
+          "health": 20,
+          "name": "MctSmoke"
+        },
+        "target": {
+          "x": 166.5,
+          "y": 91,
+          "z": 326.5
+        }
+      }
+    },
+    "native-look-and-chest": {
+      "passed": true,
+      "result": {
+        "screen": {
+          "class": "net.minecraft.client.gui.screens.inventory.ContainerScreen",
+          "title": "Chest",
+          "width": 320,
+          "height": 240
+        },
+        "imagePath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\native-flow\\artifacts\\capture_21dbc546-491.png"
+      }
+    },
+    "cancel-before-navigation": {
+      "passed": true,
+      "result": {
+        "job": {
+          "id": "job_e9119689-21d",
+          "state": "cancelled",
+          "createdAt": "2026-10-17T17:25:34.315Z",
+          "completedAt": "2026-10-17T17:25:34.415Z"
+        },
+        "before": {
+          "x": 169.43441891060655,
+          "y": 91,
+          "z": 326.5,
+          "yaw": -1.5707963267948966,
+          "pitch": 0.3502807740911792,
+          "health": 20,
+          "name": "MctSmoke"
+        },
+        "after": {
+          "x": 169.43441891060655,
+          "y": 91,
+          "z": 326.5,
+          "yaw": -1.5707963267948966,
+          "pitch": 0.3502807740911792,
+          "health": 20,
+          "name": "MctSmoke"
+        }
+      }
+    },
+    "native-tour": {
+      "passed": true,
+      "result": {
+        "reportPath": "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\native-flow\\artifacts\\tour-1792257941234.json",
+        "tour": [
+          {
+            "id": "west",
+            "liveVerified": true,
+            "images": [
+              "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\native-flow\\artifacts\\capture_2933aebd-3d2.png",
+              "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\native-flow\\artifacts\\capture_8f694610-93f.png",
+              "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\native-flow\\artifacts\\capture_f7c5da35-fab.png",
+              "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\native-flow\\artifacts\\capture_27aa4670-e82.png"
+            ]
+          },
+          {
+            "id": "south",
+            "liveVerified": true,
+            "images": [
+              "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\native-flow\\artifacts\\capture_88163028-ac9.png",
+              "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\native-flow\\artifacts\\capture_ae32321a-69b.png",
+              "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\native-flow\\artifacts\\capture_725ab257-2f4.png",
+              "C:\\Users\\kiola\\Downloads\\minecraft-ai-tools\\work\\native-flow\\artifacts\\capture_b1e9ad1d-86e.png"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "passed": true,
+  "finishedAt": "2026-10-17T17:25:41.236Z"
+}
